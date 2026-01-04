@@ -1,0 +1,359 @@
+[
+  {
+    "id": "arctic-unnamed-slopes",
+    "slug": "arctic-unnamed-slopes",
+    "title": "The Unnamed Arctic Slopes",
+    "subtitle": "Ski Where No Trail Has a Name",
+    "location": "Svalbard, Norway",
+    "description": "Venture into the pristine wilderness of the High Arctic, where unmarked powder fields cascade beneath the aurora borealis. No lift lines, no crowds—just you, the northern lights, and slopes that have never felt a ski edge.",
+    "longDescription": "In the remote archipelago of Svalbard, beyond the reach of ordinary adventure, lies a skiing experience that defies classification. Here, in the eternal twilight of polar winter, unnamed peaks pierce ice-blue skies while the aurora dances overhead. Expert guides navigate glacial terrain untouched by commercial tourism. Each descent writes new history across virgin snow. This isn't just skiing—it's communion with the sublime emptiness of Earth's final frontier.",
+    "price": 8500,
+    "currency": "USD",
+    "duration": "8 days",
+    "difficulty": "Expert",
+    "imageUrl": "https://images.unsplash.com/photo-1483921020237-2ff51e8e4b22?w=1200&q=80",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1483921020237-2ff51e8e4b22?w=600&q=80",
+    "highlights": [
+      "Helicopter access to untracked slopes",
+      "Northern Lights skiing sessions",
+      "Polar bear safety protocols",
+      "Authentic Sami cultural immersion",
+      "Expedition-grade accommodation"
+    ],
+    "itinerary": [
+      { "day": 1, "title": "Arrival in Longyearbyen", "description": "Arrive at Earth's northernmost settlement. Evening aurora forecast briefing." },
+      { "day": 2, "title": "Glacier Orientation", "description": "Safety training and equipment check on accessible glacial terrain." },
+      { "day": 3, "title": "First Descents", "description": "Helicopter drop to unnamed peaks. 3,000m vertical in untouched powder." },
+      { "day": 4, "title": "The Midnight Run", "description": "Under the aurora, ski illuminated slopes in polar twilight." },
+      { "day": 5, "title": "Expedition Day", "description": "Full-day backcountry mission to remote eastern slopes." },
+      { "day": 6, "title": "Cultural Exchange", "description": "Visit Sami reindeer herders. Traditional feast and storytelling." },
+      { "day": 7, "title": "Final Peaks", "description": "Choose your own adventure from scouted locations." },
+      { "day": 8, "title": "Departure", "description": "Transfer to airport. Carry the Arctic silence home." }
+    ],
+    "affiliateLinks": {
+      "booking": "https://tp.media/click?shmarker=12345&pression_id=abc&locale=en&a_id=1&b_id=1&url=https://www.booking.com/searchresults.html?dest_id=-2606215",
+      "viator": "https://tp.media/click?shmarker=12345&promo_id=xyz&locale=en&a_id=2&url=https://www.viator.com/tours/Svalbard"
+    },
+    "tags": ["skiing", "arctic", "aurora", "extreme", "wilderness"],
+    "featured": true
+  },
+  {
+    "id": "bolivia-death-road",
+    "slug": "bolivia-death-road",
+    "title": "Bolivia's Death Road Descent",
+    "subtitle": "64 Kilometers of Pure Adrenaline",
+    "location": "Yungas Road, Bolivia",
+    "description": "Plunge down the world's most dangerous road on two wheels. From Andean peaks at 4,700m to the Amazon jungle at 1,200m, experience the ultimate gravity-fueled adventure.",
+    "longDescription": "Once the primary route connecting La Paz to the Amazon lowlands, the North Yungas Road earned its infamous nickname through its deadly combination of narrow width, sheer drops, and unpredictable weather. Today, it's the world's premier mountain biking descent. The journey begins in the thin air of La Cumbre pass, surrounded by snow-capped peaks, and ends in the humid embrace of the cloud forest. Waterfalls cascade across the path. Condors soar in thermal currents below. Every switchback reveals another impossible view.",
+    "price": 450,
+    "currency": "USD",
+    "duration": "1 day",
+    "difficulty": "Advanced",
+    "imageUrl": "https://images.unsplash.com/photo-1544191696-102dbdaeeaa0?w=1200&q=80",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1544191696-102dbdaeeaa0?w=600&q=80",
+    "highlights": [
+      "4,700m to 1,200m elevation drop",
+      "Professional dual-suspension bikes",
+      "Experienced safety crew",
+      "Waterfall pit stops",
+      "Celebration lunch in Coroico"
+    ],
+    "itinerary": [
+      { "day": 1, "title": "The Descent", "description": "Pickup at 7am. Safety briefing at La Cumbre. 4-5 hours of riding through 29 climatic zones." }
+    ],
+    "affiliateLinks": {
+      "booking": "https://tp.media/click?shmarker=12345&promo_id=abc&locale=en&a_id=1&url=https://www.booking.com/searchresults.html?dest_id=-2078065",
+      "viator": "https://tp.media/click?shmarker=12345&promo_id=xyz&locale=en&a_id=2&url=https://www.viator.com/tours/La-Paz"
+    },
+    "tags": ["cycling", "extreme", "mountains", "adventure"],
+    "featured": true
+  },
+  {
+    "id": "congo-gorilla-trek",
+    "slug": "congo-gorilla-trek",
+    "title": "Congo's Hidden Gorilla Kingdom",
+    "subtitle": "Face to Face with Giants",
+    "location": "Virunga National Park, DRC",
+    "description": "Trek through primordial jungle to encounter the world's last mountain gorillas in Africa's oldest national park—a place few travelers dare to visit.",
+    "longDescription": "Virunga National Park is not for the faint of heart. This UNESCO World Heritage site in the Democratic Republic of Congo harbors Earth's most critically endangered great apes amid active volcanoes and dense rainforest. The journey here is an act of conservation—every visit directly funds ranger patrols protecting these gentle giants from poaching and habitat destruction. When a silverback locks eyes with you across five meters of jungle, time suspends. You'll understand why early explorers spoke of this place in hushed, reverent tones.",
+    "price": 3800,
+    "currency": "USD",
+    "duration": "5 days",
+    "difficulty": "Challenging",
+    "imageUrl": "https://images.unsplash.com/photo-1518709766631-a6a7f45921c3?w=1200&q=80",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1518709766631-a6a7f45921c3?w=600&q=80",
+    "highlights": [
+      "1-hour gorilla family encounter",
+      "Support local conservation",
+      "Nyiragongo volcano sunrise",
+      "Armed ranger escort",
+      "Authentic bush camp experience"
+    ],
+    "itinerary": [
+      { "day": 1, "title": "Arrival in Goma", "description": "Fly into Goma. Transfer to Virunga lodge. Conservation briefing." },
+      { "day": 2, "title": "Gorilla Trek", "description": "Early start. 2-6 hours hiking to locate gorilla family. One hour observation." },
+      { "day": 3, "title": "Nyiragongo Ascent", "description": "Climb to world's largest lava lake. Sleep at crater rim." },
+      { "day": 4, "title": "Descent & Culture", "description": "Return to base. Visit local community projects." },
+      { "day": 5, "title": "Departure", "description": "Final morning in the park. Transfer to Goma airport." }
+    ],
+    "affiliateLinks": {
+      "booking": "https://tp.media/click?shmarker=12345&promo_id=abc&locale=en&a_id=1&url=https://www.booking.com/searchresults.html?dest_id=-2600547",
+      "viator": "https://tp.media/click?shmarker=12345&promo_id=xyz&locale=en&a_id=2&url=https://www.viator.com/tours/Goma"
+    },
+    "tags": ["wildlife", "trekking", "conservation", "jungle"],
+    "featured": true
+  },
+  {
+    "id": "mauritania-iron-train",
+    "slug": "mauritania-iron-train",
+    "title": "The Mauritanian Iron Ore Express",
+    "subtitle": "Ride the World's Longest Train",
+    "location": "Sahara Desert, Mauritania",
+    "description": "Hop aboard a 2.5km-long freight train crossing the Sahara—the world's longest—for a raw, unglamorous, utterly unforgettable journey through the desert.",
+    "longDescription": "There are no tickets, no seats, no amenities. The Mauritanian iron ore train doesn't transport passengers—it tolerates them. This 700-kilometer journey from Nouadhibou to Choum takes 18 hours across the most desolate landscape on Earth. Travelers perch atop iron ore cars, wrapped against Saharan sand and sun, as the train snakes through terrain unchanged since prehistory. At night, stars blaze undimmed by light pollution. This is travel stripped to its elemental core: you, the desert, and the relentless rhythm of steel on rail.",
+    "price": 150,
+    "currency": "USD",
+    "duration": "2 days",
+    "difficulty": "Extreme",
+    "imageUrl": "https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=1200&q=80",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=600&q=80",
+    "highlights": [
+      "700km Saharan crossing",
+      "World's longest train (2.5km)",
+      "Stargazing in absolute darkness",
+      "Authentic local experience",
+      "Stories for a lifetime"
+    ],
+    "itinerary": [
+      { "day": 1, "title": "Board in Nouadhibou", "description": "Evening departure. Find a spot on an open ore car. Begin the crossing." },
+      { "day": 2, "title": "Arrive Choum", "description": "Early morning arrival. Connect to Atar or explore ancient caravan routes." }
+    ],
+    "affiliateLinks": {
+      "booking": "https://tp.media/click?shmarker=12345&promo_id=abc&locale=en&a_id=1&url=https://www.booking.com/searchresults.html?dest_id=-2594771",
+      "viator": "https://tp.media/click?shmarker=12345&promo_id=xyz&locale=en&a_id=2&url=https://www.viator.com/tours/Mauritania"
+    },
+    "tags": ["train", "desert", "extreme", "sahara", "budget"],
+    "featured": false
+  },
+  {
+    "id": "yemen-socotra",
+    "slug": "yemen-socotra",
+    "title": "Socotra: The Alien Island",
+    "subtitle": "Earth's Most Otherworldly Landscape",
+    "location": "Socotra, Yemen",
+    "description": "Explore an island so evolutionarily distinct that 37% of its plant species exist nowhere else on Earth. Dragon blood trees and bottle baobabs await.",
+    "longDescription": "Isolated in the Arabian Sea for millions of years, Socotra evolved into Earth's most alien landscape. The iconic dragon blood trees—with their umbrella crowns and crimson sap—dot limestone plateaus like botanical mushroom clouds. Giant succulents tower over white sand dunes. The beaches rival the Maldives but see perhaps a thousand visitors annually. Despite Yemen's mainland conflicts, Socotra remains peaceful, protected by its remoteness and the hospitality of its 50,000 residents.",
+    "price": 2800,
+    "currency": "USD",
+    "duration": "7 days",
+    "difficulty": "Moderate",
+    "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
+    "highlights": [
+      "Dragon blood tree forests",
+      "Endemic wildlife observation",
+      "Pristine beaches",
+      "Cave exploration",
+      "Bedouin-style camping"
+    ],
+    "itinerary": [
+      { "day": 1, "title": "Arrival Hadibo", "description": "Land on Socotra. Meet guides. Drive to first campsite." },
+      { "day": 2, "title": "Dixam Plateau", "description": "Full day among dragon blood trees. Sunset photography session." },
+      { "day": 3, "title": "Homhil Protected Area", "description": "Hiking through bottle tree forests. Natural infinity pool swim." },
+      { "day": 4, "title": "Beaches", "description": "Qalansiyah lagoon. Snorkeling and beach camping." },
+      { "day": 5, "title": "Caves & Canyons", "description": "Explore Hoq Cave. Trek through Wadi Dirhur canyon." },
+      { "day": 6, "title": "Eastern Exploration", "description": "Remote eastern beaches. Fishing village visits." },
+      { "day": 7, "title": "Departure", "description": "Morning in Hadibo. Flight out." }
+    ],
+    "affiliateLinks": {
+      "booking": "https://tp.media/click?shmarker=12345&promo_id=abc&locale=en&a_id=1&url=https://www.booking.com/searchresults.html?dest_id=-2595947",
+      "viator": "https://tp.media/click?shmarker=12345&promo_id=xyz&locale=en&a_id=2&url=https://www.viator.com/tours/Socotra"
+    },
+    "tags": ["island", "nature", "endemic", "beaches", "photography"],
+    "featured": false
+  },
+  {
+    "id": "turkmenistan-gates-hell",
+    "slug": "turkmenistan-gates-hell",
+    "title": "The Gates of Hell Overnight",
+    "subtitle": "Sleep Beside a Burning Crater",
+    "location": "Darvaza, Turkmenistan",
+    "description": "Camp at the edge of a 70-meter crater that's been burning since 1971—the infamous 'Door to Hell' in the heart of the Karakum Desert.",
+    "longDescription": "In 1971, Soviet engineers drilling for natural gas accidentally punched into an underground cavern. The ground collapsed, releasing methane. To prevent spread, they set it alight, expecting the fire to burn out in weeks. Over fifty years later, it still blazes. The Darvaza gas crater—the 'Door to Hell'—now draws adventurers to witness this surreal monument to human hubris. As darkness falls and the desert turns cold, the crater's glow intensifies, turning night into an apocalyptic dreamscape.",
+    "price": 1200,
+    "currency": "USD",
+    "duration": "3 days",
+    "difficulty": "Easy",
+    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200&q=80",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=80",
+    "highlights": [
+      "Overnight crater-side camping",
+      "Sunset to sunrise viewing",
+      "Desert 4x4 expedition",
+      "Traditional yurt experience",
+      "Ancient Silk Road oases"
+    ],
+    "itinerary": [
+      { "day": 1, "title": "Ashgabat to Darvaza", "description": "Morning departure from capital. Arrive at crater for sunset." },
+      { "day": 2, "title": "Desert Exploration", "description": "Morning at crater. Drive to other geological features. Return for night viewing." },
+      { "day": 3, "title": "Return", "description": "Sunrise farewell. Drive back to Ashgabat." }
+    ],
+    "affiliateLinks": {
+      "booking": "https://tp.media/click?shmarker=12345&promo_id=abc&locale=en&a_id=1&url=https://www.booking.com/searchresults.html?dest_id=-2603234",
+      "viator": "https://tp.media/click?shmarker=12345&promo_id=xyz&locale=en&a_id=2&url=https://www.viator.com/tours/Turkmenistan"
+    },
+    "tags": ["desert", "camping", "geological", "photography", "unique"],
+    "featured": false
+  },
+  {
+    "id": "indonesia-tribe-encounter",
+    "slug": "indonesia-tribe-encounter",
+    "title": "Papua's First Contact",
+    "subtitle": "Meet the Dani Warriors",
+    "location": "Baliem Valley, Papua, Indonesia",
+    "description": "Journey to one of Earth's last frontiers, where isolated Dani tribes maintain traditions unchanged for 50,000 years in mist-shrouded highlands.",
+    "longDescription": "The Baliem Valley remained unknown to the outside world until 1938, when a chance overflight revealed a cultivated paradise hidden among Papua's central highlands. Today, the Dani people welcome respectful visitors into their world of traditional warfare rituals, pig feasts, and ancient agricultural practices. Trekking through their homeland means crossing swinging vine bridges, sleeping in thatched huts, and witnessing a culture that has defied the modern world's homogenizing advance.",
+    "price": 3500,
+    "currency": "USD",
+    "duration": "10 days",
+    "difficulty": "Challenging",
+    "imageUrl": "https://images.unsplash.com/photo-1501555088652-021faa106b9b?w=1200&q=80",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1501555088652-021faa106b9b?w=600&q=80",
+    "highlights": [
+      "Dani village homestays",
+      "Traditional pig feast ceremony",
+      "Highland trekking",
+      "Mummy caves",
+      "Authentic cultural exchange"
+    ],
+    "itinerary": [
+      { "day": 1, "title": "Arrive Wamena", "description": "Fly into the valley. Orientation and market visit." },
+      { "day": 2, "title": "Begin Trek", "description": "Start walking to remote villages. Cross suspension bridges." },
+      { "day": 3, "title": "Village Life", "description": "Full day with Dani family. Learn traditional crafts." },
+      { "day": 4, "title": "Highland Crossing", "description": "Trek to higher elevation villages. Mummy cave visit." },
+      { "day": 5, "title": "Traditional Ceremony", "description": "Witness mock warfare ritual. Pig feast celebration." },
+      { "day": 6, "title": "Remote Valley", "description": "Continue to most isolated communities." },
+      { "day": 7, "title": "Return Trek Begins", "description": "Start walking back. Hot springs stop." },
+      { "day": 8, "title": "Final Villages", "description": "Last community visits. Cultural performances." },
+      { "day": 9, "title": "Wamena Return", "description": "Complete trek. Rest in town." },
+      { "day": 10, "title": "Departure", "description": "Morning flight out." }
+    ],
+    "affiliateLinks": {
+      "booking": "https://tp.media/click?shmarker=12345&promo_id=abc&locale=en&a_id=1&url=https://www.booking.com/searchresults.html?dest_id=-2682834",
+      "viator": "https://tp.media/click?shmarker=12345&promo_id=xyz&locale=en&a_id=2&url=https://www.viator.com/tours/Papua"
+    },
+    "tags": ["cultural", "trekking", "indigenous", "remote", "adventure"],
+    "featured": false
+  },
+  {
+    "id": "russia-magadan-road",
+    "slug": "russia-magadan-road",
+    "title": "Road of Bones Expedition",
+    "subtitle": "2,000km Through Siberia's Heart of Darkness",
+    "location": "Kolyma Highway, Russia",
+    "description": "Drive the haunted highway built by Gulag prisoners, crossing permafrost tundra, abandoned gold mines, and ghost towns frozen in Soviet time.",
+    "longDescription": "The R504 Kolyma Highway—nicknamed the 'Road of Bones'—was constructed by political prisoners under Stalin's regime, many of whom are buried beneath its surface. Today, this 2,000km route from Yakutsk to Magadan traverses Earth's coldest inhabited region. Summer travelers navigate rivers by ferry and ford, pass abandoned Gulag camps, and witness landscapes of terrible beauty. The road demands self-sufficiency: petrol stations are 500km apart, help is nonexistent, and the land itself seems to resist passage.",
+    "price": 4500,
+    "currency": "USD",
+    "duration": "12 days",
+    "difficulty": "Extreme",
+    "imageUrl": "https://images.unsplash.com/photo-1477322524744-0eece9e79640?w=1200&q=80",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1477322524744-0eece9e79640?w=600&q=80",
+    "highlights": [
+      "Soviet 4x4 vehicle",
+      "River ferry crossings",
+      "Abandoned Gulag camps",
+      "Gold mining ghost towns",
+      "Extreme self-reliance"
+    ],
+    "itinerary": [
+      { "day": 1, "title": "Yakutsk Preparation", "description": "Vehicle check. Supplies. Historical briefing." },
+      { "day": 2, "title": "First Sector", "description": "Begin driving. Cross Lena River by ferry." },
+      { "day": 3, "title": "Khandyga", "description": "Last proper town for 800km. Final resupply." },
+      { "day": 4, "title": "Wilderness Begins", "description": "Enter true roadlessness. River crossings." },
+      { "day": 5, "title": "Abandoned Mines", "description": "Explore ghost towns. Camp in empty settlement." },
+      { "day": 6, "title": "Gulag History", "description": "Visit preserved labor camp. Somber reflections." },
+      { "day": 7, "title": "Oymyakon Approach", "description": "Near world's coldest inhabited place." },
+      { "day": 8, "title": "Mountain Passes", "description": "Cross highest elevations of the route." },
+      { "day": 9, "title": "Final Wilderness", "description": "Last section before civilization." },
+      { "day": 10, "title": "Susuman", "description": "Enter gold mining region. Resupply." },
+      { "day": 11, "title": "Coast Approach", "description": "Sea of Okhotsk visible." },
+      { "day": 12, "title": "Magadan Arrival", "description": "Complete the crossing. Mask of Sorrow memorial." }
+    ],
+    "affiliateLinks": {
+      "booking": "https://tp.media/click?shmarker=12345&promo_id=abc&locale=en&a_id=1&url=https://www.booking.com/searchresults.html?dest_id=-2127954",
+      "viator": "https://tp.media/click?shmarker=12345&promo_id=xyz&locale=en&a_id=2&url=https://www.viator.com/tours/Yakutsk"
+    },
+    "tags": ["road trip", "extreme", "history", "russia", "expedition"],
+    "featured": false
+  },
+  {
+    "id": "ethiopia-danakil",
+    "slug": "ethiopia-danakil",
+    "title": "Danakil: The Cruelest Place on Earth",
+    "subtitle": "Journey to an Alien Hellscape",
+    "location": "Danakil Depression, Ethiopia",
+    "description": "Descend into the hottest, lowest, and most inhospitable place on Earth—a land of acid lakes, salt miners, and active volcanoes.",
+    "longDescription": "The Danakil Depression defies belief. Temperatures exceed 50°C. Sulphur pools bubble in neon yellows and greens. The Erta Ale volcano maintains a permanent lava lake, while Afar tribespeople extract salt as they have for millennia. This is geology stripped raw, Earth's crust in active creation and destruction. Scientists call it the closest analog to Io, Jupiter's volcanic moon. Visitors call it transformative—if they survive the journey.",
+    "price": 1600,
+    "currency": "USD",
+    "duration": "4 days",
+    "difficulty": "Extreme",
+    "imageUrl": "https://images.unsplash.com/photo-1540390769625-2fc3f8b1d50c?w=1200&q=80",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1540390769625-2fc3f8b1d50c?w=600&q=80",
+    "highlights": [
+      "Erta Ale lava lake",
+      "Dallol acid springs",
+      "Afar salt caravans",
+      "Armed military escort",
+      "Extreme temperatures"
+    ],
+    "itinerary": [
+      { "day": 1, "title": "Mekele to Afrera", "description": "Drive into the depression. Descend below sea level. Salt lake camp." },
+      { "day": 2, "title": "Dallol Springs", "description": "Explore sulphur formations. Camel caravans. Drive to Erta Ale base." },
+      { "day": 3, "title": "Volcano Night", "description": "3-hour hike to crater. Watch lava lake overnight." },
+      { "day": 4, "title": "Return", "description": "Dawn descent. Drive back to Mekele." }
+    ],
+    "affiliateLinks": {
+      "booking": "https://tp.media/click?shmarker=12345&promo_id=abc&locale=en&a_id=1&url=https://www.booking.com/searchresults.html?dest_id=-300385",
+      "viator": "https://tp.media/click?shmarker=12345&promo_id=xyz&locale=en&a_id=2&url=https://www.viator.com/tours/Ethiopia"
+    },
+    "tags": ["volcano", "extreme", "geology", "desert", "photography"],
+    "featured": false
+  },
+  {
+    "id": "north-korea-marathon",
+    "slug": "north-korea-marathon",
+    "title": "Pyongyang Marathon",
+    "subtitle": "Run Through the Hermit Kingdom",
+    "location": "Pyongyang, North Korea",
+    "description": "Join the world's most surreal running event—a marathon through North Korea's capital, finishing in the 150,000-seat May Day Stadium.",
+    "longDescription": "Once a year, the world's most secretive nation opens its doors to foreign runners. The Pyongyang Marathon offers an unparalleled glimpse behind the curtain: wide boulevards lined with cheering (or assigned) spectators, monumental architecture celebrating the regime, and a finish line in the largest stadium on Earth. The race is genuine—your time counts for international records—but everything around it exists in an alternate reality. It's the ultimate combination of athletic achievement and geopolitical surrealism.",
+    "price": 2200,
+    "currency": "USD",
+    "duration": "5 days",
+    "difficulty": "Moderate",
+    "imageUrl": "https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?w=1200&q=80",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?w=600&q=80",
+    "highlights": [
+      "Run in 150,000-seat stadium",
+      "Mass games (if scheduled)",
+      "Pyongyang city tour",
+      "DMZ visit",
+      "Propaganda experience"
+    ],
+    "itinerary": [
+      { "day": 1, "title": "Beijing to Pyongyang", "description": "Train or flight into DPRK. Hotel orientation." },
+      { "day": 2, "title": "City Tour", "description": "Monuments, museums, and mandatory sites." },
+      { "day": 3, "title": "Race Day", "description": "The marathon. Stadium finish. Evening celebration." },
+      { "day": 4, "title": "DMZ Visit", "description": "Joint Security Area. Kaesong ancient capital." },
+      { "day": 5, "title": "Departure", "description": "Final Pyongyang visits. Return to Beijing." }
+    ],
+    "affiliateLinks": {
+      "booking": "https://tp.media/click?shmarker=12345&promo_id=abc&locale=en&a_id=1&url=https://www.booking.com/searchresults.html?dest_id=-2323295",
+      "viator": "https://tp.media/click?shmarker=12345&promo_id=xyz&locale=en&a_id=2&url=https://www.viator.com/tours/Pyongyang"
+    },
+    "tags": ["running", "unique", "political", "urban", "bucket-list"],
+    "featured": false
+  }
+]
