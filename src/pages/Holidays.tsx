@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import holidays from '@/data/holidays.json';
 import { Holiday } from '@/types/holiday';
@@ -6,10 +7,13 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import HolidayCard from '@/components/HolidayCard';
 import StarField from '@/components/StarField';
+import SearchFilter from '@/components/SearchFilter';
 
 const typedHolidays = holidays as Holiday[];
 
 const Holidays = () => {
+  const [filteredHolidays, setFilteredHolidays] = useState<Holiday[]>(typedHolidays);
+
   return (
     <>
       <SEOHead
@@ -29,7 +33,7 @@ const Holidays = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
-              className="text-center max-w-3xl mx-auto"
+              className="text-center max-w-3xl mx-auto mb-12"
             >
               <p className="text-secondary font-body tracking-widest uppercase text-sm mb-4">
                 {typedHolidays.length} Extraordinary Journeys
@@ -43,21 +47,54 @@ const Holidays = () => {
                 and create memories that last a lifetime.
               </p>
             </motion.div>
+
+            {/* Search & Filter */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.3 }}
+              className="max-w-4xl mx-auto"
+            >
+              <SearchFilter 
+                holidays={typedHolidays} 
+                onFilter={setFilteredHolidays} 
+              />
+            </motion.div>
           </div>
         </section>
 
         {/* Holiday Grid */}
         <section className="py-16 bg-background">
           <div className="container mx-auto px-4">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {typedHolidays.map((holiday, index) => (
-                <HolidayCard 
-                  key={holiday.id} 
-                  holiday={holiday} 
-                  index={index}
-                />
-              ))}
-            </div>
+            {filteredHolidays.length === 0 ? (
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                className="text-center py-16"
+              >
+                <p className="text-muted-foreground font-body text-lg mb-4">
+                  No destinations match your criteria.
+                </p>
+                <p className="text-muted-foreground/60 font-body text-sm">
+                  Try adjusting your filters or search term.
+                </p>
+              </motion.div>
+            ) : (
+              <>
+                <p className="text-muted-foreground font-body text-sm mb-8">
+                  Showing {filteredHolidays.length} destination{filteredHolidays.length !== 1 ? 's' : ''}
+                </p>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                  {filteredHolidays.map((holiday, index) => (
+                    <HolidayCard 
+                      key={holiday.id} 
+                      holiday={holiday} 
+                      index={index}
+                    />
+                  ))}
+                </div>
+              </>
+            )}
           </div>
         </section>
       </main>
