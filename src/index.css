@@ -6,84 +6,86 @@
 
 @layer base {
   :root {
-    /* Mystical color palette */
-    --background: 240 20% 6%;
-    --foreground: 45 30% 95%;
+    /* Luxury moonlit ocean palette - matching logo */
+    --background: 222 47% 6%;
+    --foreground: 210 40% 96%;
 
-    --card: 240 18% 10%;
-    --card-foreground: 45 30% 95%;
+    --card: 222 40% 10%;
+    --card-foreground: 210 40% 96%;
 
-    --popover: 240 18% 10%;
-    --popover-foreground: 45 30% 95%;
+    --popover: 222 40% 10%;
+    --popover-foreground: 210 40% 96%;
 
-    /* Deep indigo primary */
-    --primary: 245 60% 55%;
-    --primary-foreground: 45 30% 98%;
+    /* Silver/Chrome primary - matching logo text */
+    --primary: 215 25% 70%;
+    --primary-foreground: 222 47% 8%;
 
-    /* Gold accent */
-    --secondary: 38 85% 55%;
-    --secondary-foreground: 240 20% 6%;
+    /* Gold accent - matching palm leaves */
+    --secondary: 42 80% 55%;
+    --secondary-foreground: 222 47% 8%;
 
-    --muted: 240 15% 18%;
-    --muted-foreground: 240 10% 60%;
+    --muted: 222 30% 15%;
+    --muted-foreground: 215 20% 55%;
 
-    /* Celestial accent */
-    --accent: 280 60% 60%;
-    --accent-foreground: 45 30% 98%;
+    /* Ocean blue accent */
+    --accent: 210 80% 55%;
+    --accent-foreground: 210 40% 98%;
 
     --destructive: 0 72% 51%;
-    --destructive-foreground: 45 30% 98%;
+    --destructive-foreground: 210 40% 98%;
 
-    --border: 240 15% 20%;
-    --input: 240 15% 20%;
-    --ring: 245 60% 55%;
+    --border: 222 30% 18%;
+    --input: 222 30% 18%;
+    --ring: 215 25% 70%;
 
     --radius: 0.75rem;
 
-    /* Custom design tokens */
-    --gradient-mystical: linear-gradient(135deg, hsl(245 60% 35%) 0%, hsl(280 50% 25%) 50%, hsl(38 70% 40%) 100%);
-    --gradient-hero: linear-gradient(180deg, hsl(245 60% 12%) 0%, hsl(240 20% 6%) 100%);
-    --gradient-card: linear-gradient(145deg, hsl(240 18% 12%) 0%, hsl(240 20% 8%) 100%);
-    --gradient-gold: linear-gradient(135deg, hsl(38 85% 55%) 0%, hsl(45 90% 65%) 100%);
-    --gradient-indigo: linear-gradient(135deg, hsl(245 60% 45%) 0%, hsl(280 60% 50%) 100%);
+    /* Custom design tokens - luxury moonlit theme */
+    --gradient-mystical: linear-gradient(135deg, hsl(215 25% 75%) 0%, hsl(210 80% 55%) 50%, hsl(42 80% 55%) 100%);
+    --gradient-hero: linear-gradient(180deg, hsl(222 47% 8%) 0%, hsl(222 47% 4%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(222 40% 12%) 0%, hsl(222 47% 6%) 100%);
+    --gradient-gold: linear-gradient(135deg, hsl(42 80% 55%) 0%, hsl(48 85% 65%) 100%);
+    --gradient-silver: linear-gradient(135deg, hsl(215 20% 65%) 0%, hsl(210 30% 85%) 50%, hsl(215 20% 65%) 100%);
+    --gradient-ocean: linear-gradient(180deg, hsl(210 80% 20%) 0%, hsl(222 47% 6%) 100%);
     
-    --shadow-glow: 0 0 60px hsl(245 60% 55% / 0.3);
-    --shadow-gold: 0 0 40px hsl(38 85% 55% / 0.4);
+    --shadow-glow: 0 0 60px hsl(210 80% 55% / 0.3);
+    --shadow-gold: 0 0 40px hsl(42 80% 55% / 0.4);
+    --shadow-silver: 0 0 50px hsl(215 25% 70% / 0.3);
     --shadow-card: 0 25px 50px -12px hsl(0 0% 0% / 0.5);
 
     --font-display: 'Cormorant Garamond', serif;
     --font-body: 'Outfit', sans-serif;
 
-    --sidebar-background: 240 18% 10%;
-    --sidebar-foreground: 45 30% 95%;
-    --sidebar-primary: 245 60% 55%;
-    --sidebar-primary-foreground: 45 30% 98%;
-    --sidebar-accent: 240 15% 18%;
-    --sidebar-accent-foreground: 45 30% 95%;
-    --sidebar-border: 240 15% 20%;
-    --sidebar-ring: 245 60% 55%;
+    --sidebar-background: 222 40% 10%;
+    --sidebar-foreground: 210 40% 96%;
+    --sidebar-primary: 215 25% 70%;
+    --sidebar-primary-foreground: 210 40% 98%;
+    --sidebar-accent: 222 30% 15%;
+    --sidebar-accent-foreground: 210 40% 96%;
+    --sidebar-border: 222 30% 18%;
+    --sidebar-ring: 215 25% 70%;
   }
 
   .dark {
-    --background: 240 20% 6%;
-    --foreground: 45 30% 95%;
-    --card: 240 18% 10%;
-    --card-foreground: 45 30% 95%;
-    --popover: 240 18% 10%;
-    --popover-foreground: 45 30% 95%;
-    --primary: 245 60% 55%;
-    --primary-foreground: 45 30% 98%;
-    --secondary: 38 85% 55%;
-    --secondary-foreground: 240 20% 6%;
-    --muted: 240 15% 18%;
-    --muted-foreground: 240 10% 60%;
-    --accent: 280 60% 60%;
-    --accent-foreground: 45 30% 98%;
+    --background: 222 47% 6%;
+    --foreground: 210 40% 96%;
+    --card: 222 40% 10%;
+    --card-foreground: 210 40% 96%;
+    --popover: 222 40% 10%;
+    --popover-foreground: 210 40% 96%;
+    --primary: 215 25% 70%;
+    --primary-foreground: 222 47% 8%;
+    --secondary: 42 80% 55%;
+    --secondary-foreground: 222 47% 8%;
+    --muted: 222 30% 15%;
+    --muted-foreground: 215 20% 55%;
+    --accent: 210 80% 55%;
+    --accent-foreground: 210 40% 98%;
     --destructive: 0 72% 51%;
-    --destructive-foreground: 45 30% 98%;
-    --border: 240 15% 20%;
-    --input: 240 15% 20%;
-    --ring: 245 60% 55%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 222 30% 18%;
+    --input: 222 30% 18%;
+    --ring: 215 25% 70%;
   }
 }
 
@@ -117,6 +119,11 @@
     background-image: var(--gradient-gold);
   }
 
+  .text-gradient-silver {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-silver);
+  }
+
   .bg-gradient-mystical {
     background-image: var(--gradient-mystical);
   }
@@ -129,12 +136,20 @@
     background-image: var(--gradient-card);
   }
 
+  .bg-gradient-ocean {
+    background-image: var(--gradient-ocean);
+  }
+
   .shadow-glow {
     box-shadow: var(--shadow-glow);
   }
 
   .shadow-gold {
     box-shadow: var(--shadow-gold);
+  }
+
+  .shadow-silver {
+    box-shadow: var(--shadow-silver);
   }
 
   .shadow-card {
