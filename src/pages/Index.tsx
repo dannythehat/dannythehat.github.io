@@ -13,6 +13,10 @@ import WhyChooseUs from '@/components/WhyChooseUs';
 import NewsletterSignup from '@/components/NewsletterSignup';
 import StatsBar from '@/components/StatsBar';
 import { Button } from '@/components/ui/button';
+import heroTropical from '@/assets/hero-tropical.jpg';
+import islandAerial from '@/assets/island-aerial.jpg';
+import overwaterVilla from '@/assets/overwater-villa.jpg';
+import logoImage from '@/assets/logo.png';
 
 const typedHolidays = holidays as Holiday[];
 const featuredHolidays = typedHolidays.filter(h => h.featured);
@@ -24,14 +28,40 @@ const Index = () => {
       <Navbar />
       
       <main>
-        {/* Hero Section */}
-        <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-hero">
+        {/* Hero Section with stunning tropical image */}
+        <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+          {/* Background Image */}
+          <div className="absolute inset-0">
+            <img 
+              src={heroTropical} 
+              alt="Luxury tropical paradise at night" 
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/30 to-background" />
+            <div className="absolute inset-0 bg-gradient-to-r from-background/50 via-transparent to-background/50" />
+          </div>
+          
           <StarField />
           
-          {/* Gradient Orbs */}
-          <div className="absolute top-1/4 -left-32 w-96 h-96 bg-indigo/20 rounded-full blur-3xl animate-pulse-slow" />
-          <div className="absolute bottom-1/4 -right-32 w-96 h-96 bg-secondary/10 rounded-full blur-3xl animate-pulse-slow" style={{ animationDelay: '2s' }} />
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-accent/5 rounded-full blur-3xl" />
+          {/* Palm leaf decorations */}
+          <div className="absolute top-0 left-0 w-64 h-64 opacity-40 pointer-events-none">
+            <svg viewBox="0 0 200 200" className="w-full h-full">
+              <defs>
+                <linearGradient id="palmGold" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stopColor="hsl(42 80% 55%)" />
+                  <stop offset="100%" stopColor="hsl(42 60% 40%)" />
+                </linearGradient>
+              </defs>
+              <path d="M0 0 Q50 80, 20 180 Q40 120, 80 100 Q30 90, 0 0" fill="url(#palmGold)" opacity="0.6" />
+              <path d="M30 0 Q70 60, 50 150 Q60 100, 100 80 Q50 70, 30 0" fill="url(#palmGold)" opacity="0.4" />
+            </svg>
+          </div>
+          <div className="absolute top-0 right-0 w-64 h-64 opacity-40 pointer-events-none transform scale-x-[-1]">
+            <svg viewBox="0 0 200 200" className="w-full h-full">
+              <path d="M0 0 Q50 80, 20 180 Q40 120, 80 100 Q30 90, 0 0" fill="url(#palmGold)" opacity="0.6" />
+              <path d="M30 0 Q70 60, 50 150 Q60 100, 100 80 Q50 70, 30 0" fill="url(#palmGold)" opacity="0.4" />
+            </svg>
+          </div>
           
           <div className="container mx-auto px-4 pt-24 pb-16 relative z-10">
             <motion.div
@@ -40,38 +70,43 @@ const Index = () => {
               transition={{ duration: 1, ease: "easeOut" }}
               className="text-center max-w-4xl mx-auto"
             >
+              {/* Logo as hero centerpiece */}
               <motion.div
-                initial={{ opacity: 0, scale: 0.9 }}
+                initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
-                transition={{ delay: 0.2 }}
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-muted/50 border border-border/30 mb-8"
+                transition={{ delay: 0.2, duration: 0.8 }}
+                className="mb-8"
               >
-                <span className="relative flex h-2 w-2">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary opacity-75"></span>
-                  <span className="relative inline-flex rounded-full h-2 w-2 bg-secondary"></span>
-                </span>
-                <span className="text-muted-foreground font-body text-sm">New: Socotra Island now available</span>
+                <img 
+                  src={logoImage} 
+                  alt="Beyond Ordinary" 
+                  className="h-48 md:h-64 lg:h-80 w-auto mx-auto drop-shadow-2xl"
+                />
               </motion.div>
               
-              <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold leading-tight">
-                <span className="text-foreground">Travel</span>
-                <br />
-                <span className="text-gradient-mystical">Beyond Ordinary</span>
-              </h1>
-              
-              <p className="mt-8 text-xl md:text-2xl font-display italic text-foreground/80">
+              <motion.p 
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.6 }}
+                className="text-xl md:text-2xl font-display italic text-foreground/90"
+              >
                 Where Wander Meets Wonder
-              </p>
+              </motion.p>
               
-              <p className="mt-6 text-muted-foreground font-body max-w-2xl mx-auto text-lg leading-relaxed">
+              <motion.p 
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.8 }}
+                className="mt-6 text-muted-foreground font-body max-w-2xl mx-auto text-lg leading-relaxed"
+              >
                 Curated journeys to Earth's most extraordinary places. From unnamed Arctic peaks 
                 to ancient tribal kingdoms—adventures that transform perspective.
-              </p>
+              </motion.p>
               
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.6 }}
+                transition={{ delay: 1 }}
                 className="mt-10 flex flex-col sm:flex-row gap-4 justify-center"
               >
                 <Button variant="gold" size="lg" className="text-base px-8 h-14" asChild>
@@ -80,7 +115,7 @@ const Index = () => {
                     <ArrowRight className="ml-2 w-5 h-5" />
                   </Link>
                 </Button>
-                <Button variant="outline" size="lg" className="text-base border-border/50 hover:border-secondary h-14" asChild>
+                <Button variant="outline" size="lg" className="text-base border-secondary/50 hover:border-secondary h-14 bg-background/20 backdrop-blur-sm" asChild>
                   <a href="#featured">
                     <Play className="mr-2 w-4 h-4" />
                     Watch Stories
@@ -99,7 +134,7 @@ const Index = () => {
               <motion.div
                 animate={{ y: [0, 10, 0] }}
                 transition={{ duration: 2, repeat: Infinity }}
-                className="w-6 h-10 rounded-full border-2 border-muted-foreground/30 flex justify-center pt-2"
+                className="w-6 h-10 rounded-full border-2 border-secondary/40 flex justify-center pt-2"
               >
                 <div className="w-1 h-2 rounded-full bg-secondary" />
               </motion.div>
@@ -109,6 +144,52 @@ const Index = () => {
 
         {/* Stats Bar */}
         <StatsBar />
+
+        {/* Image Showcase Section */}
+        <section className="py-16 bg-background">
+          <div className="container mx-auto px-4">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="grid grid-cols-1 md:grid-cols-2 gap-6"
+            >
+              <motion.div 
+                className="relative rounded-2xl overflow-hidden group aspect-[4/3]"
+                whileHover={{ scale: 1.02 }}
+                transition={{ duration: 0.3 }}
+              >
+                <img 
+                  src={islandAerial} 
+                  alt="Private island aerial view" 
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
+                <div className="absolute bottom-6 left-6 right-6">
+                  <p className="text-secondary font-body text-sm tracking-widest uppercase mb-2">Private Islands</p>
+                  <h3 className="font-display text-2xl text-foreground">Secluded Paradise Awaits</h3>
+                </div>
+              </motion.div>
+              
+              <motion.div 
+                className="relative rounded-2xl overflow-hidden group aspect-[4/3]"
+                whileHover={{ scale: 1.02 }}
+                transition={{ duration: 0.3 }}
+              >
+                <img 
+                  src={overwaterVilla} 
+                  alt="Luxury overwater villa" 
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
+                <div className="absolute bottom-6 left-6 right-6">
+                  <p className="text-secondary font-body text-sm tracking-widest uppercase mb-2">Overwater Luxury</p>
+                  <h3 className="font-display text-2xl text-foreground">Wake Up in Paradise</h3>
+                </div>
+              </motion.div>
+            </motion.div>
+          </div>
+        </section>
 
         {/* Featured Holidays */}
         <section id="featured" className="py-24 bg-background">
@@ -173,7 +254,7 @@ const Index = () => {
 
         {/* CTA Section */}
         <section className="relative py-24 overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-mystical opacity-20" />
+          <div className="absolute inset-0 bg-gradient-ocean opacity-50" />
           <div className="absolute inset-0 bg-gradient-to-b from-background via-transparent to-background" />
           
           <div className="container mx-auto px-4 relative z-10">
@@ -181,7 +262,7 @@ const Index = () => {
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
-              className="glass-card rounded-3xl p-12 md:p-16 text-center max-w-4xl mx-auto"
+              className="glass-card rounded-3xl p-12 md:p-16 text-center max-w-4xl mx-auto border-secondary/20"
             >
               <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground">
                 Ready to Transform Your Travel?
