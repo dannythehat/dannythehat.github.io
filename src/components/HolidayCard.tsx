@@ -4,6 +4,8 @@ import { MapPin, Clock, Mountain, ExternalLink } from 'lucide-react';
 import { Holiday } from '@/types/holiday';
 import { Button } from './ui/button';
 import { Badge } from './ui/badge';
+import { getDestinationImage } from '@/lib/destinationImages';
+import WishlistButton from './WishlistButton';
 
 interface HolidayCardProps {
   holiday: Holiday;
@@ -21,6 +23,9 @@ const HolidayCard = ({ holiday, index = 0, featured = false }: HolidayCardProps)
     Extreme: 'bg-rose-500/20 text-rose-400 border-rose-500/30',
   }[holiday.difficulty] || 'bg-muted text-muted-foreground';
 
+  // Use AI-generated image if available, otherwise fall back to original
+  const imageUrl = getDestinationImage(holiday.slug) || holiday.thumbnailUrl;
+
   return (
     <motion.article
       initial={{ opacity: 0, y: 30 }}
@@ -33,12 +38,21 @@ const HolidayCard = ({ holiday, index = 0, featured = false }: HolidayCardProps)
       {/* Image Container */}
       <div className={`relative overflow-hidden ${featured ? 'aspect-[16/10]' : 'aspect-[4/3]'}`}>
         <img
-          src={holiday.thumbnailUrl}
+          src={imageUrl}
           alt={holiday.title}
           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
           loading="lazy"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-card via-card/30 to-transparent" />
+        
+        {/* Wishlist Button */}
+        <div className="absolute top-4 right-14">
+          <WishlistButton 
+            holidayId={holiday.id} 
+            holidayTitle={holiday.title}
+            size="sm"
+          />
+        </div>
         
         {/* Difficulty Badge */}
         <div className="absolute top-4 left-4">

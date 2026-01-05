@@ -355,5 +355,120 @@
     },
     "tags": ["running", "unique", "political", "urban", "bucket-list"],
     "featured": false
+  },
+  {
+    "id": "maldives-private-island",
+    "slug": "maldives-private-island",
+    "title": "Private Island Paradise",
+    "subtitle": "Your Own Piece of Heaven",
+    "location": "Private Atoll, Maldives",
+    "description": "Escape to your own private island in the Maldives—crystal waters, bioluminescent beaches, and absolute luxury where the only footprints in the sand are yours.",
+    "longDescription": "In the remote northern atolls of the Maldives, beyond the reach of resort crowds, entire islands await sole occupation. Your private island comes with a dedicated staff of 20, including a personal chef, butler, and dive master. Swim in waters so clear you can see 60 meters down. Watch bioluminescent plankton light up the shoreline after dark. This is luxury beyond comprehension—not just five-star service, but the ultimate status symbol: an entire island, an entire ecosystem, entirely yours.",
+    "price": 45000,
+    "currency": "USD",
+    "duration": "7 days",
+    "difficulty": "Easy",
+    "imageUrl": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=1200&q=80",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=600&q=80",
+    "highlights": [
+      "Entire private island",
+      "20-person dedicated staff",
+      "Bioluminescent beaches",
+      "Personal submarine excursion",
+      "Floating breakfast daily"
+    ],
+    "itinerary": [
+      { "day": 1, "title": "Seaplane Arrival", "description": "Private seaplane from Malé. Champagne welcome. Island orientation." },
+      { "day": 2, "title": "Ocean Exploration", "description": "Personal dive master-led reef exploration. Sunset dolphin cruise." },
+      { "day": 3, "title": "Wellness Day", "description": "Overwater spa treatments. Yoga at sunrise. Chef's tasting menu." },
+      { "day": 4, "title": "Submarine Adventure", "description": "Private submarine dive to 100m. Underwater picnic." },
+      { "day": 5, "title": "Island Hopping", "description": "Yacht trip to deserted sandbanks. Castaway lunch." },
+      { "day": 6, "title": "Stargazing", "description": "Astronomer-led telescope session. Bioluminescence night swim." },
+      { "day": 7, "title": "Farewell", "description": "Final sunrise. Seaplane departure." }
+    ],
+    "affiliateLinks": {
+      "booking": "https://tp.media/click?shmarker=12345&promo_id=abc&locale=en&a_id=1&url=https://www.booking.com/searchresults.html?dest_id=-1282055",
+      "viator": "https://tp.media/click?shmarker=12345&promo_id=xyz&locale=en&a_id=2&url=https://www.viator.com/tours/Maldives"
+    },
+    "tags": ["luxury", "island", "beach", "romantic", "exclusive"],
+    "featured": true
+  },
+  {
+    "id": "greenland-iceberg-kayak",
+    "slug": "greenland-iceberg-kayak",
+    "title": "Kayaking the Icefjord",
+    "subtitle": "Paddle Among Giants",
+    "location": "Ilulissat, Greenland",
+    "description": "Kayak through a UNESCO World Heritage icefjord where building-sized icebergs calve from one of the world's fastest glaciers.",
+    "longDescription": "The Ilulissat Icefjord receives 46 cubic kilometers of ice annually from the Sermeq Kujalleq glacier—enough to supply the US with water for a year. Kayaking here means navigating between cathedral-sized icebergs that groan, crack, and occasionally flip with thunderous force. The Inuit have hunted these waters for 4,500 years. Now you'll paddle the same routes, camping on shores where polar bears roam and the midnight sun never sets.",
+    "price": 5200,
+    "currency": "USD",
+    "duration": "8 days",
+    "difficulty": "Advanced",
+    "imageUrl": "https://images.unsplash.com/photo-1476610182048-b716b8518aae?w=1200&q=80",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1476610182048-b716b8518aae?w=600&q=80",
+    "highlights": [
+      "UNESCO icefjord kayaking",
+      "Midnight sun experience",
+      "Glacier calving witness",
+      "Inuit cultural immersion",
+      "Arctic wildlife sighting"
+    ],
+    "itinerary": [
+      { "day": 1, "title": "Arrive Ilulissat", "description": "Fly into the ice capital. Icefjord viewpoint sunset." },
+      { "day": 2, "title": "Kayak Training", "description": "Cold water skills. Practice paddles in harbor." },
+      { "day": 3, "title": "First Expedition", "description": "Launch into icefjord. Camp on coastal headland." },
+      { "day": 4, "title": "Glacier Approach", "description": "Paddle toward Sermeq Kujalleq. Witness calving events." },
+      { "day": 5, "title": "Deep Icefjord", "description": "Navigate largest icebergs. Sculpted ice caves." },
+      { "day": 6, "title": "Inuit Settlement", "description": "Visit Oqaatsut village. Traditional Greenlandic feast." },
+      { "day": 7, "title": "Return Paddle", "description": "Final day on water. Midnight sun celebration." },
+      { "day": 8, "title": "Departure", "description": "Morning in Ilulissat. Flight out." }
+    ],
+    "affiliateLinks": {
+      "booking": "https://tp.media/click?shmarker=12345&promo_id=abc&locale=en&a_id=1&url=https://www.booking.com/searchresults.html?dest_id=-2606802",
+      "viator": "https://tp.media/click?shmarker=12345&promo_id=xyz&locale=en&a_id=2&url=https://www.viator.com/tours/Greenland"
+    },
+    "tags": ["kayaking", "arctic", "glacier", "adventure", "nature"],
+    "featured": false
+  },
+  {
+    "id": "mongolia-eagle-hunters",
+    "slug": "mongolia-eagle-hunters",
+    "title": "Ride with Eagle Hunters",
+    "subtitle": "Ancient Traditions of the Kazakh Nomads",
+    "location": "Altai Mountains, Mongolia",
+    "description": "Live with Kazakh eagle hunters in Mongolia's Altai Mountains, learning the 6,000-year-old art of hunting with golden eagles.",
+    "longDescription": "In the frozen peaks of western Mongolia, the Kazakh people maintain an unbroken tradition stretching back six millennia: hunting with golden eagles. Young boys bond with eaglets, training them over years to hunt foxes and wolves from horseback. You'll live in traditional gers, ride Mongolian horses through snow-covered valleys, and witness the extraordinary partnership between human and raptor. The annual Golden Eagle Festival transforms the region into a spectacular display of horsemanship and falconry.",
+    "price": 3800,
+    "currency": "USD",
+    "duration": "10 days",
+    "difficulty": "Challenging",
+    "imageUrl": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=1200&q=80",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=600&q=80",
+    "highlights": [
+      "Stay with eagle hunter families",
+      "Golden Eagle Festival (seasonal)",
+      "Horseback riding in Altai",
+      "Ger camp experience",
+      "Traditional Kazakh culture"
+    ],
+    "itinerary": [
+      { "day": 1, "title": "Arrive Ölgii", "description": "Fly to western Mongolia. Meet local guide." },
+      { "day": 2, "title": "Meet the Hunters", "description": "Drive to eagle hunter family. First ger stay." },
+      { "day": 3, "title": "Eagle Training", "description": "Learn eagle handling. Practice with golden eagle." },
+      { "day": 4, "title": "Horseback Journey", "description": "Ride to high pastures. Panoramic Altai views." },
+      { "day": 5, "title": "The Hunt", "description": "Join traditional hunt. Eagle release and retrieval." },
+      { "day": 6, "title": "Nomad Life", "description": "Help with daily tasks. Traditional crafts and cooking." },
+      { "day": 7, "title": "Festival Day", "description": "Eagle Festival competitions (if seasonal) or demonstrations." },
+      { "day": 8, "title": "Sacred Sites", "description": "Visit ancient petroglyphs. Shaman ceremony." },
+      { "day": 9, "title": "Farewell Feast", "description": "Traditional celebration. Gift exchanges." },
+      { "day": 10, "title": "Return", "description": "Journey back to Ölgii. Flight to Ulaanbaatar." }
+    ],
+    "affiliateLinks": {
+      "booking": "https://tp.media/click?shmarker=12345&promo_id=abc&locale=en&a_id=1&url=https://www.booking.com/searchresults.html?dest_id=-2315595",
+      "viator": "https://tp.media/click?shmarker=12345&promo_id=xyz&locale=en&a_id=2&url=https://www.viator.com/tours/Mongolia"
+    },
+    "tags": ["cultural", "wildlife", "horseback", "nomadic", "photography"],
+    "featured": false
   }
 ]

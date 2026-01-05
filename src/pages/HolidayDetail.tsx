@@ -2,7 +2,7 @@ import { useParams, Link, Navigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { 
   MapPin, Clock, Mountain, ArrowLeft, Check, Calendar, 
-  ExternalLink, ChevronRight 
+  ExternalLink, ChevronRight, Heart
 } from 'lucide-react';
 import holidays from '@/data/holidays.json';
 import { Holiday } from '@/types/holiday';
@@ -11,12 +11,17 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
+import { getDestinationImage } from '@/lib/destinationImages';
+import WishlistButton from '@/components/WishlistButton';
+import SocialShare from '@/components/SocialShare';
+import { useWishlistContext } from '@/contexts/WishlistContext';
 
 const typedHolidays = holidays as Holiday[];
 
 const HolidayDetail = () => {
   const { slug } = useParams<{ slug: string }>();
   const holiday = typedHolidays.find(h => h.slug === slug);
+  const { isInWishlist } = useWishlistContext();
 
   if (!holiday) {
     return <Navigate to="/holidays" replace />;
@@ -31,26 +36,45 @@ const HolidayDetail = () => {
     Extreme: 'bg-rose-500/20 text-rose-400 border-rose-500/30',
   }[holiday.difficulty] || 'bg-muted text-muted-foreground';
 
+  // Use AI-generated image if available
+  const heroImage = getDestinationImage(holiday.slug) || holiday.imageUrl;
+  const pageUrl = `https://beyondordinary.travel/holidays/${holiday.slug}`;
+
+  // Get related destinations (same difficulty or shared tags)
+  const relatedHolidays = typedHolidays
+    .filter(h => h.id !== holiday.id)
+    .filter(h => h.difficulty === holiday.difficulty || h.tags.some(t => holiday.tags.includes(t)))
+    .slice(0, 3);
+
   return (
     <>
       <SEOHead
         title={`${holiday.title} - ${holiday.location}`}
         description={holiday.description}
-        image={holiday.imageUrl}
-        url={`https://beyondordinary.travel/holidays/${holiday.slug}`}
+        image={heroImage}
+        url={pageUrl}
         type="article"
       />
       <Navbar />
 
       <main className="pt-20">
         {/* Hero Image */}
-        <section className="relative h-[60vh] md:h-[70vh] overflow-hidden">
+        <section className="relative h-[60vh] md:h-[75vh] overflow-hidden">
           <img
-            src={holiday.imageUrl}
+            src={heroImage}
             alt={holiday.title}
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
+          
+          {/* Wishlist Button */}
+          <div className="absolute top-24 right-6">
+            <WishlistButton 
+              holidayId={holiday.id} 
+              holidayTitle={holiday.title}
+              size="lg"
+            />
+          </div>
           
           <div className="absolute bottom-0 left-0 right-0 container mx-auto px-4 pb-12">
             <motion.div
@@ -74,6 +98,12 @@ const HolidayDetail = () => {
                   <MapPin size={14} className="text-secondary" />
                   <span className="font-body">{holiday.location}</span>
                 </div>
+                {isInWishlist(holiday.id) && (
+                  <Badge variant="outline" className="bg-rose-500/20 text-rose-400 border-rose-500/30 font-body">
+                    <Heart size={12} className="mr-1 fill-current" />
+                    In Wishlist
+                  </Badge>
+                )}
               </div>
               
               <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground">
@@ -82,6 +112,15 @@ const HolidayDetail = () => {
               <p className="mt-2 text-xl md:text-2xl font-display italic text-foreground/80">
                 {holiday.subtitle}
               </p>
+              
+              {/* Social Share */}
+              <div className="mt-6">
+                <SocialShare 
+                  url={pageUrl} 
+                  title={holiday.title} 
+                  description={holiday.description}
+                />
+              </div>
             </motion.div>
           </div>
         </section>
@@ -237,8 +276,44 @@ const HolidayDetail = () => {
           </div>
         </section>
 
-        {/* Related Destinations CTA */}
-        <section className="py-16 bg-muted/20 border-t border-border/20">
+        {/* Related Destinations */}
+        {relatedHolidays.length > 0 && (
+          <section className="py-16 bg-muted/10 border-t border-border/20">
+            <div className="container mx-auto px-4">
+              <h2 className="font-display text-2xl font-semibold text-foreground mb-8 text-center">
+                You Might Also Like
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                {relatedHolidays.map((related) => {
+                  const relatedImage = getDestinationImage(related.slug) || related.thumbnailUrl;
+                  return (
+                    <Link 
+                      key={related.id} 
+                      to={`/holidays/${related.slug}`}
+                      className="group relative overflow-hidden rounded-xl aspect-[4/3]"
+                    >
+                      <img 
+                        src={relatedImage} 
+                        alt={related.title}
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-background via-background/30 to-transparent" />
+                      <div className="absolute bottom-4 left-4 right-4">
+                        <p className="text-secondary text-sm font-body">{related.location}</p>
+                        <h3 className="font-display text-lg font-semibold text-foreground group-hover:text-secondary transition-colors">
+                          {related.title}
+                        </h3>
+                      </div>
+                    </Link>
+                  );
+                })}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* CTA */}
+        <section className="py-16 bg-background border-t border-border/20">
           <div className="container mx-auto px-4 text-center">
             <h2 className="font-display text-2xl font-semibold text-foreground mb-4">
               Explore More Adventures
