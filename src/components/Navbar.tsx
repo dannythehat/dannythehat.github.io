@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Heart } from 'lucide-react';
+import { Menu, X, Heart, Calendar } from 'lucide-react';
 import Logo from './Logo';
 import { Button } from './ui/button';
 import { useWishlistContext } from '@/contexts/WishlistContext';
@@ -14,6 +14,7 @@ const Navbar = () => {
   const navLinks = [
     { path: '/', label: 'Home' },
     { path: '/holidays', label: 'Destinations' },
+    { path: '/calendar', label: 'Calendar', icon: Calendar },
     { path: '/wishlist', label: 'Wishlist', icon: Heart, badge: wishlistCount },
   ];
 

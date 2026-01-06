@@ -1,0 +1,160 @@
+{
+  "months": [
+    {
+      "id": 1,
+      "name": "January",
+      "theme": "Winter Wonderland",
+      "description": "Fresh starts and frozen landscapes call for adventure",
+      "festivals": [
+        { "name": "Harbin Ice Festival", "location": "China", "dates": "Jan 5 - Feb 25", "highlight": true },
+        { "name": "Sundance Film Festival", "location": "Utah, USA", "dates": "Jan 18-28" },
+        { "name": "Australia Day", "location": "Australia", "dates": "Jan 26" },
+        { "name": "Chinese New Year Prep", "location": "Asia-wide", "dates": "Late January" },
+        { "name": "Sapporo Snow Festival", "location": "Japan", "dates": "Jan - Feb" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "February",
+      "theme": "Love & Carnivals",
+      "description": "Romance fills the air as colorful celebrations take over",
+      "festivals": [
+        { "name": "Rio Carnival", "location": "Brazil", "dates": "Feb 9-17", "highlight": true },
+        { "name": "Venice Carnival", "location": "Italy", "dates": "Feb 3-13" },
+        { "name": "Chinese New Year", "location": "Worldwide", "dates": "Feb 10" },
+        { "name": "Mardi Gras", "location": "New Orleans, USA", "dates": "Feb 13" },
+        { "name": "Thaipusam", "location": "Malaysia & Singapore", "dates": "Feb 8" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "March",
+      "theme": "Spring Awakening",
+      "description": "Nature reawakens with vibrant colors and ancient traditions",
+      "festivals": [
+        { "name": "Holi Festival", "location": "India", "dates": "Mar 25", "highlight": true },
+        { "name": "St. Patrick's Day", "location": "Ireland & Worldwide", "dates": "Mar 17" },
+        { "name": "Cherry Blossom Season Begins", "location": "Japan", "dates": "Late March" },
+        { "name": "Las Fallas", "location": "Valencia, Spain", "dates": "Mar 15-19" },
+        { "name": "Nyepi (Day of Silence)", "location": "Bali, Indonesia", "dates": "Mar 11" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "April",
+      "theme": "Blooming Celebrations",
+      "description": "Flowers bloom and water fights erupt across Asia",
+      "festivals": [
+        { "name": "Songkran Water Festival", "location": "Thailand", "dates": "Apr 13-15", "highlight": true },
+        { "name": "Cherry Blossom Peak", "location": "Japan & Washington DC", "dates": "Early April" },
+        { "name": "King's Day", "location": "Netherlands", "dates": "Apr 27" },
+        { "name": "Easter Celebrations", "location": "Worldwide", "dates": "Varies" },
+        { "name": "Coachella", "location": "California, USA", "dates": "Apr 12-21" }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "May",
+      "theme": "Ancient Traditions",
+      "description": "Honor ancient cultures and mythical celebrations",
+      "festivals": [
+        { "name": "Vesak (Buddha Day)", "location": "Sri Lanka & SE Asia", "dates": "May 23", "highlight": true },
+        { "name": "Cannes Film Festival", "location": "France", "dates": "May 14-25" },
+        { "name": "Inti Raymi Preparations", "location": "Peru", "dates": "Late May" },
+        { "name": "Cheung Chau Bun Festival", "location": "Hong Kong", "dates": "May 15" },
+        { "name": "Monaco Grand Prix", "location": "Monaco", "dates": "May 23-26" }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "June",
+      "theme": "Midnight Sun",
+      "description": "Endless daylight brings magical summer solstice celebrations",
+      "festivals": [
+        { "name": "Midnight Sun", "location": "Norway & Iceland", "dates": "June 21", "highlight": true },
+        { "name": "Inti Raymi", "location": "Cusco, Peru", "dates": "Jun 24" },
+        { "name": "Midsummer", "location": "Sweden & Scandinavia", "dates": "Jun 21-22" },
+        { "name": "Glastonbury Festival", "location": "UK", "dates": "Jun 25-30" },
+        { "name": "San Juan Festival", "location": "Spain", "dates": "Jun 23-24" }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "July",
+      "theme": "Running Wild",
+      "description": "Adrenaline-fueled festivals and summer adventures",
+      "festivals": [
+        { "name": "Running of the Bulls", "location": "Pamplona, Spain", "dates": "Jul 6-14", "highlight": true },
+        { "name": "Bastille Day", "location": "France", "dates": "Jul 14" },
+        { "name": "Gion Matsuri", "location": "Kyoto, Japan", "dates": "All month" },
+        { "name": "Calgary Stampede", "location": "Canada", "dates": "Jul 5-14" },
+        { "name": "Esala Perahera", "location": "Sri Lanka", "dates": "Jul-Aug" }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "August",
+      "theme": "Fire & Festival",
+      "description": "Burning effigies and epic gatherings in the desert heat",
+      "festivals": [
+        { "name": "Burning Man", "location": "Nevada, USA", "dates": "Aug 25 - Sep 2", "highlight": true },
+        { "name": "La Tomatina", "location": "Spain", "dates": "Aug 28" },
+        { "name": "Edinburgh Fringe", "location": "Scotland", "dates": "All month" },
+        { "name": "Obon Festival", "location": "Japan", "dates": "Aug 13-16" },
+        { "name": "Notting Hill Carnival", "location": "London, UK", "dates": "Aug 24-26" }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "September",
+      "theme": "Harvest Moon",
+      "description": "Celebrate the bounty of harvest under autumn moons",
+      "festivals": [
+        { "name": "Oktoberfest", "location": "Munich, Germany", "dates": "Sep 21 - Oct 6", "highlight": true },
+        { "name": "Mid-Autumn Festival", "location": "China & Vietnam", "dates": "Sep 17" },
+        { "name": "La Mercè", "location": "Barcelona, Spain", "dates": "Sep 20-24" },
+        { "name": "Ganesh Chaturthi", "location": "India", "dates": "Sep 7" },
+        { "name": "Aloha Festivals", "location": "Hawaii, USA", "dates": "All month" }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "October",
+      "theme": "Day of the Dead",
+      "description": "Honor the departed with colorful altars and sugar skulls",
+      "festivals": [
+        { "name": "Day of the Dead", "location": "Mexico", "dates": "Oct 31 - Nov 2", "highlight": true },
+        { "name": "Diwali Preparations", "location": "India", "dates": "Late October" },
+        { "name": "Halloween", "location": "Worldwide", "dates": "Oct 31" },
+        { "name": "Albuquerque Balloon Fiesta", "location": "New Mexico, USA", "dates": "Oct 5-13" },
+        { "name": "Navaratri", "location": "India", "dates": "Oct 3-12" }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "November",
+      "theme": "Festival of Lights",
+      "description": "Lanterns and fireworks illuminate the darkness",
+      "festivals": [
+        { "name": "Diwali", "location": "India & Worldwide", "dates": "Nov 1", "highlight": true },
+        { "name": "Yi Peng Lantern Festival", "location": "Chiang Mai, Thailand", "dates": "Nov 15-16" },
+        { "name": "Loy Krathong", "location": "Thailand", "dates": "Nov 15" },
+        { "name": "Day of the Dead (Continued)", "location": "Mexico", "dates": "Nov 1-2" },
+        { "name": "Pushkar Camel Fair", "location": "India", "dates": "Nov 9-17" }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "December",
+      "theme": "Winter Magic",
+      "description": "Magical markets and aurora hunting in the frozen north",
+      "festivals": [
+        { "name": "Christmas Markets", "location": "Europe", "dates": "All month", "highlight": true },
+        { "name": "Northern Lights Season", "location": "Arctic Circle", "dates": "Peak viewing" },
+        { "name": "New Year's Eve", "location": "Worldwide", "dates": "Dec 31" },
+        { "name": "Hogmanay", "location": "Edinburgh, Scotland", "dates": "Dec 30-Jan 1" },
+        { "name": "Junkanoo", "location": "Bahamas", "dates": "Dec 26 & Jan 1" }
+      ]
+    }
+  ]
+}
