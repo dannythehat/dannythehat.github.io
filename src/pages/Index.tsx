@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowRight, Play } from 'lucide-react';
+import { ArrowRight, Play, Calendar, MapPin, Sparkles } from 'lucide-react';
 import holidays from '@/data/holidays.json';
+import calendarData from '@/data/calendarEvents.json';
 import { Holiday } from '@/types/holiday';
 import SEOHead from '@/components/SEOHead';
 import Navbar from '@/components/Navbar';
@@ -17,9 +18,17 @@ import heroTropical from '@/assets/hero-tropical.jpg';
 import islandAerial from '@/assets/island-aerial.jpg';
 import overwaterVilla from '@/assets/overwater-villa.jpg';
 import logoImage from '@/assets/logo.png';
+import { calendarImages } from '@/lib/calendarImages';
 
 const typedHolidays = holidays as Holiday[];
 const featuredHolidays = typedHolidays.filter(h => h.featured);
+
+// Get current month and next 3 months for featured calendar section
+const currentMonthIndex = new Date().getMonth();
+const featuredMonths = [0, 1, 2, 3].map(offset => {
+  const monthIndex = (currentMonthIndex + offset) % 12;
+  return calendarData.months[monthIndex];
+});
 
 const Index = () => {
   return (
@@ -187,6 +196,107 @@ const Index = () => {
                   <h3 className="font-display text-2xl text-foreground">Wake Up in Paradise</h3>
                 </div>
               </motion.div>
+            </motion.div>
+          </div>
+        </section>
+
+        {/* Featured Travel Calendar Section */}
+        <section className="py-24 bg-gradient-hero relative overflow-hidden">
+          <div className="absolute inset-0">
+            <div className="absolute top-20 right-10 w-96 h-96 bg-secondary/10 rounded-full blur-3xl animate-pulse-slow" />
+            <div className="absolute bottom-10 left-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl animate-pulse-slow" style={{ animationDelay: '1s' }} />
+          </div>
+          
+          <div className="container mx-auto px-4 relative z-10">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="text-center mb-12"
+            >
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-secondary/30 bg-secondary/5 mb-6">
+                <Sparkles className="w-4 h-4 text-secondary" />
+                <span className="text-sm font-body text-secondary">Plan by Season</span>
+              </div>
+              <h2 className="font-display text-4xl md:text-5xl text-gradient-gold mb-4">
+                World Festival Calendar
+              </h2>
+              <p className="text-muted-foreground font-body max-w-2xl mx-auto text-lg">
+                Time your adventures to witness humanity's most spectacular celebrations
+              </p>
+            </motion.div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+              {featuredMonths.map((month, index) => (
+                <motion.div
+                  key={month.id}
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: index * 0.1 }}
+                >
+                  <Link 
+                    to="/calendar" 
+                    className="group block relative overflow-hidden rounded-2xl aspect-[3/4] hover-scale"
+                  >
+                    <img 
+                      src={calendarImages[month.id]} 
+                      alt={`${month.name} - ${month.theme}`}
+                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
+                    
+                    {/* Month Badge */}
+                    <div className="absolute top-4 left-4">
+                      <div className="px-3 py-1.5 rounded-full bg-background/80 backdrop-blur-sm border border-secondary/30">
+                        <span className="font-display text-lg text-gradient-gold">{month.name}</span>
+                      </div>
+                    </div>
+                    
+                    {/* Content */}
+                    <div className="absolute bottom-0 left-0 right-0 p-5">
+                      <h3 className="font-display text-xl text-foreground mb-2 group-hover:text-secondary transition-colors">
+                        {month.theme}
+                      </h3>
+                      
+                      {/* Top Festival */}
+                      {month.festivals.find(f => f.highlight) && (
+                        <div className="flex items-center gap-2 text-muted-foreground">
+                          <MapPin className="w-3 h-3 text-secondary" />
+                          <span className="font-body text-sm line-clamp-1">
+                            {month.festivals.find(f => f.highlight)?.name}
+                          </span>
+                        </div>
+                      )}
+                      
+                      <div className="mt-3 flex items-center gap-1 text-secondary">
+                        <Calendar className="w-3 h-3" />
+                        <span className="text-xs font-body">{month.festivals.length} events</span>
+                      </div>
+                    </div>
+                    
+                    {/* Hover Arrow */}
+                    <div className="absolute top-4 right-4 w-10 h-10 rounded-full bg-secondary/20 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 translate-x-2 group-hover:translate-x-0">
+                      <ArrowRight className="w-5 h-5 text-secondary" />
+                    </div>
+                  </Link>
+                </motion.div>
+              ))}
+            </div>
+
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              className="text-center"
+            >
+              <Button variant="mystical" size="lg" asChild>
+                <Link to="/calendar">
+                  <Calendar className="mr-2 w-5 h-5" />
+                  View Full Calendar
+                  <ArrowRight className="ml-2 w-5 h-5" />
+                </Link>
+              </Button>
             </motion.div>
           </div>
         </section>
