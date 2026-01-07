@@ -14,7 +14,7 @@ We're NOT using generic booking platforms. We're finding:
 
 ---
 
-## ✅ VERIFIED OPERATORS WITH AFFILIATE PROGRAMS
+## 🌍 INTERNATIONAL ADVENTURE OPERATORS
 
 ### 1. **Kandoo Adventures** ⭐⭐⭐
 **Website:** https://www.kandooadventures.com  
@@ -33,6 +33,7 @@ We're NOT using generic booking platforms. We're finding:
 - $60 per trekker (Everest Base Camp)
 - $60 per trekker (Machu Picchu)
 - **Potential:** $3,000+/month for active partners
+- **Lifetime tracking** (no cookie expiration!)
 
 **Why It's Perfect:**
 - ✅ INCREDIBLE content potential (summit stories, expedition vlogs)
@@ -213,11 +214,140 @@ We're NOT using generic booking platforms. We're finding:
 
 ---
 
+## 🇬🇧 UK UNIQUE ACCOMMODATION OPERATORS
+
+### 7. **Rural Retreats** ⭐⭐⭐
+**Website:** https://www.ruralretreats.co.uk  
+**Affiliate Program:** YES - Via Awin
+
+**What They Offer:**
+- Luxury holiday cottages across UK
+- Country estates
+- Coastal properties
+- Historic buildings
+- Unique rural accommodations
+
+**Commission Structure:**
+- 5% on confirmed bookings
+- Average order value: £1,000+
+- Via Awin (Merchant ID: 6289)
+- Email: affiliates@ruralretreats.co.uk
+
+**Why It's Perfect:**
+- ✅ Luxury UK properties (great for high-value content)
+- ✅ £1,000+ average booking = £50+ commission
+- ✅ Established brand with excellent properties
+- ✅ Wide range of unique cottages
+
+**How to Apply:**
+- https://www.ruralretreats.co.uk/become-an-affiliate
+- Or sign up via Awin
+
+**Your Affiliate Link:** [PENDING]  
+**Status:** ⚠️ NOT APPLIED YET
+
+---
+
+### 8. **Luxury Coastal** ⭐⭐⭐
+**Website:** https://luxurycoastal.co.uk  
+**Affiliate Program:** YES - Via Affiliate Future
+
+**What They Offer:**
+- Luxury coastal holiday homes
+- Beach houses
+- Seaside cottages
+- Waterfront properties
+- UK coastal escapes
+
+**Commission Structure:**
+- 5% on total sale value
+- Average booking: £1,000+
+- API/CSV integration available
+- Email: affiliates@luxurycoastal.co.uk
+
+**Why It's Perfect:**
+- ✅ Coastal properties (highly desirable)
+- ✅ £1,000+ bookings = £50+ commission
+- ✅ API integration for live availability
+- ✅ Focus on long-term partnerships
+
+**How to Apply:**
+- https://luxurycoastal.co.uk/affiliates
+- Or via Affiliate Future
+
+**Your Affiliate Link:** [PENDING]  
+**Status:** ⚠️ NOT APPLIED YET
+
+---
+
+### 9. **Onefinestay** ⭐⭐
+**Website:** https://www.onefinestay.com  
+**Affiliate Program:** YES - Via Rakuten
+
+**What They Offer:**
+- Luxury vacation homes (UK + 40+ destinations)
+- High-end villas
+- Concierge services
+- Premium properties
+- Part of Accor group
+
+**Commission Structure:**
+- Up to 5% on bookings
+- Via Rakuten Advertising
+- Special rates for large orders
+- Europe, Caribbean, North America coverage
+
+**Why It's Perfect:**
+- ✅ Ultra-luxury properties
+- ✅ International coverage (not just UK)
+- ✅ Concierge services add value
+- ✅ Part of major hotel group (Accor)
+
+**How to Apply:**
+- https://www.onefinestay.com/lp/affiliate-programme
+- Register via Rakuten
+
+**Your Affiliate Link:** [PENDING]  
+**Status:** ⚠️ NOT APPLIED YET
+
+---
+
+### 10. **Toad Hall Cottages** ⭐
+**Website:** https://www.toadhallcottages.co.uk  
+**Affiliate Program:** YES - Via Affiliate Future
+
+**What They Offer:**
+- 950+ self-catering cottages
+- Devon & Cornwall focus
+- Coastal properties
+- Rural retreats
+- Family-friendly accommodations
+
+**Commission Structure:**
+- Up to 7% commission
+- Via Affiliate Future
+- Devon & Cornwall specialist
+
+**Why It's Perfect:**
+- ✅ 7% commission (higher than most!)
+- ✅ 950+ properties
+- ✅ Devon & Cornwall (popular UK destinations)
+- ✅ Good for family content
+
+**How to Apply:**
+- https://www.toadhallcottages.co.uk/affiliates
+- Via Affiliate Future
+
+**Your Affiliate Link:** [PENDING]  
+**Status:** ⚠️ NOT APPLIED YET
+
+---
+
 ## 🔍 ULTRA-UNIQUE PROPERTIES (NO PUBLIC AFFILIATE - CONTACT DIRECTLY)
 
 These are INCREDIBLE for content but need direct partnership inquiries:
 
-### 7. **Natura Vive Skylodge** (Peru) 🌟🌟🌟
+### 11. **Natura Vive Skylodge** (Peru) 🌟🌟🌟
 **Website:** https://naturavive.com  
 **What It Is:** Transparent capsules suspended 400m above Sacred Valley  
 **Access:** Via Ferrata climb + zipline descent  
@@ -237,7 +367,7 @@ These are INCREDIBLE for content but need direct partnership inquiries:
 
 ---
 
-### 8. **Icehotel Sweden** 🌟🌟🌟
+### 12. **Icehotel Sweden** 🌟🌟🌟
 **Website:** https://www.icehotel.com  
 **What It Is:** Year-round ice hotel in Swedish Lapland  
 **Features:** Ice art suites, Northern Lights, dog sledding
@@ -255,7 +385,7 @@ These are INCREDIBLE for content but need direct partnership inquiries:
 
 ---
 
-### 9. **Free Spirit Spheres** (Canada) 🌟🌟
+### 13. **Free Spirit Spheres** (Canada) 🌟🌟
 **Website:** https://freespiritspheres.com  
 **What It Is:** Spherical treehouses suspended in BC rainforest  
 **Price:** $355-375/night  
@@ -273,7 +403,7 @@ These are INCREDIBLE for content but need direct partnership inquiries:
 
 ---
 
-### 10. **Whitepod Switzerland** 🌟🌟
+### 14. **Whitepod Switzerland** 🌟🌟
 **Website:** https://whitepod.com  
 **What It Is:** Geodesic dome pods in Swiss Alps  
 **Features:** Eco-luxury, private ski lifts, alpine setting
@@ -286,12 +416,11 @@ These are INCREDIBLE for content but need direct partnership inquiries:
 
 **Action:**
 - ⚠️ NO public affiliate program
-- ⚠️ Listed on Booking.com (could use their affiliate)
 - ⚠️ Contact directly for partnership
 
 ---
 
-### 11. **Giraffe Manor** (Kenya) 🌟🌟🌟
+### 15. **Giraffe Manor** (Kenya) 🌟🌟🌟
 **Website:** https://www.thesafaricollection.com  
 **What It Is:** Breakfast with giraffes through your window  
 **Operator:** The Safari Collection
@@ -309,32 +438,73 @@ These are INCREDIBLE for content but need direct partnership inquiries:
 
 ---
 
+### 16. **Canopy & Stars** (UK) 🌟🌟
+**Website:** https://www.canopyandstars.co.uk  
+**What It Is:** 850+ unique glamping properties across UK/Europe  
+**Features:** Treehouses, shepherd's huts, yurts, cabins
+
+**Content Potential:** 🔥🔥🔥🔥
+- Incredible variety of unique stays
+- Inspected properties
+- Eco-focused
+- Perfect for UK glamping content
+
+**Action:**
+- ⚠️ NO public affiliate program (property owner partnerships only)
+- ⚠️ They host media/influencers selectively
+- ⚠️ Contact for potential content partnerships
+
+---
+
+### 17. **Sawday's** (UK) 🌟
+**Website:** https://www.sawdays.co.uk  
+**What It Is:** Curated collection of special UK places  
+**Features:** Unique B&Bs, hotels, pubs with personality
+
+**Content Potential:** 🔥🔥🔥
+- Inspected unique properties
+- Character-filled accommodations
+- Quality kitemark
+
+**Action:**
+- ⚠️ NO affiliate program (referral scheme for guests only - £120 voucher)
+- ⚠️ Contact for partnership: +44 (0)117 204 7810
+
+---
+
+### 18. **Cool Stays** (UK) 🌟
+**Website:** https://www.coolstays.com  
+**What It Is:** Platform for unique UK accommodations  
+**Features:** Unusual properties, unique experiences
+
+**Content Potential:** 🔥🔥🔥
+- Wide variety of unique stays
+- Owner-direct bookings
+
+**Action:**
+- ⚠️ NO affiliate program (subscription model for owners)
+- ⚠️ Contact for partnership opportunities
+
+---
+
 ## 🎬 CONTENT STRATEGY FOR EACH
 
-### Kandoo Adventures:
-- **Shorts:** Summit moments, expedition challenges, altitude sickness stories
-- **Articles:** "How to Climb Kilimanjaro," "Everest Base Camp Guide"
-- **Angle:** Achievement, personal transformation
+### International Adventures:
+- **Kandoo:** Summit moments, expedition challenges, altitude sickness stories
+- **Skyhook:** Local guide interactions, off-path discoveries
+- **Iceland Operators:** Northern Lights time-lapses, glacier walks, ice caves
+- **Northern Shots:** Dog sledding, Arctic Norway, fjord tours
 
-### Skyhook Adventure:
-- **Shorts:** Local guide interactions, off-path discoveries
-- **Articles:** "Hidden Adventures," "Authentic Travel Experiences"
-- **Angle:** Authenticity, local immersion
+### UK Accommodations:
+- **Rural Retreats:** Luxury cottage tours, countryside escapes
+- **Luxury Coastal:** Beach house reviews, coastal walks
+- **Onefinestay:** Ultra-luxury property tours, concierge experiences
 
-### Iceland Operators (Nicetravel, Iceland Highlights, Northern Shots):
-- **Shorts:** Northern Lights time-lapses, glacier walks, ice caves
-- **Articles:** "Best Northern Lights Tours," "Iceland Adventure Guide"
-- **Angle:** Natural phenomena, bucket list experiences
-
-### Skylodge Peru:
-- **Shorts:** Via Ferrata climb, sleeping on cliff, zipline descent
-- **Articles:** "Sleeping 400m Above Ground," "Peru's Craziest Hotel"
-- **Angle:** Extreme accommodation, adrenaline
-
-### Icehotel:
-- **Shorts:** Ice room tours, ice sculpting, sleeping in -5°C
-- **Articles:** "Staying at the Icehotel," "Arctic Luxury"
-- **Angle:** Unique accommodation, Arctic adventure
+### Ultra-Unique Properties:
+- **Skylodge:** Via Ferrata climb, sleeping on cliff, zipline descent
+- **Icehotel:** Ice room tours, sleeping in -5°C, Arctic luxury
+- **Free Spirit Spheres:** Suspended sphere tours, rainforest setting
+- **Giraffe Manor:** Breakfast with giraffes (instant viral)
 
 ---
 
@@ -343,19 +513,26 @@ These are INCREDIBLE for content but need direct partnership inquiries:
 ### APPLY TODAY (High Commission + Great Content):
 1. ✅ **Kandoo Adventures** - $80-100 per trekker!
 2. ✅ **Nicetravel Iceland** - 10% + 180-day cookie
-3. ✅ **Skyhook Adventure** - 5% on $1,000 avg order
-4. ✅ **Iceland Highlights** - 10% + backup to Nicetravel
-5. ✅ **Northern Shots Tours** - Northern Lights specialist
+3. ✅ **Rural Retreats** - 5% on £1,000+ bookings
+4. ✅ **Luxury Coastal** - 5% on £1,000+ bookings
+5. ✅ **Skyhook Adventure** - 5% on $1,000 avg order
 
 ### APPLY THIS WEEK:
-6. ✅ **Mild to Wild Rafting** - 10% on rafting tours
+6. ✅ **Iceland Highlights** - 10% + backup to Nicetravel
+7. ✅ **Northern Shots Tours** - Northern Lights specialist
+8. ✅ **Onefinestay** - Up to 5% luxury properties
+9. ✅ **Toad Hall Cottages** - 7% Devon & Cornwall
+10. ✅ **Mild to Wild Rafting** - 10% on rafting tours
 
 ### CONTACT FOR DIRECT PARTNERSHIPS:
-7. ⚠️ **Natura Vive** (Skylodge Peru) - Use GetYourGuide affiliate meanwhile
-8. ⚠️ **Icehotel Sweden** - Contact directly
-9. ⚠️ **Free Spirit Spheres** - Contact directly
-10. ⚠️ **Whitepod Switzerland** - Contact directly
-11. ⚠️ **Giraffe Manor** - Contact The Safari Collection
+11. ⚠️ **Natura Vive** (Skylodge Peru) - Use GetYourGuide affiliate meanwhile
+12. ⚠️ **Icehotel Sweden** - Contact directly
+13. ⚠️ **Free Spirit Spheres** - Contact directly
+14. ⚠️ **Whitepod Switzerland** - Contact directly
+15. ⚠️ **Giraffe Manor** - Contact The Safari Collection
+16. ⚠️ **Canopy & Stars** - Contact for media partnerships
+17. ⚠️ **Sawday's** - Contact for partnerships
+18. ⚠️ **Cool Stays** - Contact for partnerships
 
 ---
 
@@ -363,43 +540,55 @@ These are INCREDIBLE for content but need direct partnership inquiries:
 
 Once you've applied and received affiliate links:
 
-### I Will:
-1. Create NEW packages in `holidays.json` for:
-   - Kilimanjaro Summit (Kandoo)
-   - Everest Base Camp (Kandoo)
-   - Iceland Northern Lights (Nicetravel/Iceland Highlights)
-   - Norway Arctic Adventures (Northern Shots)
-   - Off-Path Adventures (Skyhook)
-   - Skylodge Peru (via GetYourGuide)
+### I Will Create NEW Packages:
 
-2. Write compelling descriptions focused on:
-   - The STORY (not just the facts)
-   - Content potential (shorts, articles)
-   - Unique angles
-   - Emotional impact
+**International Adventures:**
+1. Kilimanjaro Summit (Kandoo)
+2. Everest Base Camp (Kandoo)
+3. Iceland Northern Lights (Nicetravel/Iceland Highlights)
+4. Norway Arctic Adventures (Northern Shots)
+5. Off-Path Adventures (Skyhook)
+6. Skylodge Peru (via GetYourGuide)
 
-3. Link event calendar to relevant packages:
-   - January: Harbin Ice → Icehotel alternative
-   - June: Midnight Sun → Iceland/Norway tours
-   - November: Northern Lights → Iceland/Norway packages
-   - December: Christmas → Icehotel, Whitepod
+**UK Unique Stays:**
+7. Luxury Coastal Escapes (Luxury Coastal)
+8. Rural Luxury Retreats (Rural Retreats)
+9. Devon & Cornwall Cottages (Toad Hall)
+10. Ultra-Luxury Homes (Onefinestay)
+
+### I Will Also:
+- Write compelling, story-focused descriptions
+- Add content strategy notes for each package
+- Link event calendar to relevant packages
+- Keep your existing UK stays (they're already perfect!)
+- Remove generic placeholder packages
 
 ---
 
 ## ✅ APPLICATION CHECKLIST
 
+**International:**
 - [ ] Kandoo Adventures (email application)
 - [ ] Skyhook Adventure (AvantLink)
 - [ ] Nicetravel Iceland (online form)
 - [ ] Iceland Highlights (online form)
 - [ ] Northern Shots Tours (online form)
 - [ ] Mild to Wild Rafting (online form)
+
+**UK:**
+- [ ] Rural Retreats (Awin)
+- [ ] Luxury Coastal (Affiliate Future)
+- [ ] Onefinestay (Rakuten)
+- [ ] Toad Hall Cottages (Affiliate Future)
+
+**Direct Contact:**
 - [ ] GetYourGuide (for Skylodge Peru)
 - [ ] Contact Natura Vive directly
 - [ ] Contact Icehotel directly
 - [ ] Contact Free Spirit Spheres directly
 - [ ] Contact Whitepod directly
 - [ ] Contact The Safari Collection directly
+- [ ] Contact Canopy & Stars for media partnerships
 
 ---
 
