@@ -10,6 +10,8 @@ import Holidays from "./pages/Holidays";
 import HolidayDetail from "./pages/HolidayDetail";
 import Wishlist from "./pages/Wishlist";
 import TravelCalendar from "./pages/TravelCalendar";
+import Stories from "./pages/Stories";
+import StoryDetail from "./pages/StoryDetail";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -28,6 +30,8 @@ const App = () => (
               <Route path="/holidays/:slug" element={<HolidayDetail />} />
               <Route path="/wishlist" element={<Wishlist />} />
               <Route path="/calendar" element={<TravelCalendar />} />
+              <Route path="/stories" element={<Stories />} />
+              <Route path="/stories/:slug" element={<StoryDetail />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </BrowserRouter>
