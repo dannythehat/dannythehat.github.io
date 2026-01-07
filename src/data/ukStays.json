@@ -1,0 +1,306 @@
+[
+  {
+    "id": "pinwheel-treehouse-dorset",
+    "slug": "pinwheel-treehouse-dorset",
+    "title": "Pinwheel Treehouse",
+    "subtitle": "RIBA Award-Winning Adults-Only Retreat",
+    "location": "Dorset, England",
+    "description": "An architectural masterpiece suspended in ancient woodland. This adults-only treehouse features an al fresco hot tub, wood-fired pizza oven, and floor-to-ceiling windows overlooking the Dorset countryside.",
+    "longDescription": "Winner of the prestigious RIBA award, the Pinwheel Treehouse is a testament to sustainable luxury. Perched 20 feet above ground in a private woodland glade, this octagonal sanctuary combines cutting-edge design with rustic charm. The open-plan living space features handcrafted furniture, a wood-burning stove, and a fully equipped kitchen. Step onto the wraparound deck to find your private hot tub nestled among the canopy, perfect for stargazing. Fire up the pizza oven for an unforgettable evening, or simply listen to the woodland symphony from your king-size bed.",
+    "price": 295,
+    "currency": "GBP",
+    "duration": "per night (2 night minimum)",
+    "capacity": "2 adults",
+    "imageUrl": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=1200&q=80",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=600&q=80",
+    "highlights": [
+      "RIBA award-winning architecture",
+      "Private hot tub in the canopy",
+      "Wood-fired pizza oven",
+      "Adults-only sanctuary",
+      "Sustainable off-grid design",
+      "Ancient woodland setting"
+    ],
+    "amenities": [
+      "King-size bed",
+      "Wood-burning stove",
+      "Full kitchen",
+      "Outdoor shower",
+      "BBQ facilities",
+      "Parking"
+    ],
+    "affiliateLinks": {
+      "booking": "https://www.booking.com/hotel/gb/pinwheel-treehouse.html",
+      "airbnb": "https://www.airbnb.co.uk/dorset/treehouses"
+    },
+    "tags": ["treehouse", "luxury", "adults-only", "hot-tub", "eco-friendly", "award-winning"],
+    "featured": true,
+    "region": "South West England"
+  },
+  {
+    "id": "glenshee-treehouses-scotland",
+    "slug": "glenshee-treehouses-scotland",
+    "title": "Glenshee Treehouses",
+    "subtitle": "Architect-Designed Highland Hideaways",
+    "location": "Perthshire, Scotland",
+    "description": "Suspended in ancient Caledonian pines near Cairngorms National Park, these architect-designed treehouses offer panoramic mountain views and complete seclusion in the Scottish Highlands.",
+    "longDescription": "Nestled in 25 acres of private Highland estate, Glenshee Treehouses represent the pinnacle of Scottish glamping. Each treehouse is individually designed by award-winning architects, featuring floor-to-ceiling windows that frame the dramatic Cairngorms landscape. Wake to red deer grazing below, spend days hiking mountain trails, and return to your elevated sanctuary for whisky by the wood-burner. The treehouses blend seamlessly with their environment—built around living trees using sustainable materials. In winter, watch snow blanket the forest from your heated retreat. In summer, dine on your private deck as the midnight sun paints the sky.",
+    "price": 225,
+    "currency": "GBP",
+    "duration": "per night (2 night minimum)",
+    "capacity": "2-4 guests",
+    "imageUrl": "https://images.unsplash.com/photo-1542718610-a1d656d1884c?w=1200&q=80",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1542718610-a1d656d1884c?w=600&q=80",
+    "highlights": [
+      "Cairngorms National Park location",
+      "Architect-designed structures",
+      "Red deer and wildlife viewing",
+      "Mountain hiking access",
+      "Wood-burning stoves",
+      "Complete privacy"
+    ],
+    "amenities": [
+      "Double/twin beds",
+      "Kitchenette",
+      "Private deck",
+      "Heating",
+      "Eco-toilet",
+      "Wildlife spotting guides"
+    ],
+    "affiliateLinks": {
+      "booking": "https://www.booking.com/hotel/gb/glenshee-treehouses.html",
+      "coolstays": "https://www.coolstays.com/scotland/treehouses"
+    },
+    "tags": ["treehouse", "scotland", "highlands", "wildlife", "hiking", "eco-friendly"],
+    "featured": true,
+    "region": "Scottish Highlands"
+  },
+  {
+    "id": "yeworthy-eco-treehouse-devon",
+    "slug": "yeworthy-eco-treehouse-devon",
+    "title": "Yeworthy Eco Treehouse",
+    "subtitle": "Off-Grid Lakeside Sanctuary",
+    "location": "Devon, England",
+    "description": "A completely off-grid treehouse perched above a private lake in the Devon countryside. Dog-friendly, solar-powered, and surrounded by 30 acres of rewilded farmland.",
+    "longDescription": "Yeworthy represents the future of sustainable tourism. This handcrafted treehouse sits 15 feet above a spring-fed lake, powered entirely by solar panels and heated by a wood-burning stove. The property is part of a rewilding project—30 acres of former farmland returning to nature. Watch kingfishers dive from your deck, kayak on the lake at dawn, or explore wildflower meadows with your four-legged friend. The treehouse features a composting toilet, outdoor shower, and a kitchen stocked with local produce. At night, with no light pollution for miles, the Milky Way stretches overhead. This is glamping with purpose—every stay supports habitat restoration.",
+    "price": 165,
+    "currency": "GBP",
+    "duration": "per night",
+    "capacity": "2 adults + dog",
+    "imageUrl": "https://images.unsplash.com/photo-1618767689160-da3fb810aad7?w=1200&q=80",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1618767689160-da3fb810aad7?w=600&q=80",
+    "highlights": [
+      "100% off-grid and solar-powered",
+      "Private lake with kayaks",
+      "Dog-friendly",
+      "Rewilding conservation project",
+      "Dark sky stargazing",
+      "Outdoor bathing"
+    ],
+    "amenities": [
+      "Double bed",
+      "Solar power",
+      "Composting toilet",
+      "Outdoor shower",
+      "Wood-burner",
+      "Kayaks included"
+    ],
+    "affiliateLinks": {
+      "booking": "https://www.booking.com/hotel/gb/yeworthy-treehouse.html",
+      "canopyandstars": "https://www.canopyandstars.co.uk/britain/england/devon/yeworthy"
+    },
+    "tags": ["treehouse", "off-grid", "eco-friendly", "dog-friendly", "lake", "rewilding"],
+    "featured": true,
+    "region": "South West England"
+  },
+  {
+    "id": "redwood-valley-yurts-wales",
+    "slug": "redwood-valley-yurts-wales",
+    "title": "Redwood Valley Yurts",
+    "subtitle": "Luxury Mongolian Yurts in Welsh Woodland",
+    "location": "Powys, Wales",
+    "description": "Authentic Mongolian yurts nestled in 25 acres of ancient Welsh woodland. Each yurt features a wood-burner, king-size bed, and private hot tub under the stars.",
+    "longDescription": "Hidden in the Cambrian Mountains, Redwood Valley offers an escape into Welsh wilderness without sacrificing comfort. These handcrafted Mongolian yurts are spacious sanctuaries—20 feet in diameter with hand-painted interiors and traditional felt insulation. Each yurt has its own woodland clearing, complete with a cedar hot tub, fire pit, and outdoor kitchen. Inside, find a king-size bed draped in Welsh wool blankets, a wood-burner for cozy evenings, and sheepskin rugs underfoot. The site is completely off-grid, powered by renewable energy. Spend days exploring nearby waterfalls, mountain biking forest trails, or simply reading in your hammock. At night, soak in your hot tub as owls call through the trees.",
+    "price": 185,
+    "currency": "GBP",
+    "duration": "per night (2 night minimum)",
+    "capacity": "2-4 guests",
+    "imageUrl": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=1200&q=80",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=600&q=80",
+    "highlights": [
+      "Authentic Mongolian design",
+      "Private cedar hot tubs",
+      "25 acres of ancient woodland",
+      "Off-grid renewable energy",
+      "Mountain biking trails",
+      "Waterfall walks nearby"
+    ],
+    "amenities": [
+      "King-size bed",
+      "Wood-burner",
+      "Hot tub",
+      "Outdoor kitchen",
+      "Fire pit",
+      "Eco-toilet"
+    ],
+    "affiliateLinks": {
+      "booking": "https://www.booking.com/hotel/gb/redwood-valley-yurts.html",
+      "uniquehideaways": "https://uniquehideaways.com/wales/yurts"
+    },
+    "tags": ["yurt", "wales", "hot-tub", "woodland", "off-grid", "luxury"],
+    "featured": true,
+    "region": "Wales"
+  },
+  {
+    "id": "secret-garden-glamping-lancashire",
+    "slug": "secret-garden-glamping-lancashire",
+    "title": "Secret Garden Glamping",
+    "subtitle": "Family-Friendly Luxury in the Forest of Bowland",
+    "location": "Lancashire, England",
+    "description": "A magical collection of luxury yurts, pods, lodges, and a treehouse set in the Forest of Bowland. Family-friendly with hot tubs, play areas, and farm animals.",
+    "longDescription": "The Secret Garden is where fairy tales come to life. This award-winning glamping site offers something for everyone—from romantic yurts for couples to spacious lodges for families. Each accommodation features its own hot tub, fire pit, and private deck overlooking the Lancashire countryside. The site includes a children's play area, friendly farm animals, and woodland trails perfect for little explorers. The luxury yurts are particularly special—boho-chic interiors with king-size beds, wood-burners, and en-suite bathrooms. The treehouse is the crown jewel: a two-story hideaway with panoramic views, perfect for families or groups. Located in the Forest of Bowland Area of Outstanding Natural Beauty, you're surrounded by rolling hills, stone villages, and dark skies perfect for stargazing.",
+    "price": 195,
+    "currency": "GBP",
+    "duration": "per night (2 night minimum)",
+    "capacity": "2-6 guests",
+    "imageUrl": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?w=1200&q=80",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?w=600&q=80",
+    "highlights": [
+      "Multiple accommodation types",
+      "Private hot tubs for all units",
+      "Family-friendly with play areas",
+      "Farm animals on site",
+      "Forest of Bowland location",
+      "Award-winning facilities"
+    ],
+    "amenities": [
+      "En-suite bathrooms",
+      "Hot tubs",
+      "Full kitchens",
+      "Fire pits",
+      "BBQ facilities",
+      "Children's play area"
+    ],
+    "affiliateLinks": {
+      "booking": "https://www.booking.com/hotel/gb/secret-garden-glamping.html",
+      "direct": "https://www.thesecretgardenglamping.uk"
+    },
+    "tags": ["yurt", "family-friendly", "hot-tub", "glamping", "farm", "treehouse"],
+    "featured": true,
+    "region": "North West England"
+  },
+  {
+    "id": "tree-house-retreats-sussex",
+    "slug": "tree-house-retreats-sussex",
+    "title": "Tree House Retreats",
+    "subtitle": "Dog-Friendly Woodland Escapes",
+    "location": "West Sussex, England",
+    "description": "Luxury treehouses in the South Downs, each with hot tubs and dog-friendly facilities. Perfect for couples seeking romance or families wanting adventure.",
+    "longDescription": "Tree House Retreats offers the best of both worlds—luxury accommodation in a wild setting, all while welcoming your furry family members. Each treehouse is uniquely designed, from the romantic 'Nest' for couples to the spacious 'Hideaway' for families. Built using sustainable materials and elevated on stilts, these structures blend into the ancient woodland. Inside, expect king-size beds, underfloor heating, and modern kitchens. Outside, your private deck features a cedar hot tub and fire pit. The South Downs National Park surrounds you—miles of dog-walking trails, historic villages, and stunning viewpoints. Return from your adventures to find your treehouse glowing warmly through the trees, wood smoke curling from the chimney.",
+    "price": 210,
+    "currency": "GBP",
+    "duration": "per night (2 night minimum)",
+    "capacity": "2-4 guests + dogs",
+    "imageUrl": "https://images.unsplash.com/photo-1587061949409-02df41d5e562?w=1200&q=80",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1587061949409-02df41d5e562?w=600&q=80",
+    "highlights": [
+      "Dog-friendly with secure gardens",
+      "South Downs National Park",
+      "Private hot tubs",
+      "Underfloor heating",
+      "Sustainable construction",
+      "Multiple treehouse designs"
+    ],
+    "amenities": [
+      "King-size beds",
+      "Full kitchens",
+      "Hot tubs",
+      "Fire pits",
+      "Dog facilities",
+      "Parking"
+    ],
+    "affiliateLinks": {
+      "booking": "https://www.booking.com/hotel/gb/tree-house-retreats.html",
+      "hostunusual": "https://hostunusual.com/uk/west-sussex/treehouses"
+    },
+    "tags": ["treehouse", "dog-friendly", "hot-tub", "south-downs", "luxury", "family-friendly"],
+    "featured": false,
+    "region": "South East England"
+  },
+  {
+    "id": "highland-yurt-hideaway-scotland",
+    "slug": "highland-yurt-hideaway-scotland",
+    "title": "Highland Yurt Hideaway",
+    "subtitle": "Remote Luxury with Sea Views",
+    "location": "Scottish Highlands",
+    "description": "An isolated yurt on a clifftop overlooking the North Sea. Complete privacy, dramatic coastal scenery, and the chance to spot dolphins, seals, and eagles.",
+    "longDescription": "This is Scotland at its most dramatic. Perched on a clifftop with 180-degree views of the North Sea, this luxury yurt offers solitude that's increasingly rare. The nearest neighbor is over a mile away. Inside, the yurt is surprisingly spacious—a king-size bed, wood-burner, and cozy seating area. The outdoor kitchen is sheltered from the wind, perfect for cooking fresh seafood from nearby fishing villages. A short walk brings you to a private beach where seals bask on rocks and dolphins patrol the waves. In summer, the sun barely sets. In winter, the Northern Lights dance over the water. This is a place to disconnect completely—no WiFi, no phone signal, just the sound of waves and seabirds.",
+    "price": 145,
+    "currency": "GBP",
+    "duration": "per night",
+    "capacity": "2 guests",
+    "imageUrl": "https://images.unsplash.com/photo-1533873984035-25970ab07461?w=1200&q=80",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1533873984035-25970ab07461?w=600&q=80",
+    "highlights": [
+      "Clifftop sea views",
+      "Complete isolation",
+      "Wildlife watching (dolphins, seals, eagles)",
+      "Private beach access",
+      "Northern Lights viewing",
+      "Off-grid experience"
+    ],
+    "amenities": [
+      "King-size bed",
+      "Wood-burner",
+      "Outdoor kitchen",
+      "Composting toilet",
+      "Solar lighting",
+      "Campfire area"
+    ],
+    "affiliateLinks": {
+      "booking": "https://www.booking.com/scotland/yurts",
+      "hipcamp": "https://www.hipcamp.com/en-GB/scotland/yurts"
+    },
+    "tags": ["yurt", "scotland", "remote", "sea-views", "wildlife", "off-grid"],
+    "featured": false,
+    "region": "Scottish Highlands"
+  },
+  {
+    "id": "forest-holidays-dean-england",
+    "slug": "forest-holidays-dean-england",
+    "title": "Forest Holidays - Forest of Dean",
+    "subtitle": "Luxury Cabins with Adventure Activities",
+    "location": "Gloucestershire, England",
+    "description": "Premium woodland cabins in the ancient Forest of Dean. Hot tubs, forest activities, and family-friendly adventures including zip-lining and archery.",
+    "longDescription": "Forest Holidays has perfected the art of luxury woodland living. Their Forest of Dean site offers premium cabins that feel like five-star hotels—underfloor heating, king-size beds, and floor-to-ceiling windows overlooking ancient oaks. Each cabin has a private hot tub on the deck, perfect after a day of forest adventures. The site offers guided activities: forest bathing, bushcraft workshops, archery, and mountain biking. For families, there's a play area, den-building sessions, and wildlife tracking. The Forest of Dean itself is magical—one of England's oldest woodlands, home to wild boar, deer, and rare birds. Nearby, explore medieval castles, the Wye Valley, and charming market towns.",
+    "price": 245,
+    "currency": "GBP",
+    "duration": "per night (3 night minimum)",
+    "capacity": "4-8 guests",
+    "imageUrl": "https://images.unsplash.com/photo-1464146072230-91cabc968266?w=1200&q=80",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1464146072230-91cabc968266?w=600&q=80",
+    "highlights": [
+      "Luxury cabin accommodation",
+      "Private hot tubs",
+      "Guided forest activities",
+      "Family-friendly programs",
+      "Ancient woodland setting",
+      "On-site restaurant"
+    ],
+    "amenities": [
+      "Full kitchens",
+      "Hot tubs",
+      "Underfloor heating",
+      "Multiple bedrooms",
+      "WiFi available",
+      "Activity center"
+    ],
+    "affiliateLinks": {
+      "booking": "https://www.booking.com/hotel/gb/forest-holidays-dean.html",
+      "direct": "https://www.forestholidays.co.uk/locations/forest-of-dean"
+    },
+    "tags": ["cabin", "luxury", "family-friendly", "activities", "hot-tub", "forest"],
+    "featured": false,
+    "region": "South West England"
+  }
+]
