@@ -15,6 +15,7 @@ import Testimonials from '@/components/Testimonials';
 import WhyChooseUs from '@/components/WhyChooseUs';
 import NewsletterSignup from '@/components/NewsletterSignup';
 import StatsBar from '@/components/StatsBar';
+import UKStaysPreview from '@/components/UKStaysPreview';
 import { Button } from '@/components/ui/button';
 import heroTropical from '@/assets/hero-tropical.jpg';
 import islandAerial from '@/assets/island-aerial.jpg';
@@ -365,6 +366,9 @@ const Index = () => {
             </motion.div>
           </div>
         </section>
+
+        {/* UK Stays Preview Section */}
+        <UKStaysPreview />
 
         {/* Featured Stories Section */}
         <section className="py-24 bg-muted/30">
