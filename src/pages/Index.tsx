@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowRight, Play, Calendar, MapPin, Sparkles } from 'lucide-react';
+import { ArrowRight, Play, Calendar, MapPin, Sparkles, BookOpen, Clock } from 'lucide-react';
 import holidays from '@/data/holidays.json';
 import calendarData from '@/data/calendarEvents.json';
+import storiesData from '@/data/stories.json';
+import { Story } from '@/types/story';
 import { Holiday } from '@/types/holiday';
 import SEOHead from '@/components/SEOHead';
 import Navbar from '@/components/Navbar';
@@ -22,13 +24,35 @@ import { calendarImages } from '@/lib/calendarImages';
 
 const typedHolidays = holidays as Holiday[];
 const featuredHolidays = typedHolidays.filter(h => h.featured);
+const featuredStories = (storiesData.stories as Story[]).filter(s => s.featured).slice(0, 3);
 
-// Get current month and next 3 months for featured calendar section
-const currentMonthIndex = new Date().getMonth();
-const featuredMonths = [0, 1, 2, 3].map(offset => {
-  const monthIndex = (currentMonthIndex + offset) % 12;
-  return calendarData.months[monthIndex];
-});
+// 3 Featured Festivals - the most visually spectacular
+const featuredFestivals = [
+  { 
+    name: "Holi Festival", 
+    location: "India", 
+    dates: "March 25", 
+    monthId: 3,
+    description: "Explode into color during the world's most vibrant celebration",
+    image: "march"
+  },
+  { 
+    name: "Rio Carnival", 
+    location: "Brazil", 
+    dates: "February 9-17", 
+    monthId: 2,
+    description: "Samba through the streets in Earth's greatest party",
+    image: "february"
+  },
+  { 
+    name: "Burning Man", 
+    location: "Nevada, USA", 
+    dates: "August 25 - September 2", 
+    monthId: 8,
+    description: "Join 80,000 souls in the desert's most surreal gathering",
+    image: "august"
+  }
+];
 
 const Index = () => {
   return (
@@ -200,7 +224,7 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Featured Travel Calendar Section */}
+        {/* Featured Festivals Section */}
         <section className="py-24 bg-gradient-hero relative overflow-hidden">
           <div className="absolute inset-0">
             <div className="absolute top-20 right-10 w-96 h-96 bg-secondary/10 rounded-full blur-3xl animate-pulse-slow" />
@@ -216,68 +240,61 @@ const Index = () => {
             >
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-secondary/30 bg-secondary/5 mb-6">
                 <Sparkles className="w-4 h-4 text-secondary" />
-                <span className="text-sm font-body text-secondary">Plan by Season</span>
+                <span className="text-sm font-body text-secondary">Must-See Events</span>
               </div>
               <h2 className="font-display text-4xl md:text-5xl text-gradient-gold mb-4">
-                World Festival Calendar
+                World's Greatest Festivals
               </h2>
               <p className="text-muted-foreground font-body max-w-2xl mx-auto text-lg">
-                Time your adventures to witness humanity's most spectacular celebrations
+                Three extraordinary celebrations that will transform how you see the world
               </p>
             </motion.div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-              {featuredMonths.map((month, index) => (
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+              {featuredFestivals.map((festival, index) => (
                 <motion.div
-                  key={month.id}
+                  key={festival.name}
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
-                  transition={{ delay: index * 0.1 }}
+                  transition={{ delay: index * 0.15 }}
                 >
                   <Link 
                     to="/calendar" 
-                    className="group block relative overflow-hidden rounded-2xl aspect-[3/4] hover-scale"
+                    className="group block relative overflow-hidden rounded-2xl aspect-[4/5] hover-scale"
                   >
                     <img 
-                      src={calendarImages[month.id]} 
-                      alt={`${month.name} - ${month.theme}`}
+                      src={calendarImages[festival.monthId]} 
+                      alt={festival.name}
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent" />
                     
-                    {/* Month Badge */}
+                    {/* Date Badge */}
                     <div className="absolute top-4 left-4">
-                      <div className="px-3 py-1.5 rounded-full bg-background/80 backdrop-blur-sm border border-secondary/30">
-                        <span className="font-display text-lg text-gradient-gold">{month.name}</span>
+                      <div className="px-3 py-1.5 rounded-full bg-secondary/90 backdrop-blur-sm">
+                        <span className="font-body text-sm text-background font-medium">{festival.dates}</span>
                       </div>
                     </div>
                     
                     {/* Content */}
-                    <div className="absolute bottom-0 left-0 right-0 p-5">
-                      <h3 className="font-display text-xl text-foreground mb-2 group-hover:text-secondary transition-colors">
-                        {month.theme}
-                      </h3>
-                      
-                      {/* Top Festival */}
-                      {month.festivals.find(f => f.highlight) && (
-                        <div className="flex items-center gap-2 text-muted-foreground">
-                          <MapPin className="w-3 h-3 text-secondary" />
-                          <span className="font-body text-sm line-clamp-1">
-                            {month.festivals.find(f => f.highlight)?.name}
-                          </span>
-                        </div>
-                      )}
-                      
-                      <div className="mt-3 flex items-center gap-1 text-secondary">
-                        <Calendar className="w-3 h-3" />
-                        <span className="text-xs font-body">{month.festivals.length} events</span>
+                    <div className="absolute bottom-0 left-0 right-0 p-6">
+                      <div className="flex items-center gap-2 text-secondary mb-2">
+                        <MapPin className="w-4 h-4" />
+                        <span className="font-body text-sm">{festival.location}</span>
                       </div>
-                    </div>
-                    
-                    {/* Hover Arrow */}
-                    <div className="absolute top-4 right-4 w-10 h-10 rounded-full bg-secondary/20 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 translate-x-2 group-hover:translate-x-0">
-                      <ArrowRight className="w-5 h-5 text-secondary" />
+                      <h3 className="font-display text-2xl text-foreground mb-2 group-hover:text-secondary transition-colors">
+                        {festival.name}
+                      </h3>
+                      <p className="font-body text-sm text-muted-foreground line-clamp-2">
+                        {festival.description}
+                      </p>
+                      
+                      {/* Explore Arrow */}
+                      <div className="mt-4 flex items-center gap-2 text-secondary opacity-0 group-hover:opacity-100 transition-all duration-300 translate-y-2 group-hover:translate-y-0">
+                        <span className="font-body text-sm">Explore Festival</span>
+                        <ArrowRight className="w-4 h-4" />
+                      </div>
                     </div>
                   </Link>
                 </motion.div>
@@ -342,6 +359,87 @@ const Index = () => {
               <Button variant="mystical" size="lg" asChild>
                 <Link to="/holidays">
                   View All Destinations
+                  <ArrowRight className="ml-2 w-5 h-5" />
+                </Link>
+              </Button>
+            </motion.div>
+          </div>
+        </section>
+
+        {/* Featured Stories Section */}
+        <section className="py-24 bg-muted/30">
+          <div className="container mx-auto px-4">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="text-center mb-12"
+            >
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-secondary/30 bg-secondary/5 mb-6">
+                <BookOpen className="w-4 h-4 text-secondary" />
+                <span className="text-sm font-body text-secondary">Travel Stories</span>
+              </div>
+              <h2 className="font-display text-4xl md:text-5xl text-gradient-gold mb-4">
+                Stories from the Edge
+              </h2>
+              <p className="text-muted-foreground font-body max-w-2xl mx-auto text-lg">
+                First-person accounts from destinations that changed us forever
+              </p>
+            </motion.div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+              {featuredStories.map((story, index) => (
+                <motion.article
+                  key={story.id}
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: index * 0.1 }}
+                >
+                  <Link 
+                    to={`/stories/${story.slug}`}
+                    className="group block h-full"
+                  >
+                    <div className="relative overflow-hidden rounded-2xl bg-card border border-border/50 h-full hover:border-secondary/50 transition-all duration-300 p-6">
+                      <div className="absolute inset-0 bg-gradient-to-br from-secondary/5 via-transparent to-primary/5" />
+                      
+                      <div className="relative">
+                        <span className="inline-block px-3 py-1 rounded-full bg-secondary/10 text-secondary text-xs font-body mb-4">
+                          {story.category}
+                        </span>
+                        
+                        <h3 className="font-display text-xl text-foreground group-hover:text-secondary transition-colors mb-3">
+                          {story.title}
+                        </h3>
+                        
+                        <p className="text-muted-foreground font-body text-sm line-clamp-3 mb-4">
+                          {story.excerpt}
+                        </p>
+                        
+                        <div className="flex items-center justify-between text-sm text-muted-foreground pt-4 border-t border-border/50">
+                          <div className="flex items-center gap-2">
+                            <Clock className="w-3 h-3" />
+                            <span>{story.readTime}</span>
+                          </div>
+                          <span className="text-secondary group-hover:underline">Read story →</span>
+                        </div>
+                      </div>
+                    </div>
+                  </Link>
+                </motion.article>
+              ))}
+            </div>
+
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              className="text-center"
+            >
+              <Button variant="mystical" size="lg" asChild>
+                <Link to="/stories">
+                  <BookOpen className="mr-2 w-5 h-5" />
+                  Read All Stories
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Link>
               </Button>
