@@ -5,6 +5,7 @@ import ukStaysData from '@/data/ukStays.json';
 import { UKStay } from '@/types/ukStay';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
+import { getUKStayImage } from '@/lib/ukStayImages';
 
 const typedUKStays = ukStaysData as UKStay[];
 const featuredUKStays = typedUKStays.filter(stay => stay.featured).slice(0, 3);
@@ -47,7 +48,7 @@ const UKStaysPreview = () => {
               >
                 <div className="relative overflow-hidden rounded-2xl aspect-[4/3] mb-4">
                   <img 
-                    src={stay.thumbnailUrl} 
+                    src={getUKStayImage(stay.id) || stay.thumbnailUrl} 
                     alt={stay.title}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />
