@@ -14,6 +14,7 @@ import Stories from "./pages/Stories";
 import StoryDetail from "./pages/StoryDetail";
 import UKStays from "./pages/UKStays";
 import UKStayDetail from "./pages/UKStayDetail";
+import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -36,6 +37,7 @@ const App = () => (
               <Route path="/calendar" element={<TravelCalendar />} />
               <Route path="/stories" element={<Stories />} />
               <Route path="/stories/:slug" element={<StoryDetail />} />
+              <Route path="/about" element={<About />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </BrowserRouter>
