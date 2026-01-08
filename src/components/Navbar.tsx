@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Heart, Calendar, BookOpen, Home } from 'lucide-react';
+import { Menu, X, Heart, Calendar, BookOpen, Home, Info } from 'lucide-react';
 import Logo from './Logo';
 import { Button } from './ui/button';
 import { useWishlistContext } from '@/contexts/WishlistContext';
@@ -17,6 +17,7 @@ const Navbar = () => {
     { path: '/uk-stays', label: 'UK Stays', icon: Home },
     { path: '/calendar', label: 'Calendar', icon: Calendar },
     { path: '/stories', label: 'Stories', icon: BookOpen },
+    { path: '/about', label: 'About', icon: Info },
     { path: '/wishlist', label: 'Wishlist', icon: Heart, badge: wishlistCount },
   ];
 
