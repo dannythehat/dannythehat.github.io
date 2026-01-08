@@ -8,7 +8,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { useWishlist } from '@/contexts/WishlistContext';
+import { useWishlistContext } from '@/contexts/WishlistContext';
 import { useToast } from '@/hooks/use-toast';
 
 const typedUKStays = ukStaysData as UKStay[];
@@ -16,7 +16,7 @@ const typedUKStays = ukStaysData as UKStay[];
 const UKStayDetail = () => {
   const { slug } = useParams();
   const stay = typedUKStays.find(s => s.slug === slug);
-  const { addToWishlist, removeFromWishlist, isInWishlist } = useWishlist();
+  const { toggleWishlist, isInWishlist } = useWishlistContext();
   const { toast } = useToast();
 
   if (!stay) {
@@ -42,27 +42,11 @@ const UKStayDetail = () => {
   const inWishlist = isInWishlist(stay.id);
 
   const handleWishlistToggle = () => {
-    if (inWishlist) {
-      removeFromWishlist(stay.id);
-      toast({
-        title: "Removed from wishlist",
-        description: `${stay.title} has been removed from your wishlist.`,
-      });
-    } else {
-      addToWishlist({
-        id: stay.id,
-        title: stay.title,
-        location: stay.location,
-        imageUrl: stay.thumbnailUrl,
-        price: stay.price,
-        currency: stay.currency,
-        type: 'uk-stay'
-      });
-      toast({
-        title: "Added to wishlist",
-        description: `${stay.title} has been added to your wishlist.`,
-      });
-    }
+    toggleWishlist(stay.id);
+    toast({
+      title: inWishlist ? "Removed from wishlist" : "Added to wishlist",
+      description: `${stay.title} has been ${inWishlist ? 'removed from' : 'added to'} your wishlist.`,
+    });
   };
 
   const handleShare = async () => {
