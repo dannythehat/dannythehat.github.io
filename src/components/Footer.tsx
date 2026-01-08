@@ -34,16 +34,28 @@ const Footer = () => {
                 All Destinations
               </Link>
               <Link 
-                to="/holidays?difficulty=extreme" 
+                to="/uk-stays" 
                 className="text-muted-foreground hover:text-secondary transition-colors font-body text-sm"
               >
-                Extreme Adventures
+                UK Stays
               </Link>
               <Link 
-                to="/holidays?tag=wildlife" 
+                to="/calendar" 
                 className="text-muted-foreground hover:text-secondary transition-colors font-body text-sm"
               >
-                Wildlife Encounters
+                Travel Calendar
+              </Link>
+              <Link 
+                to="/stories" 
+                className="text-muted-foreground hover:text-secondary transition-colors font-body text-sm"
+              >
+                Travel Stories
+              </Link>
+              <Link 
+                to="/about" 
+                className="text-muted-foreground hover:text-secondary transition-colors font-body text-sm"
+              >
+                About Us
               </Link>
             </nav>
           </div>
@@ -72,9 +84,23 @@ const Footer = () => {
           <p className="text-muted-foreground text-sm font-body">
             © {new Date().getFullYear()} Beyond Ordinary. All rights reserved.
           </p>
-          <p className="text-muted-foreground/60 text-xs font-body">
-            Affiliate disclosure: We earn commissions from qualifying purchases.
-          </p>
+          <div className="flex flex-col md:flex-row gap-4 text-center md:text-right">
+            <Link 
+              to="/privacy" 
+              className="text-muted-foreground/60 hover:text-muted-foreground text-xs font-body transition-colors"
+            >
+              Privacy Policy
+            </Link>
+            <Link 
+              to="/terms" 
+              className="text-muted-foreground/60 hover:text-muted-foreground text-xs font-body transition-colors"
+            >
+              Terms & Conditions
+            </Link>
+            <p className="text-muted-foreground/60 text-xs font-body">
+              Affiliate disclosure: We earn commissions from qualifying purchases.
+            </p>
+          </div>
         </div>
       </div>
     </footer>
