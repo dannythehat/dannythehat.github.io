@@ -10,6 +10,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { useWishlistContext } from '@/contexts/WishlistContext';
 import { useToast } from '@/hooks/use-toast';
+import { getUKStayImage } from '@/lib/ukStayImages';
 
 const typedUKStays = ukStaysData as UKStay[];
 
@@ -81,7 +82,7 @@ const UKStayDetail = () => {
         {/* Hero Image */}
         <div className="relative h-[60vh] overflow-hidden">
           <img 
-            src={stay.imageUrl} 
+            src={getUKStayImage(stay.id) || stay.imageUrl} 
             alt={stay.title}
             className="w-full h-full object-cover"
           />
@@ -277,7 +278,7 @@ const UKStayDetail = () => {
                     <div className="group">
                       <div className="relative overflow-hidden rounded-lg aspect-[4/3] mb-4">
                         <img 
-                          src={similarStay.thumbnailUrl} 
+                          src={getUKStayImage(similarStay.id) || similarStay.thumbnailUrl} 
                           alt={similarStay.title}
                           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                         />

@@ -8,6 +8,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
+import { getUKStayImage } from '@/lib/ukStayImages';
 
 const typedUKStays = ukStaysData as UKStay[];
 
@@ -85,7 +86,7 @@ const UKStays = () => {
                   <Link to={`/uk-stays/${stay.slug}`}>
                     <div className="relative overflow-hidden rounded-lg aspect-[4/3] mb-4">
                       <img 
-                        src={stay.thumbnailUrl} 
+                        src={getUKStayImage(stay.id) || stay.thumbnailUrl} 
                         alt={stay.title}
                         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                       />
@@ -153,7 +154,7 @@ const UKStays = () => {
                     <Link to={`/uk-stays/${stay.slug}`}>
                       <div className="relative overflow-hidden rounded-lg aspect-[4/3] mb-4">
                         <img 
-                          src={stay.thumbnailUrl} 
+                          src={getUKStayImage(stay.id) || stay.thumbnailUrl} 
                           alt={stay.title}
                           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                         />
