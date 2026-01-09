@@ -16,6 +16,7 @@ import WhyChooseUs from '@/components/WhyChooseUs';
 import NewsletterSignup from '@/components/NewsletterSignup';
 import StatsBar from '@/components/StatsBar';
 import UKStaysPreview from '@/components/UKStaysPreview';
+import SevenWonders from '@/components/SevenWonders';
 import { Button } from '@/components/ui/button';
 import logoImage from '@/assets/logo.png';
 import { calendarImages } from '@/lib/calendarImages';
@@ -506,6 +507,9 @@ const Index = () => {
             </motion.div>
           </div>
         </section>
+
+        {/* 7 Wonders of the World */}
+        <SevenWonders />
 
         {/* Featured Holidays */}
         <section id="featured" className="py-24 bg-background">
