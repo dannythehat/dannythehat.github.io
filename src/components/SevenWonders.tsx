@@ -17,7 +17,7 @@ const sevenWonders = [
     name: "Petra",
     location: "Jordan",
     description: "Ancient rose-red city carved into cliffs, featuring the iconic Treasury temple.",
-    image: "https://images.unsplash.com/photo-1579606032821-4e6161c81571?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1548786811-dd6e453ccca7?w=800&q=80",
     visitInfo: "Open daily. Night tours available on Mon, Wed, Thu.",
     link: "https://www.viator.com/Petra/d970-ttd"
   },
@@ -25,7 +25,7 @@ const sevenWonders = [
     name: "Christ the Redeemer",
     location: "Rio de Janeiro, Brazil",
     description: "Iconic Art Deco statue of Jesus overlooking Rio from Corcovado mountain.",
-    image: "https://images.unsplash.com/photo-1564659907532-6b5f98c8e4f5?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1619546952812-520e98064a52?w=800&q=80",
     visitInfo: "Open daily 8am-7pm. Train or van access available.",
     link: "https://www.viator.com/Rio-de-Janeiro-attractions/Christ-the-Redeemer-Statue/d712-a806"
   },
