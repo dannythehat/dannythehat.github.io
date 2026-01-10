@@ -24,52 +24,51 @@ const Navbar = () => {
   const isActive = (path: string) => location.pathname === path;
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 glass-card border-b border-border/20">
+    <nav className="fixed top-0 left-0 right-0 z-50 glass-card border-b border-secondary/10">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          <Link to="/">
+          <Link to="/" className="transition-transform duration-300 hover:scale-105">
             <Logo />
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-10">
             {navLinks.map((link) => (
               <Link
                 key={link.path}
                 to={link.path}
-                className="relative group flex items-center gap-1.5"
+                className="relative group flex items-center gap-2"
               >
                 {link.icon && (
                   <link.icon 
-                    size={16} 
-                    className={`transition-colors duration-300 ${
+                    size={15} 
+                    className={`transition-all duration-500 ${
                       isActive(link.path) 
-                        ? 'text-rose-500' 
-                        : 'text-foreground/70 group-hover:text-rose-500'
+                        ? 'text-secondary' 
+                        : 'text-muted-foreground group-hover:text-secondary'
                     } ${link.badge ? 'fill-current' : ''}`}
                   />
                 )}
-                <span className={`font-body text-sm tracking-wide transition-colors duration-300 ${
+                <span className={`font-body text-sm tracking-wider transition-all duration-500 ${
                   isActive(link.path) 
-                    ? 'text-secondary' 
-                    : 'text-foreground/70 hover:text-foreground'
+                    ? 'text-foreground' 
+                    : 'text-muted-foreground group-hover:text-foreground'
                 }`}>
                   {link.label}
                 </span>
                 {link.badge !== undefined && link.badge > 0 && (
-                  <span className="absolute -top-2 -right-4 w-5 h-5 rounded-full bg-rose-500 text-white text-xs flex items-center justify-center font-body">
+                  <span className="absolute -top-2 -right-4 w-5 h-5 rounded-full bg-secondary text-secondary-foreground text-xs flex items-center justify-center font-body font-medium">
                     {link.badge}
                   </span>
                 )}
-                {isActive(link.path) && (
-                  <motion.div
-                    layoutId="navbar-indicator"
-                    className="absolute -bottom-1 left-0 right-0 h-0.5 bg-gradient-gold rounded-full"
-                  />
-                )}
+                <motion.div
+                  className={`absolute -bottom-1 left-0 right-0 h-px bg-gradient-to-r from-transparent via-secondary to-transparent transition-all duration-500 ${
+                    isActive(link.path) ? 'opacity-100' : 'opacity-0 group-hover:opacity-50'
+                  }`}
+                />
               </Link>
             ))}
-            <Button variant="mystical" size="sm" asChild>
+            <Button variant="gold" size="sm" className="ml-4" asChild>
               <Link to="/holidays">Explore Now</Link>
             </Button>
           </div>
@@ -80,18 +79,18 @@ const Navbar = () => {
             <Link to="/wishlist" className="relative p-2">
               <Heart 
                 size={22} 
-                className={`transition-colors ${
-                  isActive('/wishlist') ? 'text-rose-500 fill-current' : 'text-foreground/70'
+                className={`transition-all duration-500 ${
+                  isActive('/wishlist') ? 'text-secondary fill-current' : 'text-muted-foreground'
                 }`}
               />
               {wishlistCount > 0 && (
-                <span className="absolute -top-1 -right-1 w-5 h-5 rounded-full bg-rose-500 text-white text-xs flex items-center justify-center font-body">
+                <span className="absolute -top-1 -right-1 w-5 h-5 rounded-full bg-secondary text-secondary-foreground text-xs flex items-center justify-center font-body font-medium">
                   {wishlistCount}
                 </span>
               )}
             </Link>
             <button
-              className="p-2 text-foreground"
+              className="p-2 text-foreground/70 hover:text-foreground transition-colors duration-300"
               onClick={() => setIsOpen(!isOpen)}
               aria-label="Toggle menu"
             >
@@ -108,32 +107,45 @@ const Navbar = () => {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden glass-card border-t border-border/20"
+            transition={{ duration: 0.4, ease: "easeInOut" }}
+            className="md:hidden glass-card border-t border-secondary/10"
           >
-            <div className="container mx-auto px-4 py-6 flex flex-col gap-4">
-              {navLinks.map((link) => (
-                <Link
+            <div className="container mx-auto px-4 py-8 flex flex-col gap-2">
+              {navLinks.map((link, index) => (
+                <motion.div
                   key={link.path}
-                  to={link.path}
-                  onClick={() => setIsOpen(false)}
-                  className={`font-body text-lg py-2 transition-colors flex items-center gap-2 ${
-                    isActive(link.path) 
-                      ? 'text-secondary' 
-                      : 'text-foreground/70'
-                  }`}
+                  initial={{ opacity: 0, x: -20 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: index * 0.05 }}
                 >
-                  {link.icon && <link.icon size={18} className={link.badge ? 'text-rose-500 fill-current' : ''} />}
-                  {link.label}
-                  {link.badge !== undefined && link.badge > 0 && (
-                    <span className="ml-auto text-sm text-muted-foreground">({link.badge})</span>
-                  )}
-                </Link>
+                  <Link
+                    to={link.path}
+                    onClick={() => setIsOpen(false)}
+                    className={`font-body text-lg py-3 px-4 rounded-xl transition-all duration-300 flex items-center gap-3 ${
+                      isActive(link.path) 
+                        ? 'text-foreground bg-secondary/10' 
+                        : 'text-muted-foreground hover:text-foreground hover:bg-muted/30'
+                    }`}
+                  >
+                    {link.icon && <link.icon size={18} className={link.badge ? 'text-secondary' : ''} />}
+                    {link.label}
+                    {link.badge !== undefined && link.badge > 0 && (
+                      <span className="ml-auto text-sm text-secondary font-medium">({link.badge})</span>
+                    )}
+                  </Link>
+                </motion.div>
               ))}
-              <Button variant="mystical" className="mt-4" asChild>
-                <Link to="/holidays" onClick={() => setIsOpen(false)}>
-                  Explore Now
-                </Link>
-              </Button>
+              <motion.div
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.3 }}
+              >
+                <Button variant="gold" className="mt-6 w-full" asChild>
+                  <Link to="/holidays" onClick={() => setIsOpen(false)}>
+                    Explore Now
+                  </Link>
+                </Button>
+              </motion.div>
             </div>
           </motion.div>
         )}
