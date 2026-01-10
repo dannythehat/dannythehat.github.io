@@ -1,5 +1,6 @@
+import { useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import { motion, useScroll, useTransform } from 'framer-motion';
 import { ArrowRight, Play, Calendar, MapPin, Sparkles, BookOpen, Clock, Star } from 'lucide-react';
 import holidays from '@/data/holidays.json';
 import calendarData from '@/data/calendarEvents.json';
@@ -64,16 +65,42 @@ const featuredFestivals = [
 ];
 
 const Index = () => {
+  // Parallax refs and scroll progress
+  const heroRef = useRef<HTMLElement>(null);
+  const showcaseRef = useRef<HTMLElement>(null);
+  
+  const { scrollYProgress: heroProgress } = useScroll({
+    target: heroRef,
+    offset: ["start start", "end start"]
+  });
+  
+  const { scrollYProgress: showcaseProgress } = useScroll({
+    target: showcaseRef,
+    offset: ["start end", "end start"]
+  });
+  
+  // Hero parallax transforms
+  const heroImageY = useTransform(heroProgress, [0, 1], ["0%", "30%"]);
+  const heroImageScale = useTransform(heroProgress, [0, 1], [1, 1.1]);
+  const heroContentY = useTransform(heroProgress, [0, 1], ["0%", "50%"]);
+  const heroOpacity = useTransform(heroProgress, [0, 0.8], [1, 0]);
+  
+  // Showcase parallax transforms
+  const showcaseBgY = useTransform(showcaseProgress, [0, 1], ["0%", "15%"]);
+
   return (
     <>
       <SEOHead />
       <Navbar />
       
       <main>
-        {/* Hero Section with stunning 8K tropical image */}
-        <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-          {/* Background Image - 8K Quality */}
-          <div className="absolute inset-0">
+        {/* Hero Section with stunning 8K tropical image + Parallax */}
+        <section ref={heroRef} className="relative min-h-screen flex items-center justify-center overflow-hidden">
+          {/* Background Image - 8K Quality with Parallax */}
+          <motion.div 
+            className="absolute inset-0 will-change-transform"
+            style={{ y: heroImageY, scale: heroImageScale }}
+          >
             <img 
               src={heroImages.main}
               alt="Luxury tropical paradise at sunset" 
@@ -94,7 +121,7 @@ const Index = () => {
                 ease: "easeInOut"
               }}
             />
-          </div>
+          </motion.div>
           
           <StarField />
           
@@ -148,7 +175,10 @@ const Index = () => {
             </svg>
           </div>
           
-          <div className="container mx-auto px-4 pt-24 pb-16 relative z-10">
+          <motion.div 
+            className="container mx-auto px-4 pt-24 pb-16 relative z-10"
+            style={{ y: heroContentY, opacity: heroOpacity }}
+          >
             <motion.div
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
@@ -255,33 +285,41 @@ const Index = () => {
                 />
               </motion.div>
             </motion.div>
-          </div>
+          </motion.div>
         </section>
 
         {/* Stats Bar */}
         <StatsBar />
 
-        {/* Image Showcase Section - 8K Quality */}
-        <section className="py-20 bg-background relative overflow-hidden">
-          {/* Background decoration */}
-          <div className="absolute inset-0 opacity-30">
+        {/* Image Showcase Section - 8K Quality with Parallax */}
+        <section ref={showcaseRef} className="py-24 bg-background relative overflow-hidden">
+          {/* Background decoration with parallax */}
+          <motion.div 
+            className="absolute inset-0 opacity-30 will-change-transform"
+            style={{ y: showcaseBgY }}
+          >
             <div className="absolute top-0 left-1/4 w-96 h-96 bg-secondary/20 rounded-full blur-3xl" />
-            <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-primary/20 rounded-full blur-3xl" />
-          </div>
+            <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-accent/20 rounded-full blur-3xl" />
+          </motion.div>
           
           <div className="container mx-auto px-4 relative z-10">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="text-center mb-12"
+              className="text-center mb-16"
             >
-              <h2 className="font-display text-4xl md:text-5xl text-gradient-mystical mb-4">
-                Destinations That Defy Description
+              <span className="text-secondary font-body tracking-[0.3em] uppercase text-xs mb-4 block">
+                Visual Journey
+              </span>
+              <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-foreground font-light mb-4">
+                Destinations That{' '}
+                <span className="text-gradient-gold italic">Defy Description</span>
               </h2>
               <p className="text-muted-foreground font-body text-lg max-w-2xl mx-auto">
                 Every image tells a story. Every destination transforms a life.
               </p>
+              <div className="section-divider mt-8" />
             </motion.div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
