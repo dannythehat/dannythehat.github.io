@@ -1,474 +1,417 @@
 [
   {
-    "id": "arctic-unnamed-slopes",
-    "slug": "arctic-unnamed-slopes",
-    "title": "The Unnamed Arctic Slopes",
-    "subtitle": "Ski Where No Trail Has a Name",
-    "location": "Svalbard, Norway",
-    "description": "Venture into the pristine wilderness of the High Arctic, where unmarked powder fields cascade beneath the aurora borealis. No lift lines, no crowds—just you, the northern lights, and slopes that have never felt a ski edge.",
-    "longDescription": "In the remote archipelago of Svalbard, beyond the reach of ordinary adventure, lies a skiing experience that defies classification. Here, in the eternal twilight of polar winter, unnamed peaks pierce ice-blue skies while the aurora dances overhead. Expert guides navigate glacial terrain untouched by commercial tourism. Each descent writes new history across virgin snow. This isn't just skiing—it's communion with the sublime emptiness of Earth's final frontier.",
-    "price": 8500,
+    "id": "inca-trail-machu-picchu",
+    "slug": "inca-trail-machu-picchu",
+    "title": "Inca Trail to Machu Picchu",
+    "subtitle": "Walk in the Footsteps of Ancient Civilizations",
+    "location": "Sacred Valley, Peru",
+    "description": "Trek the legendary Inca Trail through cloud forests and mountain passes, arriving at Machu Picchu through the Sun Gate at dawn—a moment that changes how you see the world.",
+    "longDescription": "The Inca Trail isn't just a hike—it's a pilgrimage. Over four days, you'll climb to Dead Woman's Pass at 4,198 meters, walk through ancient ruins that predate Machu Picchu, and camp under star-filled Andean skies. On the final morning, you'll reach Inti Punku (the Sun Gate) before dawn, watching the first rays illuminate the Lost City of the Incas. This UNESCO World Heritage site reveals itself slowly, emerging from morning mist as you descend. Your expert guide will share stories of Incan engineering, spirituality, and the rediscovery of this sacred place. This journey demands physical effort but rewards you with a profound connection to history and landscape.",
+    "price": 1299,
     "currency": "USD",
-    "duration": "8 days",
-    "difficulty": "Expert",
-    "imageUrl": "https://images.unsplash.com/photo-1483921020237-2ff51e8e4b22?w=1200&q=80",
-    "thumbnailUrl": "https://images.unsplash.com/photo-1483921020237-2ff51e8e4b22?w=600&q=80",
-    "highlights": [
-      "Helicopter access to untracked slopes",
-      "Northern Lights skiing sessions",
-      "Polar bear safety protocols",
-      "Authentic Sami cultural immersion",
-      "Expedition-grade accommodation"
-    ],
-    "itinerary": [
-      { "day": 1, "title": "Arrival in Longyearbyen", "description": "Arrive at Earth's northernmost settlement. Evening aurora forecast briefing." },
-      { "day": 2, "title": "Glacier Orientation", "description": "Safety training and equipment check on accessible glacial terrain." },
-      { "day": 3, "title": "First Descents", "description": "Helicopter drop to unnamed peaks. 3,000m vertical in untouched powder." },
-      { "day": 4, "title": "The Midnight Run", "description": "Under the aurora, ski illuminated slopes in polar twilight." },
-      { "day": 5, "title": "Expedition Day", "description": "Full-day backcountry mission to remote eastern slopes." },
-      { "day": 6, "title": "Cultural Exchange", "description": "Visit Sami reindeer herders. Traditional feast and storytelling." },
-      { "day": 7, "title": "Final Peaks", "description": "Choose your own adventure from scouted locations." },
-      { "day": 8, "title": "Departure", "description": "Transfer to airport. Carry the Arctic silence home." }
-    ],
-    "affiliateLinks": {
-      "booking": "https://tp.media/click?shmarker=12345&pression_id=abc&locale=en&a_id=1&b_id=1&url=https://www.booking.com/searchresults.html?dest_id=-2606215",
-      "viator": "https://tp.media/click?shmarker=12345&promo_id=xyz&locale=en&a_id=2&url=https://www.viator.com/tours/Svalbard"
-    },
-    "tags": ["skiing", "arctic", "aurora", "extreme", "wilderness"],
-    "featured": true
-  },
-  {
-    "id": "bolivia-death-road",
-    "slug": "bolivia-death-road",
-    "title": "Bolivia's Death Road Descent",
-    "subtitle": "64 Kilometers of Pure Adrenaline",
-    "location": "Yungas Road, Bolivia",
-    "description": "Plunge down the world's most dangerous road on two wheels. From Andean peaks at 4,700m to the Amazon jungle at 1,200m, experience the ultimate gravity-fueled adventure.",
-    "longDescription": "Once the primary route connecting La Paz to the Amazon lowlands, the North Yungas Road earned its infamous nickname through its deadly combination of narrow width, sheer drops, and unpredictable weather. Today, it's the world's premier mountain biking descent. The journey begins in the thin air of La Cumbre pass, surrounded by snow-capped peaks, and ends in the humid embrace of the cloud forest. Waterfalls cascade across the path. Condors soar in thermal currents below. Every switchback reveals another impossible view.",
-    "price": 450,
-    "currency": "USD",
-    "duration": "1 day",
-    "difficulty": "Advanced",
-    "imageUrl": "https://images.unsplash.com/photo-1544191696-102dbdaeeaa0?w=1200&q=80",
-    "thumbnailUrl": "https://images.unsplash.com/photo-1544191696-102dbdaeeaa0?w=600&q=80",
-    "highlights": [
-      "4,700m to 1,200m elevation drop",
-      "Professional dual-suspension bikes",
-      "Experienced safety crew",
-      "Waterfall pit stops",
-      "Celebration lunch in Coroico"
-    ],
-    "itinerary": [
-      { "day": 1, "title": "The Descent", "description": "Pickup at 7am. Safety briefing at La Cumbre. 4-5 hours of riding through 29 climatic zones." }
-    ],
-    "affiliateLinks": {
-      "booking": "https://tp.media/click?shmarker=12345&promo_id=abc&locale=en&a_id=1&url=https://www.booking.com/searchresults.html?dest_id=-2078065",
-      "viator": "https://tp.media/click?shmarker=12345&promo_id=xyz&locale=en&a_id=2&url=https://www.viator.com/tours/La-Paz"
-    },
-    "tags": ["cycling", "extreme", "mountains", "adventure"],
-    "featured": true
-  },
-  {
-    "id": "congo-gorilla-trek",
-    "slug": "congo-gorilla-trek",
-    "title": "Congo's Hidden Gorilla Kingdom",
-    "subtitle": "Face to Face with Giants",
-    "location": "Virunga National Park, DRC",
-    "description": "Trek through primordial jungle to encounter the world's last mountain gorillas in Africa's oldest national park—a place few travelers dare to visit.",
-    "longDescription": "Virunga National Park is not for the faint of heart. This UNESCO World Heritage site in the Democratic Republic of Congo harbors Earth's most critically endangered great apes amid active volcanoes and dense rainforest. The journey here is an act of conservation—every visit directly funds ranger patrols protecting these gentle giants from poaching and habitat destruction. When a silverback locks eyes with you across five meters of jungle, time suspends. You'll understand why early explorers spoke of this place in hushed, reverent tones.",
-    "price": 3800,
-    "currency": "USD",
-    "duration": "5 days",
+    "duration": "7 days",
     "difficulty": "Challenging",
+    "imageUrl": "https://images.unsplash.com/photo-1587595431973-160d0d94add1?w=1200&q=80",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1587595431973-160d0d94add1?w=600&q=80",
+    "highlights": [
+      "4-day Inca Trail trek with expert guides",
+      "Sunrise arrival at Machu Picchu through Sun Gate",
+      "Sacred Valley cultural immersion",
+      "Camping under Andean stars",
+      "Small group (max 16 travelers)"
+    ],
+    "itinerary": [
+      { "day": 1, "title": "Cusco Arrival", "description": "Arrive in the ancient Incan capital. Acclimatization and orientation." },
+      { "day": 2, "title": "Sacred Valley Exploration", "description": "Visit Pisac ruins and local markets. Prepare for the trek ahead." },
+      { "day": 3, "title": "Trek Begins - Km 82", "description": "Start the Inca Trail. Hike to Wayllabamba camp (3,000m)." },
+      { "day": 4, "title": "Dead Woman's Pass", "description": "Climb to 4,198m, the trail's highest point. Descend to Pacaymayo camp." },
+      { "day": 5, "title": "Cloud Forest & Ruins", "description": "Pass through cloud forest. Visit Runkurakay and Sayacmarca ruins." },
+      { "day": 6, "title": "Sun Gate Dawn", "description": "Pre-dawn hike to Inti Punku. Watch sunrise over Machu Picchu. Guided tour of the citadel." },
+      { "day": 7, "title": "Return to Cusco", "description": "Train back through Sacred Valley. Celebration dinner in Cusco." }
+    ],
+    "affiliateLinks": {
+      "gadventures": "https://www.gadventures.com/trips/the-inca-trail/SPIT/"
+    },
+    "tags": ["trekking", "unesco", "cultural", "mountains", "spiritual"],
+    "featured": true
+  },
+  {
+    "id": "patagonia-hiking-torres-del-paine",
+    "slug": "patagonia-hiking-torres-del-paine",
+    "title": "Patagonia: Torres del Paine & Fitz Roy",
+    "subtitle": "Hike the End of the Earth",
+    "location": "Patagonia, Chile & Argentina",
+    "description": "Trek through the most dramatic landscapes on Earth—jagged peaks, electric-blue glaciers, and windswept valleys where condors soar overhead.",
+    "longDescription": "Patagonia is raw, untamed, and utterly magnificent. This 14-day journey takes you deep into two of the world's most iconic hiking destinations. In El Chaltén, Argentina, you'll trek to Laguna de los Tres for face-to-face views of Mount Fitz Roy's granite spires. Cross into Chile for the W Trek in Torres del Paine National Park, hiking to the base of the three towers, through the French Valley, and alongside Grey Glacier. Stand before Perito Moreno Glacier as house-sized chunks of ice calve into turquoise waters. The Patagonian wind will test you, the landscapes will humble you, and the experience will stay with you forever.",
+    "price": 3299,
+    "currency": "USD",
+    "duration": "14 days",
+    "difficulty": "Advanced",
     "imageUrl": "https://images.unsplash.com/photo-1518709766631-a6a7f45921c3?w=1200&q=80",
     "thumbnailUrl": "https://images.unsplash.com/photo-1518709766631-a6a7f45921c3?w=600&q=80",
     "highlights": [
-      "1-hour gorilla family encounter",
-      "Support local conservation",
-      "Nyiragongo volcano sunrise",
-      "Armed ranger escort",
-      "Authentic bush camp experience"
+      "W Trek in Torres del Paine National Park",
+      "Laguna de los Tres hike to Fitz Roy viewpoint",
+      "Perito Moreno Glacier up close",
+      "Expert mountain guides",
+      "Refugio and camping accommodation"
     ],
     "itinerary": [
-      { "day": 1, "title": "Arrival in Goma", "description": "Fly into Goma. Transfer to Virunga lodge. Conservation briefing." },
-      { "day": 2, "title": "Gorilla Trek", "description": "Early start. 2-6 hours hiking to locate gorilla family. One hour observation." },
-      { "day": 3, "title": "Nyiragongo Ascent", "description": "Climb to world's largest lava lake. Sleep at crater rim." },
-      { "day": 4, "title": "Descent & Culture", "description": "Return to base. Visit local community projects." },
-      { "day": 5, "title": "Departure", "description": "Final morning in the park. Transfer to Goma airport." }
+      { "day": 1, "title": "Buenos Aires Arrival", "description": "Arrive in Argentina's vibrant capital. Evening orientation." },
+      { "day": 2, "title": "Fly to El Calafate", "description": "Transfer to Patagonia. First views of the Andes." },
+      { "day": 3, "title": "Perito Moreno Glacier", "description": "Full day at the glacier. Witness calving events from viewing platforms." },
+      { "day": 4, "title": "El Chaltén", "description": "Drive to Argentina's trekking capital. Settle into mountain town life." },
+      { "day": 5, "title": "Laguna de los Tres", "description": "Epic full-day hike to Fitz Roy viewpoint. 8-9 hours of trekking." },
+      { "day": 6, "title": "Loma del Pliegue Tumbado", "description": "Panoramic ridge hike with 360° Patagonian views." },
+      { "day": 7, "title": "Cross to Chile", "description": "Drive to Puerto Natales. Enter Chilean Patagonia." },
+      { "day": 8, "title": "Torres del Paine - Base Trek", "description": "Hike to the base of the three towers. First night in refugio." },
+      { "day": 9, "title": "French Valley", "description": "Trek through the valley between massive granite walls." },
+      { "day": 10, "title": "Grey Glacier", "description": "Hike alongside the glacier. Optional kayaking among icebergs." },
+      { "day": 11, "title": "Final Torres Views", "description": "Last day in the park. Sunrise photography opportunities." },
+      { "day": 12, "title": "Return to Puerto Natales", "description": "Exit the park. Celebrate with local Patagonian lamb." },
+      { "day": 13, "title": "Punta Arenas", "description": "Drive to the Strait of Magellan. Penguin colony visit." },
+      { "day": 14, "title": "Departure", "description": "Fly back to Santiago or Buenos Aires." }
     ],
     "affiliateLinks": {
-      "booking": "https://tp.media/click?shmarker=12345&promo_id=abc&locale=en&a_id=1&url=https://www.booking.com/searchresults.html?dest_id=-2600547",
-      "viator": "https://tp.media/click?shmarker=12345&promo_id=xyz&locale=en&a_id=2&url=https://www.viator.com/tours/Goma"
+      "gadventures": "https://www.gadventures.com/trips/hike-patagonia-in-depth/SAPI/"
     },
-    "tags": ["wildlife", "trekking", "conservation", "jungle"],
+    "tags": ["trekking", "glaciers", "mountains", "wildlife", "adventure"],
     "featured": true
   },
   {
-    "id": "mauritania-iron-train",
-    "slug": "mauritania-iron-train",
-    "title": "The Mauritanian Iron Ore Express",
-    "subtitle": "Ride the World's Longest Train",
-    "location": "Sahara Desert, Mauritania",
-    "description": "Hop aboard a 2.5km-long freight train crossing the Sahara—the world's longest—for a raw, unglamorous, utterly unforgettable journey through the desert.",
-    "longDescription": "There are no tickets, no seats, no amenities. The Mauritanian iron ore train doesn't transport passengers—it tolerates them. This 700-kilometer journey from Nouadhibou to Choum takes 18 hours across the most desolate landscape on Earth. Travelers perch atop iron ore cars, wrapped against Saharan sand and sun, as the train snakes through terrain unchanged since prehistory. At night, stars blaze undimmed by light pollution. This is travel stripped to its elemental core: you, the desert, and the relentless rhythm of steel on rail.",
-    "price": 150,
+    "id": "gorilla-trekking-uganda-rwanda",
+    "slug": "gorilla-trekking-uganda-rwanda",
+    "title": "Gorilla Trekking: Uganda to Rwanda",
+    "subtitle": "Face to Face with Mountain Gorillas",
+    "location": "Bwindi Impenetrable Forest, Uganda & Rwanda",
+    "description": "Trek through primordial jungle to encounter mountain gorillas in their natural habitat—one of the most profound wildlife experiences on Earth.",
+    "longDescription": "When a 400-pound silverback locks eyes with you across five meters of jungle, time stops. Mountain gorillas are critically endangered, with fewer than 1,000 remaining in the wild. This 8-day journey takes you deep into Bwindi Impenetrable National Park and Rwanda's Virunga Mountains, where you'll spend precious hours observing gorilla families. Watch infants play, mothers nurture, and silverbacks protect their troops. You'll also trek for chimpanzees in Kibale Forest, safari through Queen Elizabeth National Park, and visit the Kigali Genocide Memorial. Every permit purchased directly funds conservation and anti-poaching efforts, making this journey an act of preservation.",
+    "price": 4299,
     "currency": "USD",
-    "duration": "2 days",
-    "difficulty": "Extreme",
+    "duration": "8 days",
+    "difficulty": "Challenging",
+    "imageUrl": "https://images.unsplash.com/photo-1551969014-7d2c4cddf0b6?w=1200&q=80",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1551969014-7d2c4cddf0b6?w=600&q=80",
+    "highlights": [
+      "Mountain gorilla trekking permit included",
+      "Chimpanzee tracking in Kibale Forest",
+      "Safari in Queen Elizabeth National Park",
+      "Kigali Genocide Memorial visit",
+      "Support for local conservation efforts"
+    ],
+    "itinerary": [
+      { "day": 1, "title": "Kampala Arrival", "description": "Arrive in Uganda's capital. Evening briefing on gorilla conservation." },
+      { "day": 2, "title": "Kibale Forest", "description": "Drive to Kibale. Afternoon village walk." },
+      { "day": 3, "title": "Chimpanzee Tracking", "description": "Morning trek to find chimpanzee families. Afternoon swamp walk." },
+      { "day": 4, "title": "Queen Elizabeth National Park", "description": "Game drive. Boat safari on Kazinga Channel." },
+      { "day": 5, "title": "Bwindi Impenetrable Forest", "description": "Drive to gorilla territory. Pre-trek briefing." },
+      { "day": 6, "title": "Gorilla Trekking", "description": "Early start. 2-6 hours hiking to locate gorilla family. One hour observation." },
+      { "day": 7, "title": "Cross to Rwanda", "description": "Drive to Kigali. Visit Genocide Memorial. Reflection and remembrance." },
+      { "day": 8, "title": "Departure", "description": "Morning at leisure. Transfer to airport." }
+    ],
+    "affiliateLinks": {
+      "gadventures": "https://www.gadventures.com/trips/uganda-to-rwanda-gorilla-treks-and-safari-drives/DURU/"
+    },
+    "tags": ["wildlife", "conservation", "trekking", "primates", "africa"],
+    "featured": true
+  },
+  {
+    "id": "galapagos-wildlife-expedition",
+    "slug": "galapagos-wildlife-expedition",
+    "title": "Galápagos: Darwin's Living Laboratory",
+    "subtitle": "Walk Among Fearless Wildlife",
+    "location": "Galápagos Islands, Ecuador",
+    "description": "Snorkel with sea lions, walk past blue-footed boobies, and witness giant tortoises in the archipelago that changed our understanding of evolution.",
+    "longDescription": "The Galápagos Islands exist in a state of evolutionary grace. Here, animals have no fear of humans—sea lions will swim circles around you, marine iguanas sun themselves on your path, and blue-footed boobies perform their mating dance mere feet away. This 8-day expedition takes you island-hopping through this UNESCO World Heritage site, snorkeling in crystal waters, hiking volcanic landscapes, and visiting the Charles Darwin Research Station. You'll see giant tortoises that can live 150 years, swim with penguins at the equator, and understand why Darwin called this place 'a little world within itself.' Every visit supports conservation efforts protecting this irreplaceable ecosystem.",
+    "price": 3799,
+    "currency": "USD",
+    "duration": "8 days",
+    "difficulty": "Moderate",
+    "imageUrl": "https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=1200&q=80",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=600&q=80",
+    "highlights": [
+      "Snorkeling with sea lions and marine iguanas",
+      "Giant tortoise encounters",
+      "Blue-footed booby colonies",
+      "Charles Darwin Research Station",
+      "Island-hopping by speedboat"
+    ],
+    "itinerary": [
+      { "day": 1, "title": "Quito Arrival", "description": "Arrive in Ecuador's capital. Evening orientation." },
+      { "day": 2, "title": "Fly to Galápagos", "description": "Land on Baltra. Transfer to Santa Cruz. Charles Darwin Research Station." },
+      { "day": 3, "title": "Isabela Island", "description": "Speedboat to Isabela. Sierra Negra volcano hike. Flamingo lagoons." },
+      { "day": 4, "title": "Los Tuneles Snorkeling", "description": "Full day snorkeling with sea turtles, rays, and sharks in lava formations." },
+      { "day": 5, "title": "Santa Cruz Highlands", "description": "Giant tortoise reserve. Lava tunnels exploration." },
+      { "day": 6, "title": "Uninhabited Island Day Trip", "description": "Boat to pristine island. Snorkeling, wildlife observation, beach time." },
+      { "day": 7, "title": "Final Island Exploration", "description": "Morning snorkeling. Afternoon at Tortuga Bay beach." },
+      { "day": 8, "title": "Return to Mainland", "description": "Fly back to Quito or Guayaquil." }
+    ],
+    "affiliateLinks": {
+      "gadventures": "https://www.gadventures.com/trips/galapagos-tour/SEGB/"
+    },
+    "tags": ["wildlife", "snorkeling", "islands", "unesco", "nature"],
+    "featured": true
+  },
+  {
+    "id": "antarctica-expedition-cruise",
+    "slug": "antarctica-expedition-cruise",
+    "title": "Antarctica: The White Continent",
+    "subtitle": "Journey to Earth's Last Wilderness",
+    "location": "Antarctic Peninsula",
+    "description": "Cross the Drake Passage to reach the most remote continent on Earth, where penguin colonies number in the thousands and glaciers tower like cathedrals.",
+    "longDescription": "Antarctica is not a destination—it's a revelation. This 11-day expedition cruise aboard the G Expedition takes you across the legendary Drake Passage to the Antarctic Peninsula and South Shetland Islands. You'll make two landings per day via Zodiac, walking among gentoo, chinstrap, and Adélie penguin colonies, watching leopard seals hunt, and witnessing humpback whales breach in icy waters. The silence here is profound, broken only by the crack of calving glaciers. With a 10:1 guest-to-expert ratio, you'll learn about polar ecology, climate science, and the heroic age of Antarctic exploration. Optional activities include kayaking among icebergs and camping on the ice. This is travel at its most transformative.",
+    "price": 7999,
+    "currency": "USD",
+    "duration": "11 days",
+    "difficulty": "Moderate",
+    "imageUrl": "https://images.unsplash.com/photo-1483921020237-2ff51e8e4b22?w=1200&q=80",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1483921020237-2ff51e8e4b22?w=600&q=80",
+    "highlights": [
+      "Small-ship expedition (max 128 passengers)",
+      "Two daily Zodiac landings",
+      "Penguin colonies and whale watching",
+      "Expert naturalist guides (10:1 ratio)",
+      "Optional kayaking and ice camping"
+    ],
+    "itinerary": [
+      { "day": 1, "title": "Ushuaia Embarkation", "description": "Board the G Expedition in the world's southernmost city." },
+      { "day": 2, "title": "Drake Passage Crossing", "description": "Sail south. Seabird watching. Expedition briefings." },
+      { "day": 3, "title": "Drake Passage", "description": "Continue crossing. Prepare for first Antarctic landing." },
+      { "day": 4, "title": "South Shetland Islands", "description": "First landing. Penguin colonies. Zodiac cruising." },
+      { "day": 5, "title": "Antarctic Peninsula", "description": "Two landings. Whale watching. Ice formations." },
+      { "day": 6, "title": "Antarctic Peninsula", "description": "Deeper into the Peninsula. Leopard seal sightings." },
+      { "day": 7, "title": "Antarctic Peninsula", "description": "Optional kayaking. Glacier viewing. Wildlife photography." },
+      { "day": 8, "title": "Final Antarctic Day", "description": "Last landings. Farewell to the White Continent." },
+      { "day": 9, "title": "Drake Passage Return", "description": "Sail north. Recap presentations. Photo sharing." },
+      { "day": 10, "title": "Drake Passage", "description": "Continue north. Seabird watching." },
+      { "day": 11, "title": "Ushuaia Disembarkation", "description": "Return to Ushuaia. End of expedition." }
+    ],
+    "affiliateLinks": {
+      "gadventures": "https://www.gadventures.com/trips/antarctica-classic/XVCASX/"
+    },
+    "tags": ["expedition", "wildlife", "polar", "cruise", "photography"],
+    "featured": true
+  },
+  {
+    "id": "japan-cultural-immersion",
+    "slug": "japan-cultural-immersion",
+    "title": "Japan: Temples, Tradition & Mount Fuji",
+    "subtitle": "Ancient Culture Meets Modern Wonder",
+    "location": "Tokyo to Kyoto, Japan",
+    "description": "Experience Japan's soul—from neon-lit Tokyo to ancient Kyoto temples, with stays in traditional ryokans and views of sacred Mount Fuji.",
+    "longDescription": "Japan is a study in contrasts: bullet trains and bamboo forests, robot restaurants and Zen gardens, skyscrapers and shrines. This 10-day journey takes you from Tokyo's electric energy to Kyoto's timeless temples. You'll sleep in a traditional ryokan with kaiseki dinners, visit Fushimi Inari's 10,000 torii gates, witness the sunrise over Mount Fuji from Kawaguchiko, and participate in a Zen meditation session at a Buddhist temple. Walk through Hiroshima's Peace Memorial and take the ferry to Miyajima's floating torii gate. Your expert local guide will unlock layers of meaning in tea ceremonies, samurai culture, and the Japanese concept of omotenashi (wholehearted hospitality). This is Japan beyond the guidebook.",
+    "price": 3599,
+    "currency": "USD",
+    "duration": "10 days",
+    "difficulty": "Easy",
+    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=1200&q=80",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&q=80",
+    "highlights": [
+      "Traditional ryokan stay with kaiseki dinner",
+      "Mount Fuji views from Kawaguchiko",
+      "Zen meditation at Buddhist temple",
+      "Fushimi Inari and Kyoto temples",
+      "Hiroshima Peace Memorial"
+    ],
+    "itinerary": [
+      { "day": 1, "title": "Tokyo Arrival", "description": "Arrive in Japan's capital. Evening in Shibuya and Shinjuku." },
+      { "day": 2, "title": "Tokyo Exploration", "description": "Meiji Shrine, Senso-ji Temple, Asakusa district." },
+      { "day": 3, "title": "Mount Fuji Region", "description": "Travel to Kawaguchiko. Views of sacred Mount Fuji." },
+      { "day": 4, "title": "Takayama", "description": "Traditional Japanese inn stay. Old town exploration." },
+      { "day": 5, "title": "Tsumago Village", "description": "Walk the Nakasendo Trail. Minshuku stay with kaiseki dinner." },
+      { "day": 6, "title": "Kyoto Arrival", "description": "Bullet train to ancient capital. Gion district evening." },
+      { "day": 7, "title": "Kyoto Temples", "description": "Fushimi Inari, Kinkaku-ji (Golden Pavilion), bamboo forest." },
+      { "day": 8, "title": "Zen Experience", "description": "Temple meditation session. Calligraphy class. Tea ceremony." },
+      { "day": 9, "title": "Hiroshima & Miyajima", "description": "Peace Memorial. Ferry to Miyajima's floating torii gate." },
+      { "day": 10, "title": "Departure", "description": "Return to Tokyo or Osaka for departure." }
+    ],
+    "affiliateLinks": {
+      "gadventures": "https://www.gadventures.com/trips/discover-japan/AJDJ/"
+    },
+    "tags": ["cultural", "temples", "traditional", "mountains", "spiritual"],
+    "featured": false
+  },
+  {
+    "id": "morocco-sahara-berber-culture",
+    "slug": "morocco-sahara-berber-culture",
+    "title": "Morocco: Sahara Desert & Berber Villages",
+    "subtitle": "Sleep Under Saharan Stars",
+    "location": "Marrakech to M'hamid, Morocco",
+    "description": "Journey deep into the Sahara Desert, riding camels to a Berber camp where you'll sleep under a blanket of stars and wake to endless dunes.",
+    "longDescription": "The Sahara is not just a desert—it's a sea of sand that stretches beyond comprehension. This 8-day journey takes you from Marrakech's chaotic souks through the Atlas Mountains to the edge of the Sahara. You'll ride camels into the dunes near M'hamid, arriving at a traditional Berber camp as the sun sets. Dinner is cooked over open fires, accompanied by Berber music under stars so bright they cast shadows. You'll spend two nights in the desert, exploring by foot, camel, and 4x4, visiting nomadic families and learning about life in this harsh but beautiful landscape. The silence of the Sahara is profound—no phones, no Wi-Fi, just sand, sky, and the ancient rhythms of desert life.",
+    "price": 1299,
+    "currency": "USD",
+    "duration": "8 days",
+    "difficulty": "Moderate",
     "imageUrl": "https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=1200&q=80",
     "thumbnailUrl": "https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=600&q=80",
     "highlights": [
-      "700km Saharan crossing",
-      "World's longest train (2.5km)",
-      "Stargazing in absolute darkness",
-      "Authentic local experience",
-      "Stories for a lifetime"
+      "Two nights camping in Sahara Desert",
+      "Camel trek to desert camp",
+      "Berber cultural immersion",
+      "Atlas Mountains crossing",
+      "Traditional music and meals"
     ],
     "itinerary": [
-      { "day": 1, "title": "Board in Nouadhibou", "description": "Evening departure. Find a spot on an open ore car. Begin the crossing." },
-      { "day": 2, "title": "Arrive Choum", "description": "Early morning arrival. Connect to Atar or explore ancient caravan routes." }
+      { "day": 1, "title": "Marrakech Arrival", "description": "Arrive in the Red City. Evening in Jemaa el-Fnaa square." },
+      { "day": 2, "title": "Atlas Mountains", "description": "Drive through Tizi n'Tichka pass. Aït Benhaddou kasbah." },
+      { "day": 3, "title": "Ouarzazate to Zagora", "description": "Film studios visit. Drive toward the desert." },
+      { "day": 4, "title": "Into the Sahara", "description": "Reach M'hamid. Camel trek to desert camp. Sunset over dunes." },
+      { "day": 5, "title": "Desert Exploration", "description": "Morning walk. Visit nomadic families. 4x4 to remote oasis." },
+      { "day": 6, "title": "Return Journey Begins", "description": "Camel ride back. Drive to Skoura oasis." },
+      { "day": 7, "title": "Dades Valley", "description": "Scenic drive through gorges. Berber village visits." },
+      { "day": 8, "title": "Return to Marrakech", "description": "Cross Atlas Mountains. Final evening in Marrakech." }
     ],
     "affiliateLinks": {
-      "booking": "https://tp.media/click?shmarker=12345&promo_id=abc&locale=en&a_id=1&url=https://www.booking.com/searchresults.html?dest_id=-2594771",
-      "viator": "https://tp.media/click?shmarker=12345&promo_id=xyz&locale=en&a_id=2&url=https://www.viator.com/tours/Mauritania"
+      "gadventures": "https://www.gadventures.com/trips/morocco-marrakech-and-sahara/DCSQ/"
     },
-    "tags": ["train", "desert", "extreme", "sahara", "budget"],
+    "tags": ["desert", "cultural", "camping", "adventure", "photography"],
     "featured": false
   },
   {
-    "id": "yemen-socotra",
-    "slug": "yemen-socotra",
-    "title": "Socotra: The Alien Island",
-    "subtitle": "Earth's Most Otherworldly Landscape",
-    "location": "Socotra, Yemen",
-    "description": "Explore an island so evolutionarily distinct that 37% of its plant species exist nowhere else on Earth. Dragon blood trees and bottle baobabs await.",
-    "longDescription": "Isolated in the Arabian Sea for millions of years, Socotra evolved into Earth's most alien landscape. The iconic dragon blood trees—with their umbrella crowns and crimson sap—dot limestone plateaus like botanical mushroom clouds. Giant succulents tower over white sand dunes. The beaches rival the Maldives but see perhaps a thousand visitors annually. Despite Yemen's mainland conflicts, Socotra remains peaceful, protected by its remoteness and the hospitality of its 50,000 residents.",
-    "price": 2800,
+    "id": "iceland-northern-lights-glaciers",
+    "slug": "iceland-northern-lights-glaciers",
+    "title": "Iceland: Fire, Ice & Northern Lights",
+    "subtitle": "Volcanic Landscapes & Aurora Borealis",
+    "location": "Reykjavik & Golden Circle, Iceland",
+    "description": "Hike on glaciers, soak in geothermal hot springs, and chase the Northern Lights across Iceland's otherworldly volcanic landscape.",
+    "longDescription": "Iceland feels like another planet. This 7-day winter adventure takes you through a land of fire and ice, where glaciers meet volcanoes and the Northern Lights dance overhead. You'll hike on Sólheimajökull glacier with crampons and ice axes, explore lava caves formed by ancient eruptions, stand behind Seljalandsfoss waterfall, and soak in the Secret Lagoon hot spring. Each night, you'll hunt for the aurora borealis, watching green curtains of light ripple across the Arctic sky. The Golden Circle takes you to Þingvellir National Park (where tectonic plates meet), Geysir's erupting hot springs, and Gullfoss waterfall. Iceland's raw beauty and geological drama will leave you awestruck.",
+    "price": 2499,
     "currency": "USD",
     "duration": "7 days",
     "difficulty": "Moderate",
-    "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80",
-    "thumbnailUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
-    "highlights": [
-      "Dragon blood tree forests",
-      "Endemic wildlife observation",
-      "Pristine beaches",
-      "Cave exploration",
-      "Bedouin-style camping"
-    ],
-    "itinerary": [
-      { "day": 1, "title": "Arrival Hadibo", "description": "Land on Socotra. Meet guides. Drive to first campsite." },
-      { "day": 2, "title": "Dixam Plateau", "description": "Full day among dragon blood trees. Sunset photography session." },
-      { "day": 3, "title": "Homhil Protected Area", "description": "Hiking through bottle tree forests. Natural infinity pool swim." },
-      { "day": 4, "title": "Beaches", "description": "Qalansiyah lagoon. Snorkeling and beach camping." },
-      { "day": 5, "title": "Caves & Canyons", "description": "Explore Hoq Cave. Trek through Wadi Dirhur canyon." },
-      { "day": 6, "title": "Eastern Exploration", "description": "Remote eastern beaches. Fishing village visits." },
-      { "day": 7, "title": "Departure", "description": "Morning in Hadibo. Flight out." }
-    ],
-    "affiliateLinks": {
-      "booking": "https://tp.media/click?shmarker=12345&promo_id=abc&locale=en&a_id=1&url=https://www.booking.com/searchresults.html?dest_id=-2595947",
-      "viator": "https://tp.media/click?shmarker=12345&promo_id=xyz&locale=en&a_id=2&url=https://www.viator.com/tours/Socotra"
-    },
-    "tags": ["island", "nature", "endemic", "beaches", "photography"],
-    "featured": false
-  },
-  {
-    "id": "turkmenistan-gates-hell",
-    "slug": "turkmenistan-gates-hell",
-    "title": "The Gates of Hell Overnight",
-    "subtitle": "Sleep Beside a Burning Crater",
-    "location": "Darvaza, Turkmenistan",
-    "description": "Camp at the edge of a 70-meter crater that's been burning since 1971—the infamous 'Door to Hell' in the heart of the Karakum Desert.",
-    "longDescription": "In 1971, Soviet engineers drilling for natural gas accidentally punched into an underground cavern. The ground collapsed, releasing methane. To prevent spread, they set it alight, expecting the fire to burn out in weeks. Over fifty years later, it still blazes. The Darvaza gas crater—the 'Door to Hell'—now draws adventurers to witness this surreal monument to human hubris. As darkness falls and the desert turns cold, the crater's glow intensifies, turning night into an apocalyptic dreamscape.",
-    "price": 1200,
-    "currency": "USD",
-    "duration": "3 days",
-    "difficulty": "Easy",
     "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200&q=80",
     "thumbnailUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=80",
     "highlights": [
-      "Overnight crater-side camping",
-      "Sunset to sunrise viewing",
-      "Desert 4x4 expedition",
-      "Traditional yurt experience",
-      "Ancient Silk Road oases"
+      "Glacier hiking with crampons",
+      "Northern Lights hunting (winter)",
+      "Secret Lagoon hot spring",
+      "Golden Circle tour",
+      "Lava cave exploration"
     ],
     "itinerary": [
-      { "day": 1, "title": "Ashgabat to Darvaza", "description": "Morning departure from capital. Arrive at crater for sunset." },
-      { "day": 2, "title": "Desert Exploration", "description": "Morning at crater. Drive to other geological features. Return for night viewing." },
-      { "day": 3, "title": "Return", "description": "Sunrise farewell. Drive back to Ashgabat." }
+      { "day": 1, "title": "Reykjavik Arrival", "description": "Arrive in Iceland's capital. Evening Northern Lights hunt." },
+      { "day": 2, "title": "Golden Circle", "description": "Þingvellir, Geysir, Gullfoss. Secret Lagoon soak." },
+      { "day": 3, "title": "South Coast", "description": "Seljalandsfoss and Skógafoss waterfalls. Black sand beaches." },
+      { "day": 4, "title": "Glacier Hike", "description": "Full day on Sólheimajökull glacier. Ice formations and crevasses." },
+      { "day": 5, "title": "Lava Caves", "description": "Explore underground lava tubes. Afternoon at leisure." },
+      { "day": 6, "title": "Snæfellsnes Peninsula", "description": "Kirkjufell mountain. Coastal cliffs. Fishing villages." },
+      { "day": 7, "title": "Departure", "description": "Morning at Blue Lagoon (optional). Transfer to airport." }
     ],
     "affiliateLinks": {
-      "booking": "https://tp.media/click?shmarker=12345&promo_id=abc&locale=en&a_id=1&url=https://www.booking.com/searchresults.html?dest_id=-2603234",
-      "viator": "https://tp.media/click?shmarker=12345&promo_id=xyz&locale=en&a_id=2&url=https://www.viator.com/tours/Turkmenistan"
+      "gadventures": "https://www.gadventures.com/trips/iceland-adventure-northern-light-snfellsnes-peninsula/ELWS/"
     },
-    "tags": ["desert", "camping", "geological", "photography", "unique"],
+    "tags": ["northern-lights", "glaciers", "volcanic", "hot-springs", "adventure"],
     "featured": false
   },
   {
-    "id": "indonesia-tribe-encounter",
-    "slug": "indonesia-tribe-encounter",
-    "title": "Papua's First Contact",
-    "subtitle": "Meet the Dani Warriors",
-    "location": "Baliem Valley, Papua, Indonesia",
-    "description": "Journey to one of Earth's last frontiers, where isolated Dani tribes maintain traditions unchanged for 50,000 years in mist-shrouded highlands.",
-    "longDescription": "The Baliem Valley remained unknown to the outside world until 1938, when a chance overflight revealed a cultivated paradise hidden among Papua's central highlands. Today, the Dani people welcome respectful visitors into their world of traditional warfare rituals, pig feasts, and ancient agricultural practices. Trekking through their homeland means crossing swinging vine bridges, sleeping in thatched huts, and witnessing a culture that has defied the modern world's homogenizing advance.",
-    "price": 3500,
-    "currency": "USD",
-    "duration": "10 days",
-    "difficulty": "Challenging",
-    "imageUrl": "https://images.unsplash.com/photo-1501555088652-021faa106b9b?w=1200&q=80",
-    "thumbnailUrl": "https://images.unsplash.com/photo-1501555088652-021faa106b9b?w=600&q=80",
-    "highlights": [
-      "Dani village homestays",
-      "Traditional pig feast ceremony",
-      "Highland trekking",
-      "Mummy caves",
-      "Authentic cultural exchange"
-    ],
-    "itinerary": [
-      { "day": 1, "title": "Arrive Wamena", "description": "Fly into the valley. Orientation and market visit." },
-      { "day": 2, "title": "Begin Trek", "description": "Start walking to remote villages. Cross suspension bridges." },
-      { "day": 3, "title": "Village Life", "description": "Full day with Dani family. Learn traditional crafts." },
-      { "day": 4, "title": "Highland Crossing", "description": "Trek to higher elevation villages. Mummy cave visit." },
-      { "day": 5, "title": "Traditional Ceremony", "description": "Witness mock warfare ritual. Pig feast celebration." },
-      { "day": 6, "title": "Remote Valley", "description": "Continue to most isolated communities." },
-      { "day": 7, "title": "Return Trek Begins", "description": "Start walking back. Hot springs stop." },
-      { "day": 8, "title": "Final Villages", "description": "Last community visits. Cultural performances." },
-      { "day": 9, "title": "Wamena Return", "description": "Complete trek. Rest in town." },
-      { "day": 10, "title": "Departure", "description": "Morning flight out." }
-    ],
-    "affiliateLinks": {
-      "booking": "https://tp.media/click?shmarker=12345&promo_id=abc&locale=en&a_id=1&url=https://www.booking.com/searchresults.html?dest_id=-2682834",
-      "viator": "https://tp.media/click?shmarker=12345&promo_id=xyz&locale=en&a_id=2&url=https://www.viator.com/tours/Papua"
-    },
-    "tags": ["cultural", "trekking", "indigenous", "remote", "adventure"],
-    "featured": false
-  },
-  {
-    "id": "russia-magadan-road",
-    "slug": "russia-magadan-road",
-    "title": "Road of Bones Expedition",
-    "subtitle": "2,000km Through Siberia's Heart of Darkness",
-    "location": "Kolyma Highway, Russia",
-    "description": "Drive the haunted highway built by Gulag prisoners, crossing permafrost tundra, abandoned gold mines, and ghost towns frozen in Soviet time.",
-    "longDescription": "The R504 Kolyma Highway—nicknamed the 'Road of Bones'—was constructed by political prisoners under Stalin's regime, many of whom are buried beneath its surface. Today, this 2,000km route from Yakutsk to Magadan traverses Earth's coldest inhabited region. Summer travelers navigate rivers by ferry and ford, pass abandoned Gulag camps, and witness landscapes of terrible beauty. The road demands self-sufficiency: petrol stations are 500km apart, help is nonexistent, and the land itself seems to resist passage.",
-    "price": 4500,
-    "currency": "USD",
-    "duration": "12 days",
-    "difficulty": "Extreme",
-    "imageUrl": "https://images.unsplash.com/photo-1477322524744-0eece9e79640?w=1200&q=80",
-    "thumbnailUrl": "https://images.unsplash.com/photo-1477322524744-0eece9e79640?w=600&q=80",
-    "highlights": [
-      "Soviet 4x4 vehicle",
-      "River ferry crossings",
-      "Abandoned Gulag camps",
-      "Gold mining ghost towns",
-      "Extreme self-reliance"
-    ],
-    "itinerary": [
-      { "day": 1, "title": "Yakutsk Preparation", "description": "Vehicle check. Supplies. Historical briefing." },
-      { "day": 2, "title": "First Sector", "description": "Begin driving. Cross Lena River by ferry." },
-      { "day": 3, "title": "Khandyga", "description": "Last proper town for 800km. Final resupply." },
-      { "day": 4, "title": "Wilderness Begins", "description": "Enter true roadlessness. River crossings." },
-      { "day": 5, "title": "Abandoned Mines", "description": "Explore ghost towns. Camp in empty settlement." },
-      { "day": 6, "title": "Gulag History", "description": "Visit preserved labor camp. Somber reflections." },
-      { "day": 7, "title": "Oymyakon Approach", "description": "Near world's coldest inhabited place." },
-      { "day": 8, "title": "Mountain Passes", "description": "Cross highest elevations of the route." },
-      { "day": 9, "title": "Final Wilderness", "description": "Last section before civilization." },
-      { "day": 10, "title": "Susuman", "description": "Enter gold mining region. Resupply." },
-      { "day": 11, "title": "Coast Approach", "description": "Sea of Okhotsk visible." },
-      { "day": 12, "title": "Magadan Arrival", "description": "Complete the crossing. Mask of Sorrow memorial." }
-    ],
-    "affiliateLinks": {
-      "booking": "https://tp.media/click?shmarker=12345&promo_id=abc&locale=en&a_id=1&url=https://www.booking.com/searchresults.html?dest_id=-2127954",
-      "viator": "https://tp.media/click?shmarker=12345&promo_id=xyz&locale=en&a_id=2&url=https://www.viator.com/tours/Yakutsk"
-    },
-    "tags": ["road trip", "extreme", "history", "russia", "expedition"],
-    "featured": false
-  },
-  {
-    "id": "ethiopia-danakil",
-    "slug": "ethiopia-danakil",
-    "title": "Danakil: The Cruelest Place on Earth",
-    "subtitle": "Journey to an Alien Hellscape",
-    "location": "Danakil Depression, Ethiopia",
-    "description": "Descend into the hottest, lowest, and most inhospitable place on Earth—a land of acid lakes, salt miners, and active volcanoes.",
-    "longDescription": "The Danakil Depression defies belief. Temperatures exceed 50°C. Sulphur pools bubble in neon yellows and greens. The Erta Ale volcano maintains a permanent lava lake, while Afar tribespeople extract salt as they have for millennia. This is geology stripped raw, Earth's crust in active creation and destruction. Scientists call it the closest analog to Io, Jupiter's volcanic moon. Visitors call it transformative—if they survive the journey.",
-    "price": 1600,
-    "currency": "USD",
-    "duration": "4 days",
-    "difficulty": "Extreme",
-    "imageUrl": "https://images.unsplash.com/photo-1540390769625-2fc3f8b1d50c?w=1200&q=80",
-    "thumbnailUrl": "https://images.unsplash.com/photo-1540390769625-2fc3f8b1d50c?w=600&q=80",
-    "highlights": [
-      "Erta Ale lava lake",
-      "Dallol acid springs",
-      "Afar salt caravans",
-      "Armed military escort",
-      "Extreme temperatures"
-    ],
-    "itinerary": [
-      { "day": 1, "title": "Mekele to Afrera", "description": "Drive into the depression. Descend below sea level. Salt lake camp." },
-      { "day": 2, "title": "Dallol Springs", "description": "Explore sulphur formations. Camel caravans. Drive to Erta Ale base." },
-      { "day": 3, "title": "Volcano Night", "description": "3-hour hike to crater. Watch lava lake overnight." },
-      { "day": 4, "title": "Return", "description": "Dawn descent. Drive back to Mekele." }
-    ],
-    "affiliateLinks": {
-      "booking": "https://tp.media/click?shmarker=12345&promo_id=abc&locale=en&a_id=1&url=https://www.booking.com/searchresults.html?dest_id=-300385",
-      "viator": "https://tp.media/click?shmarker=12345&promo_id=xyz&locale=en&a_id=2&url=https://www.viator.com/tours/Ethiopia"
-    },
-    "tags": ["volcano", "extreme", "geology", "desert", "photography"],
-    "featured": false
-  },
-  {
-    "id": "north-korea-marathon",
-    "slug": "north-korea-marathon",
-    "title": "Pyongyang Marathon",
-    "subtitle": "Run Through the Hermit Kingdom",
-    "location": "Pyongyang, North Korea",
-    "description": "Join the world's most surreal running event—a marathon through North Korea's capital, finishing in the 150,000-seat May Day Stadium.",
-    "longDescription": "Once a year, the world's most secretive nation opens its doors to foreign runners. The Pyongyang Marathon offers an unparalleled glimpse behind the curtain: wide boulevards lined with cheering (or assigned) spectators, monumental architecture celebrating the regime, and a finish line in the largest stadium on Earth. The race is genuine—your time counts for international records—but everything around it exists in an alternate reality. It's the ultimate combination of athletic achievement and geopolitical surrealism.",
-    "price": 2200,
+    "id": "rio-carnival-experience",
+    "slug": "rio-carnival-experience",
+    "title": "Rio Carnival: The Greatest Show on Earth",
+    "subtitle": "Dance in the Streets of Rio",
+    "location": "Rio de Janeiro, Brazil",
+    "description": "Experience the world's most famous festival—Rio Carnival—where millions take to the streets in an explosion of music, color, and pure joy.",
+    "longDescription": "Rio Carnival isn't just a party—it's a cultural phenomenon that transforms an entire city into a celebration of life. This 5-day experience puts you in the heart of the action during Carnival week. You'll watch samba schools compete in the Sambadrome, each with thousands of dancers in elaborate costumes telling stories through movement. Join street parties (blocos) where locals and travelers dance together to live bands. Visit a samba school to see costume preparation and learn basic samba steps. Between the festivities, explore Rio's iconic sights: Christ the Redeemer, Sugarloaf Mountain, Copacabana Beach, and the bohemian Santa Teresa neighborhood. Your local guide will navigate the chaos, ensuring you experience both the spectacle and the soul of Carnival.",
+    "price": 1899,
     "currency": "USD",
     "duration": "5 days",
-    "difficulty": "Moderate",
-    "imageUrl": "https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?w=1200&q=80",
-    "thumbnailUrl": "https://images.unsplash.com/photo-1513593771513-7b58b6c4af38?w=600&q=80",
+    "difficulty": "Easy",
+    "imageUrl": "https://images.unsplash.com/photo-1516834474-48c0abc2a902?w=1200&q=80",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1516834474-48c0abc2a902?w=600&q=80",
     "highlights": [
-      "Run in 150,000-seat stadium",
-      "Mass games (if scheduled)",
-      "Pyongyang city tour",
-      "DMZ visit",
-      "Propaganda experience"
+      "Sambadrome parade tickets included",
+      "Street party (bloco) experiences",
+      "Samba school visit and lesson",
+      "Christ the Redeemer and Sugarloaf",
+      "Local guide throughout Carnival"
     ],
     "itinerary": [
-      { "day": 1, "title": "Beijing to Pyongyang", "description": "Train or flight into DPRK. Hotel orientation." },
-      { "day": 2, "title": "City Tour", "description": "Monuments, museums, and mandatory sites." },
-      { "day": 3, "title": "Race Day", "description": "The marathon. Stadium finish. Evening celebration." },
-      { "day": 4, "title": "DMZ Visit", "description": "Joint Security Area. Kaesong ancient capital." },
-      { "day": 5, "title": "Departure", "description": "Final Pyongyang visits. Return to Beijing." }
+      { "day": 1, "title": "Rio Arrival", "description": "Arrive during Carnival week. Evening orientation and first bloco." },
+      { "day": 2, "title": "Sambadrome Night", "description": "Watch samba schools compete. Costumes, floats, and 80,000 spectators." },
+      { "day": 3, "title": "City Tour", "description": "Christ the Redeemer, Sugarloaf Mountain. Afternoon street parties." },
+      { "day": 4, "title": "Samba School Visit", "description": "Behind-the-scenes tour. Samba lesson. Evening blocos." },
+      { "day": 5, "title": "Final Carnival Day", "description": "Last street parties. Beach time. Farewell dinner." }
     ],
     "affiliateLinks": {
-      "booking": "https://tp.media/click?shmarker=12345&promo_id=abc&locale=en&a_id=1&url=https://www.booking.com/searchresults.html?dest_id=-2323295",
-      "viator": "https://tp.media/click?shmarker=12345&promo_id=xyz&locale=en&a_id=2&url=https://www.viator.com/tours/Pyongyang"
+      "gadventures": "https://www.gadventures.com/search/?q=rio+carnival"
     },
-    "tags": ["running", "unique", "political", "urban", "bucket-list"],
+    "tags": ["festival", "cultural", "music", "dance", "celebration"],
     "featured": false
   },
   {
-    "id": "maldives-private-island",
-    "slug": "maldives-private-island",
-    "title": "Private Island Paradise",
-    "subtitle": "Your Own Piece of Heaven",
-    "location": "Private Atoll, Maldives",
-    "description": "Escape to your own private island in the Maldives—crystal waters, bioluminescent beaches, and absolute luxury where the only footprints in the sand are yours.",
-    "longDescription": "In the remote northern atolls of the Maldives, beyond the reach of resort crowds, entire islands await sole occupation. Your private island comes with a dedicated staff of 20, including a personal chef, butler, and dive master. Swim in waters so clear you can see 60 meters down. Watch bioluminescent plankton light up the shoreline after dark. This is luxury beyond comprehension—not just five-star service, but the ultimate status symbol: an entire island, an entire ecosystem, entirely yours.",
-    "price": 45000,
-    "currency": "USD",
-    "duration": "7 days",
-    "difficulty": "Easy",
-    "imageUrl": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=1200&q=80",
-    "thumbnailUrl": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=600&q=80",
-    "highlights": [
-      "Entire private island",
-      "20-person dedicated staff",
-      "Bioluminescent beaches",
-      "Personal submarine excursion",
-      "Floating breakfast daily"
-    ],
-    "itinerary": [
-      { "day": 1, "title": "Seaplane Arrival", "description": "Private seaplane from Malé. Champagne welcome. Island orientation." },
-      { "day": 2, "title": "Ocean Exploration", "description": "Personal dive master-led reef exploration. Sunset dolphin cruise." },
-      { "day": 3, "title": "Wellness Day", "description": "Overwater spa treatments. Yoga at sunrise. Chef's tasting menu." },
-      { "day": 4, "title": "Submarine Adventure", "description": "Private submarine dive to 100m. Underwater picnic." },
-      { "day": 5, "title": "Island Hopping", "description": "Yacht trip to deserted sandbanks. Castaway lunch." },
-      { "day": 6, "title": "Stargazing", "description": "Astronomer-led telescope session. Bioluminescence night swim." },
-      { "day": 7, "title": "Farewell", "description": "Final sunrise. Seaplane departure." }
-    ],
-    "affiliateLinks": {
-      "booking": "https://tp.media/click?shmarker=12345&promo_id=abc&locale=en&a_id=1&url=https://www.booking.com/searchresults.html?dest_id=-1282055",
-      "viator": "https://tp.media/click?shmarker=12345&promo_id=xyz&locale=en&a_id=2&url=https://www.viator.com/tours/Maldives"
-    },
-    "tags": ["luxury", "island", "beach", "romantic", "exclusive"],
-    "featured": true
-  },
-  {
-    "id": "greenland-iceberg-kayak",
-    "slug": "greenland-iceberg-kayak",
-    "title": "Kayaking the Icefjord",
-    "subtitle": "Paddle Among Giants",
-    "location": "Ilulissat, Greenland",
-    "description": "Kayak through a UNESCO World Heritage icefjord where building-sized icebergs calve from one of the world's fastest glaciers.",
-    "longDescription": "The Ilulissat Icefjord receives 46 cubic kilometers of ice annually from the Sermeq Kujalleq glacier—enough to supply the US with water for a year. Kayaking here means navigating between cathedral-sized icebergs that groan, crack, and occasionally flip with thunderous force. The Inuit have hunted these waters for 4,500 years. Now you'll paddle the same routes, camping on shores where polar bears roam and the midnight sun never sets.",
-    "price": 5200,
+    "id": "holi-festival-india",
+    "slug": "holi-festival-india",
+    "title": "Holi Festival: India's Festival of Colors",
+    "subtitle": "Celebrate Spring in a Rainbow of Powder",
+    "location": "Jaipur & Vrindavan, India",
+    "description": "Join millions in celebrating Holi, India's most joyous festival, where strangers become friends through clouds of colored powder and pure celebration.",
+    "longDescription": "Holi marks the arrival of spring and the triumph of good over evil, celebrated by throwing colored powder (gulal) and water at everyone in sight. This 8-day journey takes you through Rajasthan's Golden Triangle during Holi week, culminating in the festival celebrations in Jaipur or Vrindavan (the birthplace of Holi). You'll visit the Taj Mahal at sunrise, explore Jaipur's pink palaces, and experience the chaos and joy of Holi firsthand—dancing in the streets, covered head to toe in vibrant colors. Your guide will explain the festival's spiritual significance while ensuring you're safe in the crowds. Beyond Holi, you'll see India's iconic sights: Amber Fort, Agra Fort, and local markets bursting with life. This is India at its most colorful and welcoming.",
+    "price": 1599,
     "currency": "USD",
     "duration": "8 days",
-    "difficulty": "Advanced",
-    "imageUrl": "https://images.unsplash.com/photo-1476610182048-b716b8518aae?w=1200&q=80",
-    "thumbnailUrl": "https://images.unsplash.com/photo-1476610182048-b716b8518aae?w=600&q=80",
+    "difficulty": "Easy",
+    "imageUrl": "https://images.unsplash.com/photo-1528127269322-539801943592?w=1200&q=80",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1528127269322-539801943592?w=600&q=80",
     "highlights": [
-      "UNESCO icefjord kayaking",
-      "Midnight sun experience",
-      "Glacier calving witness",
-      "Inuit cultural immersion",
-      "Arctic wildlife sighting"
+      "Holi festival celebration in Jaipur",
+      "Taj Mahal sunrise visit",
+      "Golden Triangle tour (Delhi-Agra-Jaipur)",
+      "Amber Fort and City Palace",
+      "Local guide for festival safety"
     ],
     "itinerary": [
-      { "day": 1, "title": "Arrive Ilulissat", "description": "Fly into the ice capital. Icefjord viewpoint sunset." },
-      { "day": 2, "title": "Kayak Training", "description": "Cold water skills. Practice paddles in harbor." },
-      { "day": 3, "title": "First Expedition", "description": "Launch into icefjord. Camp on coastal headland." },
-      { "day": 4, "title": "Glacier Approach", "description": "Paddle toward Sermeq Kujalleq. Witness calving events." },
-      { "day": 5, "title": "Deep Icefjord", "description": "Navigate largest icebergs. Sculpted ice caves." },
-      { "day": 6, "title": "Inuit Settlement", "description": "Visit Oqaatsut village. Traditional Greenlandic feast." },
-      { "day": 7, "title": "Return Paddle", "description": "Final day on water. Midnight sun celebration." },
-      { "day": 8, "title": "Departure", "description": "Morning in Ilulissat. Flight out." }
+      { "day": 1, "title": "Delhi Arrival", "description": "Arrive in India's capital. Evening orientation." },
+      { "day": 2, "title": "Old & New Delhi", "description": "Red Fort, Jama Masjid, India Gate, Qutub Minar." },
+      { "day": 3, "title": "Agra", "description": "Drive to Agra. Agra Fort. Sunset at Mehtab Bagh." },
+      { "day": 4, "title": "Taj Mahal", "description": "Sunrise at the Taj Mahal. Drive to Jaipur via Fatehpur Sikri." },
+      { "day": 5, "title": "Jaipur Exploration", "description": "Amber Fort, City Palace, Hawa Mahal. Holi eve preparations." },
+      { "day": 6, "title": "Holi Festival", "description": "Morning Holi celebrations. Colored powder, music, dancing." },
+      { "day": 7, "title": "Post-Holi Recovery", "description": "Relax. Optional spa or shopping. Farewell dinner." },
+      { "day": 8, "title": "Departure", "description": "Return to Delhi for departure." }
     ],
     "affiliateLinks": {
-      "booking": "https://tp.media/click?shmarker=12345&promo_id=abc&locale=en&a_id=1&url=https://www.booking.com/searchresults.html?dest_id=-2606802",
-      "viator": "https://tp.media/click?shmarker=12345&promo_id=xyz&locale=en&a_id=2&url=https://www.viator.com/tours/Greenland"
+      "gadventures": "https://www.gadventures.com/destinations/asia/india-tours/"
     },
-    "tags": ["kayaking", "arctic", "glacier", "adventure", "nature"],
+    "tags": ["festival", "cultural", "celebration", "india", "spiritual"],
     "featured": false
   },
   {
-    "id": "mongolia-eagle-hunters",
-    "slug": "mongolia-eagle-hunters",
-    "title": "Ride with Eagle Hunters",
-    "subtitle": "Ancient Traditions of the Kazakh Nomads",
-    "location": "Altai Mountains, Mongolia",
-    "description": "Live with Kazakh eagle hunters in Mongolia's Altai Mountains, learning the 6,000-year-old art of hunting with golden eagles.",
-    "longDescription": "In the frozen peaks of western Mongolia, the Kazakh people maintain an unbroken tradition stretching back six millennia: hunting with golden eagles. Young boys bond with eaglets, training them over years to hunt foxes and wolves from horseback. You'll live in traditional gers, ride Mongolian horses through snow-covered valleys, and witness the extraordinary partnership between human and raptor. The annual Golden Eagle Festival transforms the region into a spectacular display of horsemanship and falconry.",
-    "price": 3800,
+    "id": "mongolia-naadam-festival",
+    "slug": "mongolia-naadam-festival",
+    "title": "Mongolia: Naadam Festival & Nomadic Life",
+    "subtitle": "The Three Manly Games of the Steppes",
+    "location": "Ulaanbaatar & Gobi Desert, Mongolia",
+    "description": "Experience Mongolia's ancient Naadam Festival—wrestling, archery, and horse racing—while staying in traditional gers with nomadic families.",
+    "longDescription": "Naadam is Mongolia's most important festival, celebrating the 'Three Manly Games': wrestling, archery, and horse racing. This 10-day journey times your visit to coincide with the July festival, where you'll watch wrestlers in traditional costumes compete, archers hit targets from horseback, and children as young as five race horses across the steppe. Beyond the festival, you'll live with nomadic families in their gers (yurts), learning to milk yaks, make traditional dairy products, and understand the rhythms of nomadic life. Travel through the Gobi Desert, visit Buddhist monasteries, and sleep under star-filled skies in one of the world's least populated countries. Mongolia will challenge your assumptions about modern life and show you a culture that has remained largely unchanged for centuries.",
+    "price": 2899,
     "currency": "USD",
     "duration": "10 days",
-    "difficulty": "Challenging",
-    "imageUrl": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=1200&q=80",
-    "thumbnailUrl": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=600&q=80",
+    "difficulty": "Moderate",
+    "imageUrl": "https://images.unsplash.com/photo-1559628376-f3fe5f782a2e?w=1200&q=80",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1559628376-f3fe5f782a2e?w=600&q=80",
     "highlights": [
-      "Stay with eagle hunter families",
-      "Golden Eagle Festival (seasonal)",
-      "Horseback riding in Altai",
-      "Ger camp experience",
-      "Traditional Kazakh culture"
+      "Naadam Festival attendance (July)",
+      "Nomadic family ger stays",
+      "Gobi Desert exploration",
+      "Buddhist monastery visits",
+      "Traditional Mongolian meals"
     ],
     "itinerary": [
-      { "day": 1, "title": "Arrive Ölgii", "description": "Fly to western Mongolia. Meet local guide." },
-      { "day": 2, "title": "Meet the Hunters", "description": "Drive to eagle hunter family. First ger stay." },
-      { "day": 3, "title": "Eagle Training", "description": "Learn eagle handling. Practice with golden eagle." },
-      { "day": 4, "title": "Horseback Journey", "description": "Ride to high pastures. Panoramic Altai views." },
-      { "day": 5, "title": "The Hunt", "description": "Join traditional hunt. Eagle release and retrieval." },
-      { "day": 6, "title": "Nomad Life", "description": "Help with daily tasks. Traditional crafts and cooking." },
-      { "day": 7, "title": "Festival Day", "description": "Eagle Festival competitions (if seasonal) or demonstrations." },
-      { "day": 8, "title": "Sacred Sites", "description": "Visit ancient petroglyphs. Shaman ceremony." },
-      { "day": 9, "title": "Farewell Feast", "description": "Traditional celebration. Gift exchanges." },
-      { "day": 10, "title": "Return", "description": "Journey back to Ölgii. Flight to Ulaanbaatar." }
+      { "day": 1, "title": "Ulaanbaatar Arrival", "description": "Arrive in Mongolia's capital. City orientation." },
+      { "day": 2, "title": "Naadam Festival", "description": "Opening ceremony. Wrestling and archery competitions." },
+      { "day": 3, "title": "Horse Racing", "description": "Drive to countryside for horse racing. Picnic on the steppe." },
+      { "day": 4, "title": "Nomadic Family Stay", "description": "Travel to ger camp. Meet nomadic family. Learn daily tasks." },
+      { "day": 5, "title": "Steppe Life", "description": "Horseback riding. Milk yaks. Traditional dairy making." },
+      { "day": 6, "title": "Gobi Desert", "description": "Drive south to the Gobi. First night in desert ger camp." },
+      { "day": 7, "title": "Flaming Cliffs", "description": "Explore Bayanzag (Flaming Cliffs). Dinosaur fossil sites." },
+      { "day": 8, "title": "Sand Dunes", "description": "Khongoryn Els sand dunes. Camel riding. Sunset over dunes." },
+      { "day": 9, "title": "Return Journey", "description": "Drive back to Ulaanbaatar. Stop at Erdene Zuu monastery." },
+      { "day": 10, "title": "Departure", "description": "Final morning in UB. Transfer to airport." }
     ],
     "affiliateLinks": {
-      "booking": "https://tp.media/click?shmarker=12345&promo_id=abc&locale=en&a_id=1&url=https://www.booking.com/searchresults.html?dest_id=-2315595",
-      "viator": "https://tp.media/click?shmarker=12345&promo_id=xyz&locale=en&a_id=2&url=https://www.viator.com/tours/Mongolia"
+      "gadventures": "https://www.gadventures.com/trips/journeys-naadam-festival/AMNNG/"
     },
-    "tags": ["cultural", "wildlife", "horseback", "nomadic", "photography"],
+    "tags": ["festival", "cultural", "nomadic", "desert", "adventure"],
     "featured": false
   }
 ]
