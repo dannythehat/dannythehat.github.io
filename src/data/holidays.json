@@ -11,8 +11,8 @@
     "currency": "USD",
     "duration": "7 days",
     "difficulty": "Challenging",
-    "imageUrl": "https://images.unsplash.com/photo-1587595431973-160d0d94add1?w=1200&q=80",
-    "thumbnailUrl": "https://images.unsplash.com/photo-1587595431973-160d0d94add1?w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1587595431973-160d0d94add1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1587595431973-160d0d94add1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600",
     "highlights": [
       "4-day Inca Trail trek with expert guides",
       "Sunrise arrival at Machu Picchu through Sun Gate",
@@ -47,8 +47,8 @@
     "currency": "USD",
     "duration": "14 days",
     "difficulty": "Advanced",
-    "imageUrl": "https://images.unsplash.com/photo-1518709766631-a6a7f45921c3?w=1200&q=80",
-    "thumbnailUrl": "https://images.unsplash.com/photo-1518709766631-a6a7f45921c3?w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1649710972692-34778ba6164f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1649710972692-34778ba6164f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600",
     "highlights": [
       "W Trek in Torres del Paine National Park",
       "Laguna de los Tres hike to Fitz Roy viewpoint",
@@ -90,8 +90,8 @@
     "currency": "USD",
     "duration": "8 days",
     "difficulty": "Challenging",
-    "imageUrl": "https://images.unsplash.com/photo-1551969014-7d2c4cddf0b6?w=1200&q=80",
-    "thumbnailUrl": "https://images.unsplash.com/photo-1551969014-7d2c4cddf0b6?w=600&q=80",
+    "imageUrl": "https://nyc3.digitaloceanspaces.com/bhindi-drive/files/e92a95e8-909c-46f5-a062-b8113d88fa59/2026-01-10T03-26-35-399Z-4cc376db-nano-banana-pro_1768015595100.jpg",
+    "thumbnailUrl": "https://nyc3.digitaloceanspaces.com/bhindi-drive/files/e92a95e8-909c-46f5-a062-b8113d88fa59/2026-01-10T03-26-35-399Z-4cc376db-nano-banana-pro_1768015595100.jpg",
     "highlights": [
       "Mountain gorilla trekking permit included",
       "Chimpanzee tracking in Kibale Forest",
@@ -127,8 +127,8 @@
     "currency": "USD",
     "duration": "8 days",
     "difficulty": "Moderate",
-    "imageUrl": "https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=1200&q=80",
-    "thumbnailUrl": "https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1706957614198-8d2e5f0ed6ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1706957614198-8d2e5f0ed6ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600",
     "highlights": [
       "Snorkeling with sea lions and marine iguanas",
       "Giant tortoise encounters",
@@ -164,8 +164,8 @@
     "currency": "USD",
     "duration": "11 days",
     "difficulty": "Moderate",
-    "imageUrl": "https://images.unsplash.com/photo-1483921020237-2ff51e8e4b22?w=1200&q=80",
-    "thumbnailUrl": "https://images.unsplash.com/photo-1483921020237-2ff51e8e4b22?w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1672275763050-bced6744669d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1672275763050-bced6744669d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600",
     "highlights": [
       "Small-ship expedition (max 128 passengers)",
       "Two daily Zodiac landings",
@@ -193,6 +193,265 @@
     "featured": true
   },
   {
+    "id": "rio-carnival-brazil",
+    "slug": "rio-carnival-brazil",
+    "title": "Rio Carnival: The Greatest Show on Earth",
+    "subtitle": "Samba, Sequins & Pure Joy",
+    "location": "Rio de Janeiro, Brazil",
+    "description": "Experience the world's most spectacular festival—five days of samba parades, street parties, and infectious Brazilian energy that will change how you celebrate life.",
+    "longDescription": "Rio Carnival isn't just a party—it's a cultural phenomenon that takes over an entire city. For five days, Rio transforms into the world's largest celebration, with samba schools competing in elaborate parades, street blocos filling every neighborhood, and millions dancing until dawn. You'll watch the Sambadrome parade from premium seats, join street parties in Santa Teresa, learn samba steps from local dancers, and understand the months of preparation behind each costume and float. The energy is electric, the costumes are breathtaking, and the welcome is warm. This is Brazil at its most joyful, colorful, and alive.",
+    "price": 2499,
+    "currency": "USD",
+    "duration": "7 days",
+    "difficulty": "Easy",
+    "imageUrl": "https://nyc3.digitaloceanspaces.com/bhindi-drive/files/e92a95e8-909c-46f5-a062-b8113d88fa59/2026-01-10T03-26-20-258Z-c767ccb8-nano-banana-pro_1768015580015.png",
+    "thumbnailUrl": "https://nyc3.digitaloceanspaces.com/bhindi-drive/files/e92a95e8-909c-46f5-a062-b8113d88fa59/2026-01-10T03-26-20-258Z-c767ccb8-nano-banana-pro_1768015580015.png",
+    "highlights": [
+      "Sambadrome parade premium seating",
+      "Street bloco parties in Santa Teresa",
+      "Samba dance lessons with locals",
+      "Copacabana and Ipanema beach time",
+      "Christ the Redeemer visit"
+    ],
+    "itinerary": [
+      { "day": 1, "title": "Rio Arrival", "description": "Arrive in the Marvelous City. Evening orientation and welcome dinner." },
+      { "day": 2, "title": "City Exploration", "description": "Christ the Redeemer, Sugarloaf Mountain, Copacabana beach." },
+      { "day": 3, "title": "Carnival Begins", "description": "Samba school rehearsal visit. First street blocos. Evening Sambadrome parade." },
+      { "day": 4, "title": "Street Carnival", "description": "Join blocos in Santa Teresa and Lapa. Dance lessons. Costume shopping." },
+      { "day": 5, "title": "Sambadrome Finals", "description": "Premium seats for the championship parade. Witness the best samba schools compete." },
+      { "day": 6, "title": "Beach & Recovery", "description": "Relax at Ipanema. Optional favela tour. Farewell dinner." },
+      { "day": 7, "title": "Departure", "description": "Morning at leisure. Transfer to airport." }
+    ],
+    "affiliateLinks": {
+      "gadventures": "https://www.gadventures.com/trips/rio-carnival/SBRJ/"
+    },
+    "tags": ["festival", "celebration", "cultural", "music", "dance"],
+    "featured": false
+  },
+  {
+    "id": "holi-festival-india",
+    "slug": "holi-festival-india",
+    "title": "Holi Festival: India's Festival of Colors",
+    "subtitle": "Celebrate Spring with Colored Powder & Joy",
+    "location": "Jaipur & Vrindavan, India",
+    "description": "Join millions in India's most joyous celebration—throwing colored powder, dancing in the streets, and experiencing the spiritual significance of Holi in its birthplace.",
+    "longDescription": "Holi is more than a festival—it's a celebration of good over evil, the arrival of spring, and the breaking down of social barriers. For one day, everyone is equal under clouds of colored powder. This 8-day journey takes you to Vrindavan (where Krishna played Holi) and Jaipur for the main celebrations. You'll throw gulal (colored powder) with locals, dance to dhol drums, taste traditional sweets, and understand the Hindu mythology behind the festival. The Pink City of Jaipur provides a stunning backdrop, with palace courtyards hosting private Holi parties. You'll also explore the Golden Triangle—Delhi, Agra's Taj Mahal, and Jaipur's forts—making this a complete Indian cultural immersion.",
+    "price": 1899,
+    "currency": "USD",
+    "duration": "8 days",
+    "difficulty": "Easy",
+    "imageUrl": "https://nyc3.digitaloceanspaces.com/bhindi-drive/files/e92a95e8-909c-46f5-a062-b8113d88fa59/2026-01-10T03-25-53-705Z-a204fb00-nano-banana-pro_1768015553391.png",
+    "thumbnailUrl": "https://nyc3.digitaloceanspaces.com/bhindi-drive/files/e92a95e8-909c-46f5-a062-b8113d88fa59/2026-01-10T03-25-53-705Z-a204fb00-nano-banana-pro_1768015553391.png",
+    "highlights": [
+      "Holi celebrations in Vrindavan and Jaipur",
+      "Taj Mahal sunrise visit",
+      "Jaipur palace Holi party",
+      "Traditional Indian sweets and meals",
+      "Golden Triangle cultural tour"
+    ],
+    "itinerary": [
+      { "day": 1, "title": "Delhi Arrival", "description": "Arrive in India's capital. Evening orientation." },
+      { "day": 2, "title": "Delhi Exploration", "description": "Red Fort, Jama Masjid, Chandni Chowk. Rickshaw ride through old Delhi." },
+      { "day": 3, "title": "Agra - Taj Mahal", "description": "Sunrise at Taj Mahal. Agra Fort visit. Evening at leisure." },
+      { "day": 4, "title": "Vrindavan Holi", "description": "Travel to Krishna's birthplace. Experience traditional Holi celebrations." },
+      { "day": 5, "title": "Jaipur Arrival", "description": "Drive to the Pink City. City palace and local markets." },
+      { "day": 6, "title": "Holi Festival Day", "description": "Main Holi celebrations. Palace courtyard party. Color throwing with locals." },
+      { "day": 7, "title": "Jaipur Forts", "description": "Amber Fort, Hawa Mahal, Jantar Mantar observatory." },
+      { "day": 8, "title": "Departure", "description": "Return to Delhi for departure flights." }
+    ],
+    "affiliateLinks": {
+      "gadventures": "https://www.gadventures.com/trips/india-holi-festival/AHIF/"
+    },
+    "tags": ["festival", "celebration", "cultural", "spiritual", "colors"],
+    "featured": false
+  },
+  {
+    "id": "naadam-festival-mongolia",
+    "slug": "naadam-festival-mongolia",
+    "title": "Naadam Festival: Mongolia's Olympic Games",
+    "subtitle": "Wrestling, Archery & Nomadic Culture",
+    "location": "Ulaanbaatar & Mongolian Steppe",
+    "description": "Witness Mongolia's ancient sporting festival—wrestling, horse racing, and archery—while staying in traditional gers and experiencing nomadic life on the endless steppe.",
+    "longDescription": "Naadam is Mongolia's most important festival, celebrating the 'Three Manly Games' that have defined Mongolian culture for centuries. You'll watch wrestlers in traditional costumes compete in Ulaanbaatar's stadium, witness child jockeys race horses across the steppe, and see master archers hit targets from impossible distances. But Naadam is more than sport—it's a window into nomadic life. You'll stay in traditional gers (yurts), share meals with herding families, ride horses across grasslands that stretch to the horizon, and understand the deep connection between Mongolians and their land. The festival atmosphere is electric, with colorful costumes, throat singing, and a pride in traditions that have survived for millennia.",
+    "price": 2299,
+    "currency": "USD",
+    "duration": "9 days",
+    "difficulty": "Moderate",
+    "imageUrl": "https://nyc3.digitaloceanspaces.com/bhindi-drive/files/e92a95e8-909c-46f5-a062-b8113d88fa59/2026-01-10T03-26-55-616Z-107210fe-nano-banana-pro_1768015615391.png",
+    "thumbnailUrl": "https://nyc3.digitaloceanspaces.com/bhindi-drive/files/e92a95e8-909c-46f5-a062-b8113d88fa59/2026-01-10T03-26-55-616Z-107210fe-nano-banana-pro_1768015615391.png",
+    "highlights": [
+      "Naadam Festival opening ceremony",
+      "Wrestling, archery, and horse racing events",
+      "Traditional ger camp stays",
+      "Nomadic family homestay",
+      "Horseback riding on the steppe"
+    ],
+    "itinerary": [
+      { "day": 1, "title": "Ulaanbaatar Arrival", "description": "Arrive in Mongolia's capital. Evening city orientation." },
+      { "day": 2, "title": "Naadam Opening", "description": "Grand opening ceremony. Wrestling and archery competitions." },
+      { "day": 3, "title": "Horse Racing", "description": "Travel to steppe for long-distance horse races. Witness child jockeys compete." },
+      { "day": 4, "title": "Terelj National Park", "description": "Drive to Terelj. Ger camp stay. Hiking and rock formations." },
+      { "day": 5, "title": "Nomadic Family Visit", "description": "Stay with herding family. Learn about nomadic lifestyle. Help with daily tasks." },
+      { "day": 6, "title": "Horseback Riding", "description": "Full day riding across the steppe. Mongolian horsemanship lessons." },
+      { "day": 7, "title": "Return to Ulaanbaatar", "description": "Drive back to capital. Visit Gandan Monastery." },
+      { "day": 8, "title": "Cultural Immersion", "description": "National Museum. Traditional throat singing performance. Farewell dinner." },
+      { "day": 9, "title": "Departure", "description": "Morning at leisure. Transfer to airport." }
+    ],
+    "affiliateLinks": {
+      "gadventures": "https://www.gadventures.com/trips/mongolia-naadam-festival/ACMN/"
+    },
+    "tags": ["festival", "celebration", "cultural", "nomadic", "adventure"],
+    "featured": false
+  },
+  {
+    "id": "day-of-the-dead-mexico",
+    "slug": "day-of-the-dead-mexico",
+    "title": "Day of the Dead: Mexico's Sacred Celebration",
+    "subtitle": "Honor the Departed with Marigolds & Memories",
+    "location": "Oaxaca & Mexico City",
+    "description": "Experience Mexico's most beautiful tradition—elaborate altars, candlelit cemeteries, and a celebration of life and death that will change how you view mortality.",
+    "longDescription": "Día de los Muertos isn't about mourning—it's about celebrating the lives of those who've passed. In Oaxaca, the heart of this tradition, you'll witness families creating elaborate ofrendas (altars) with marigolds, sugar skulls, and favorite foods of the deceased. On November 1st and 2nd, cemeteries transform into candlelit gatherings where families picnic, share stories, and welcome spirits home. You'll learn to make papel picado (cut paper decorations), paint your face as a catrina, taste pan de muerto (bread of the dead), and understand the indigenous Zapotec beliefs that blend with Catholic traditions. This isn't macabre—it's a joyful, colorful affirmation that death is part of life's cycle.",
+    "price": 1799,
+    "currency": "USD",
+    "duration": "7 days",
+    "difficulty": "Easy",
+    "imageUrl": "https://nyc3.digitaloceanspaces.com/bhindi-drive/files/e92a95e8-909c-46f5-a062-b8113d88fa59/2026-01-10T03-32-25-045Z-0d15e3bb-nano-banana-pro_1768015944684.png",
+    "thumbnailUrl": "https://nyc3.digitaloceanspaces.com/bhindi-drive/files/e92a95e8-909c-46f5-a062-b8113d88fa59/2026-01-10T03-32-25-045Z-0d15e3bb-nano-banana-pro_1768015944684.png",
+    "highlights": [
+      "Day of the Dead celebrations in Oaxaca",
+      "Cemetery vigils on November 1st & 2nd",
+      "Ofrenda creation workshop",
+      "Face painting as catrina",
+      "Traditional Oaxacan cuisine"
+    ],
+    "itinerary": [
+      { "day": 1, "title": "Mexico City Arrival", "description": "Arrive in the capital. Evening orientation." },
+      { "day": 2, "title": "Mexico City Exploration", "description": "Frida Kahlo Museum, Xochimilco canals, Coyoacán neighborhood." },
+      { "day": 3, "title": "Oaxaca Arrival", "description": "Fly to Oaxaca. Market visit. Mezcal tasting." },
+      { "day": 4, "title": "Preparation Day", "description": "Ofrenda workshop. Learn to make papel picado. Visit local families preparing altars." },
+      { "day": 5, "title": "Day of the Dead - Nov 1st", "description": "Cemetery visits. Candlelit vigils. Traditional meals with locals." },
+      { "day": 6, "title": "Day of the Dead - Nov 2nd", "description": "Main celebrations. Face painting. Street parades. Cultural performances." },
+      { "day": 7, "title": "Departure", "description": "Morning at leisure. Return to Mexico City for departure." }
+    ],
+    "affiliateLinks": {
+      "gadventures": "https://www.gadventures.com/trips/mexico-day-of-the-dead/CMDO/"
+    },
+    "tags": ["festival", "celebration", "cultural", "spiritual", "tradition"],
+    "featured": false
+  },
+  {
+    "id": "petra-jordan-ancient-city",
+    "slug": "petra-jordan-ancient-city",
+    "title": "Petra: The Rose-Red City",
+    "subtitle": "Walk Through the Siq to an Ancient Wonder",
+    "location": "Petra, Jordan",
+    "description": "Enter through a narrow canyon to discover Petra's magnificent Treasury carved into rose-red cliffs—one of the New Seven Wonders of the World.",
+    "longDescription": "Petra reveals itself slowly. You walk through the Siq, a narrow gorge with walls towering 80 meters overhead, and then—suddenly—the Treasury appears, its intricate facade glowing pink in the morning light. This 2,000-year-old Nabataean city was lost to the Western world for centuries, rediscovered in 1812. Over three days, you'll explore the Royal Tombs, climb to the Monastery (an even larger structure than the Treasury), and hike to the High Place of Sacrifice for panoramic views. You'll also experience Wadi Rum's desert landscapes, float in the Dead Sea, and understand Jordan's rich history from Roman ruins to Bedouin culture. Petra is more than a UNESCO site—it's a testament to human ingenuity carved into living rock.",
+    "price": 1999,
+    "currency": "USD",
+    "duration": "7 days",
+    "difficulty": "Moderate",
+    "imageUrl": "https://nyc3.digitaloceanspaces.com/bhindi-drive/files/e92a95e8-909c-46f5-a062-b8113d88fa59/2026-01-10T03-32-03-226Z-5f03e73b-nano-banana-pro_1768015923050.jpg",
+    "thumbnailUrl": "https://nyc3.digitaloceanspaces.com/bhindi-drive/files/e92a95e8-909c-46f5-a062-b8113d88fa59/2026-01-10T03-32-03-226Z-5f03e73b-nano-banana-pro_1768015923050.jpg",
+    "highlights": [
+      "Full day exploring Petra archaeological site",
+      "Sunrise at the Treasury",
+      "Hike to the Monastery",
+      "Wadi Rum desert jeep safari",
+      "Float in the Dead Sea"
+    ],
+    "itinerary": [
+      { "day": 1, "title": "Amman Arrival", "description": "Arrive in Jordan's capital. Evening city tour." },
+      { "day": 2, "title": "Jerash & Amman", "description": "Roman ruins at Jerash. Amman citadel and downtown." },
+      { "day": 3, "title": "Petra - First Day", "description": "Walk through the Siq. Explore the Treasury and Royal Tombs." },
+      { "day": 4, "title": "Petra - The Monastery", "description": "Hike 800 steps to the Monastery. High Place of Sacrifice optional." },
+      { "day": 5, "title": "Wadi Rum Desert", "description": "Jeep safari through Mars-like landscapes. Bedouin camp overnight." },
+      { "day": 6, "title": "Dead Sea", "description": "Drive to the Dead Sea. Float in the salty waters. Mud treatments." },
+      { "day": 7, "title": "Departure", "description": "Return to Amman for departure flights." }
+    ],
+    "affiliateLinks": {
+      "gadventures": "https://www.gadventures.com/trips/jordan-adventure/DXPJ/"
+    },
+    "tags": ["unesco", "ancient", "hiking", "desert", "wonder"],
+    "featured": false
+  },
+  {
+    "id": "serengeti-safari-tanzania",
+    "slug": "serengeti-safari-tanzania",
+    "title": "Serengeti Safari: The Great Migration",
+    "subtitle": "Witness Nature's Greatest Spectacle",
+    "location": "Serengeti & Ngorongoro, Tanzania",
+    "description": "Track the Great Migration—millions of wildebeest and zebra crossing the Serengeti plains, with lions, cheetahs, and crocodiles following close behind.",
+    "longDescription": "The Serengeti is Africa's most famous safari destination, and for good reason. This 8-day journey takes you deep into the endless plains where the Great Migration unfolds—over 1.5 million wildebeest and 200,000 zebra moving in a circular pattern, following the rains. You'll witness river crossings where crocodiles wait, predators stalking herds, and newborn calves taking their first steps. Beyond the migration, you'll descend into Ngorongoro Crater (the world's largest intact volcanic caldera) for guaranteed Big Five sightings, visit a Maasai village to learn about traditional pastoralist culture, and stay in luxury tented camps where you fall asleep to the sounds of the African bush.",
+    "price": 3499,
+    "currency": "USD",
+    "duration": "8 days",
+    "difficulty": "Easy",
+    "imageUrl": "https://nyc3.digitaloceanspaces.com/bhindi-drive/files/e92a95e8-909c-46f5-a062-b8113d88fa59/2026-01-10T03-31-45-898Z-1a17bd3d-nano-banana-pro_1768015905738.jpg",
+    "thumbnailUrl": "https://nyc3.digitaloceanspaces.com/bhindi-drive/files/e92a95e8-909c-46f5-a062-b8113d88fa59/2026-01-10T03-31-45-898Z-1a17bd3d-nano-banana-pro_1768015905738.jpg",
+    "highlights": [
+      "Great Migration wildlife viewing",
+      "Ngorongoro Crater safari",
+      "Big Five animal sightings",
+      "Maasai village cultural visit",
+      "Luxury tented camp accommodation"
+    ],
+    "itinerary": [
+      { "day": 1, "title": "Arusha Arrival", "description": "Arrive in Tanzania. Evening safari briefing." },
+      { "day": 2, "title": "Tarangire National Park", "description": "First game drive. Elephant herds and baobab trees." },
+      { "day": 3, "title": "Serengeti - Central", "description": "Drive to Serengeti. Afternoon game drive." },
+      { "day": 4, "title": "Serengeti - Full Day", "description": "Full day tracking the migration. Predator sightings." },
+      { "day": 5, "title": "Serengeti - Northern Circuit", "description": "Follow herds to river crossings. Witness crocodile attacks." },
+      { "day": 6, "title": "Ngorongoro Crater", "description": "Descend into the crater. Big Five safari. Picnic lunch on crater floor." },
+      { "day": 7, "title": "Maasai Village", "description": "Cultural visit. Learn about traditional pastoralist life. Farewell dinner." },
+      { "day": 8, "title": "Departure", "description": "Return to Arusha for departure flights." }
+    ],
+    "affiliateLinks": {
+      "gadventures": "https://www.gadventures.com/trips/serengeti-safari-zanzibar/DTWZ/"
+    },
+    "tags": ["wildlife", "safari", "africa", "migration", "photography"],
+    "featured": false
+  },
+  {
+    "id": "borneo-orangutan-rainforest",
+    "slug": "borneo-orangutan-rainforest",
+    "title": "Borneo: Orangutans & Rainforest Wildlife",
+    "subtitle": "Meet Our Closest Relatives in the Wild",
+    "location": "Sabah, Malaysian Borneo",
+    "description": "Trek through ancient rainforest to encounter wild orangutans, proboscis monkeys, and pygmy elephants in one of Earth's most biodiverse ecosystems.",
+    "longDescription": "Borneo's rainforests are among the oldest on Earth, home to species found nowhere else. This 10-day journey takes you deep into Sabah, where you'll visit the Sepilok Orangutan Rehabilitation Centre, cruise the Kinabatangan River spotting proboscis monkeys and pygmy elephants, and trek through Danum Valley's primary rainforest. You'll watch orangutans swing through the canopy, hear gibbons calling at dawn, and understand the urgent conservation efforts protecting these endangered species. Night safaris reveal nocturnal wildlife, and stays in jungle lodges immerse you in the sounds and rhythms of the rainforest. Every visit supports conservation programs working to protect Borneo's irreplaceable biodiversity.",
+    "price": 2799,
+    "currency": "USD",
+    "duration": "10 days",
+    "difficulty": "Moderate",
+    "imageUrl": "https://nyc3.digitaloceanspaces.com/bhindi-drive/files/e92a95e8-909c-46f5-a062-b8113d88fa59/2026-01-10T03-32-44-765Z-ab9b1027-nano-banana-pro_1768015964562.jpg",
+    "thumbnailUrl": "https://nyc3.digitaloceanspaces.com/bhindi-drive/files/e92a95e8-909c-46f5-a062-b8113d88fa59/2026-01-10T03-32-44-765Z-ab9b1027-nano-banana-pro_1768015964562.jpg",
+    "highlights": [
+      "Sepilok Orangutan Rehabilitation Centre",
+      "Kinabatangan River wildlife cruises",
+      "Danum Valley primary rainforest trek",
+      "Night safari for nocturnal species",
+      "Conservation program support"
+    ],
+    "itinerary": [
+      { "day": 1, "title": "Kota Kinabalu Arrival", "description": "Arrive in Sabah's capital. Evening orientation." },
+      { "day": 2, "title": "Sepilok Orangutan Centre", "description": "Watch feeding platform. Sun bear conservation centre." },
+      { "day": 3, "title": "Kinabatangan River", "description": "Transfer to river lodge. Afternoon wildlife cruise." },
+      { "day": 4, "title": "River Safaris", "description": "Dawn and dusk cruises. Proboscis monkeys, hornbills, crocodiles." },
+      { "day": 5, "title": "Oxbow Lake", "description": "Canoe through oxbow lake. Birdwatching and wildlife spotting." },
+      { "day": 6, "title": "Danum Valley", "description": "Drive to primary rainforest. Canopy walkway. Night safari." },
+      { "day": 7, "title": "Rainforest Trek", "description": "Full day jungle trekking. Search for wild orangutans and gibbons." },
+      { "day": 8, "title": "Waterfall Hike", "description": "Trek to jungle waterfall. Swimming and relaxation." },
+      { "day": 9, "title": "Return to Kota Kinabalu", "description": "Drive back to coast. Evening at leisure." },
+      { "day": 10, "title": "Departure", "description": "Morning at leisure. Transfer to airport." }
+    ],
+    "affiliateLinks": {
+      "gadventures": "https://www.gadventures.com/trips/borneo-adventure/ABBA/"
+    },
+    "tags": ["wildlife", "conservation", "rainforest", "primates", "nature"],
+    "featured": false
+  },
+  {
     "id": "japan-cultural-immersion",
     "slug": "japan-cultural-immersion",
     "title": "Japan: Temples, Tradition & Mount Fuji",
@@ -204,8 +463,8 @@
     "currency": "USD",
     "duration": "10 days",
     "difficulty": "Easy",
-    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=1200&q=80",
-    "thumbnailUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1712244876693-a89f6172178e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1712244876693-a89f6172178e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600",
     "highlights": [
       "Traditional ryokan stay with kaiseki dinner",
       "Mount Fuji views from Kawaguchiko",
@@ -243,8 +502,8 @@
     "currency": "USD",
     "duration": "8 days",
     "difficulty": "Moderate",
-    "imageUrl": "https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=1200&q=80",
-    "thumbnailUrl": "https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1673709985879-ba098b960f27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1673709985879-ba098b960f27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600",
     "highlights": [
       "Two nights camping in Sahara Desert",
       "Camel trek to desert camp",
@@ -280,8 +539,8 @@
     "currency": "USD",
     "duration": "7 days",
     "difficulty": "Moderate",
-    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200&q=80",
-    "thumbnailUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1488415032361-b7e238421f1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1488415032361-b7e238421f1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600",
     "highlights": [
       "Glacier hiking with crampons",
       "Northern Lights hunting (winter)",
@@ -299,119 +558,9 @@
       { "day": 7, "title": "Departure", "description": "Morning at Blue Lagoon (optional). Transfer to airport." }
     ],
     "affiliateLinks": {
-      "gadventures": "https://www.gadventures.com/trips/iceland-adventure-northern-light-snfellsnes-peninsula/ELWS/"
+      "gadventures": "https://www.gadventures.com/trips/iceland-northern-lights/AVNL/"
     },
-    "tags": ["northern-lights", "glaciers", "volcanic", "hot-springs", "adventure"],
-    "featured": false
-  },
-  {
-    "id": "rio-carnival-experience",
-    "slug": "rio-carnival-experience",
-    "title": "Rio Carnival: The Greatest Show on Earth",
-    "subtitle": "Dance in the Streets of Rio",
-    "location": "Rio de Janeiro, Brazil",
-    "description": "Experience the world's most famous festival—Rio Carnival—where millions take to the streets in an explosion of music, color, and pure joy.",
-    "longDescription": "Rio Carnival isn't just a party—it's a cultural phenomenon that transforms an entire city into a celebration of life. This 5-day experience puts you in the heart of the action during Carnival week. You'll watch samba schools compete in the Sambadrome, each with thousands of dancers in elaborate costumes telling stories through movement. Join street parties (blocos) where locals and travelers dance together to live bands. Visit a samba school to see costume preparation and learn basic samba steps. Between the festivities, explore Rio's iconic sights: Christ the Redeemer, Sugarloaf Mountain, Copacabana Beach, and the bohemian Santa Teresa neighborhood. Your local guide will navigate the chaos, ensuring you experience both the spectacle and the soul of Carnival.",
-    "price": 1899,
-    "currency": "USD",
-    "duration": "5 days",
-    "difficulty": "Easy",
-    "imageUrl": "https://images.unsplash.com/photo-1516834474-48c0abc2a902?w=1200&q=80",
-    "thumbnailUrl": "https://images.unsplash.com/photo-1516834474-48c0abc2a902?w=600&q=80",
-    "highlights": [
-      "Sambadrome parade tickets included",
-      "Street party (bloco) experiences",
-      "Samba school visit and lesson",
-      "Christ the Redeemer and Sugarloaf",
-      "Local guide throughout Carnival"
-    ],
-    "itinerary": [
-      { "day": 1, "title": "Rio Arrival", "description": "Arrive during Carnival week. Evening orientation and first bloco." },
-      { "day": 2, "title": "Sambadrome Night", "description": "Watch samba schools compete. Costumes, floats, and 80,000 spectators." },
-      { "day": 3, "title": "City Tour", "description": "Christ the Redeemer, Sugarloaf Mountain. Afternoon street parties." },
-      { "day": 4, "title": "Samba School Visit", "description": "Behind-the-scenes tour. Samba lesson. Evening blocos." },
-      { "day": 5, "title": "Final Carnival Day", "description": "Last street parties. Beach time. Farewell dinner." }
-    ],
-    "affiliateLinks": {
-      "gadventures": "https://www.gadventures.com/search/?q=rio+carnival"
-    },
-    "tags": ["festival", "cultural", "music", "dance", "celebration"],
-    "featured": false
-  },
-  {
-    "id": "holi-festival-india",
-    "slug": "holi-festival-india",
-    "title": "Holi Festival: India's Festival of Colors",
-    "subtitle": "Celebrate Spring in a Rainbow of Powder",
-    "location": "Jaipur & Vrindavan, India",
-    "description": "Join millions in celebrating Holi, India's most joyous festival, where strangers become friends through clouds of colored powder and pure celebration.",
-    "longDescription": "Holi marks the arrival of spring and the triumph of good over evil, celebrated by throwing colored powder (gulal) and water at everyone in sight. This 8-day journey takes you through Rajasthan's Golden Triangle during Holi week, culminating in the festival celebrations in Jaipur or Vrindavan (the birthplace of Holi). You'll visit the Taj Mahal at sunrise, explore Jaipur's pink palaces, and experience the chaos and joy of Holi firsthand—dancing in the streets, covered head to toe in vibrant colors. Your guide will explain the festival's spiritual significance while ensuring you're safe in the crowds. Beyond Holi, you'll see India's iconic sights: Amber Fort, Agra Fort, and local markets bursting with life. This is India at its most colorful and welcoming.",
-    "price": 1599,
-    "currency": "USD",
-    "duration": "8 days",
-    "difficulty": "Easy",
-    "imageUrl": "https://images.unsplash.com/photo-1528127269322-539801943592?w=1200&q=80",
-    "thumbnailUrl": "https://images.unsplash.com/photo-1528127269322-539801943592?w=600&q=80",
-    "highlights": [
-      "Holi festival celebration in Jaipur",
-      "Taj Mahal sunrise visit",
-      "Golden Triangle tour (Delhi-Agra-Jaipur)",
-      "Amber Fort and City Palace",
-      "Local guide for festival safety"
-    ],
-    "itinerary": [
-      { "day": 1, "title": "Delhi Arrival", "description": "Arrive in India's capital. Evening orientation." },
-      { "day": 2, "title": "Old & New Delhi", "description": "Red Fort, Jama Masjid, India Gate, Qutub Minar." },
-      { "day": 3, "title": "Agra", "description": "Drive to Agra. Agra Fort. Sunset at Mehtab Bagh." },
-      { "day": 4, "title": "Taj Mahal", "description": "Sunrise at the Taj Mahal. Drive to Jaipur via Fatehpur Sikri." },
-      { "day": 5, "title": "Jaipur Exploration", "description": "Amber Fort, City Palace, Hawa Mahal. Holi eve preparations." },
-      { "day": 6, "title": "Holi Festival", "description": "Morning Holi celebrations. Colored powder, music, dancing." },
-      { "day": 7, "title": "Post-Holi Recovery", "description": "Relax. Optional spa or shopping. Farewell dinner." },
-      { "day": 8, "title": "Departure", "description": "Return to Delhi for departure." }
-    ],
-    "affiliateLinks": {
-      "gadventures": "https://www.gadventures.com/destinations/asia/india-tours/"
-    },
-    "tags": ["festival", "cultural", "celebration", "india", "spiritual"],
-    "featured": false
-  },
-  {
-    "id": "mongolia-naadam-festival",
-    "slug": "mongolia-naadam-festival",
-    "title": "Mongolia: Naadam Festival & Nomadic Life",
-    "subtitle": "The Three Manly Games of the Steppes",
-    "location": "Ulaanbaatar & Gobi Desert, Mongolia",
-    "description": "Experience Mongolia's ancient Naadam Festival—wrestling, archery, and horse racing—while staying in traditional gers with nomadic families.",
-    "longDescription": "Naadam is Mongolia's most important festival, celebrating the 'Three Manly Games': wrestling, archery, and horse racing. This 10-day journey times your visit to coincide with the July festival, where you'll watch wrestlers in traditional costumes compete, archers hit targets from horseback, and children as young as five race horses across the steppe. Beyond the festival, you'll live with nomadic families in their gers (yurts), learning to milk yaks, make traditional dairy products, and understand the rhythms of nomadic life. Travel through the Gobi Desert, visit Buddhist monasteries, and sleep under star-filled skies in one of the world's least populated countries. Mongolia will challenge your assumptions about modern life and show you a culture that has remained largely unchanged for centuries.",
-    "price": 2899,
-    "currency": "USD",
-    "duration": "10 days",
-    "difficulty": "Moderate",
-    "imageUrl": "https://images.unsplash.com/photo-1559628376-f3fe5f782a2e?w=1200&q=80",
-    "thumbnailUrl": "https://images.unsplash.com/photo-1559628376-f3fe5f782a2e?w=600&q=80",
-    "highlights": [
-      "Naadam Festival attendance (July)",
-      "Nomadic family ger stays",
-      "Gobi Desert exploration",
-      "Buddhist monastery visits",
-      "Traditional Mongolian meals"
-    ],
-    "itinerary": [
-      { "day": 1, "title": "Ulaanbaatar Arrival", "description": "Arrive in Mongolia's capital. City orientation." },
-      { "day": 2, "title": "Naadam Festival", "description": "Opening ceremony. Wrestling and archery competitions." },
-      { "day": 3, "title": "Horse Racing", "description": "Drive to countryside for horse racing. Picnic on the steppe." },
-      { "day": 4, "title": "Nomadic Family Stay", "description": "Travel to ger camp. Meet nomadic family. Learn daily tasks." },
-      { "day": 5, "title": "Steppe Life", "description": "Horseback riding. Milk yaks. Traditional dairy making." },
-      { "day": 6, "title": "Gobi Desert", "description": "Drive south to the Gobi. First night in desert ger camp." },
-      { "day": 7, "title": "Flaming Cliffs", "description": "Explore Bayanzag (Flaming Cliffs). Dinosaur fossil sites." },
-      { "day": 8, "title": "Sand Dunes", "description": "Khongoryn Els sand dunes. Camel riding. Sunset over dunes." },
-      { "day": 9, "title": "Return Journey", "description": "Drive back to Ulaanbaatar. Stop at Erdene Zuu monastery." },
-      { "day": 10, "title": "Departure", "description": "Final morning in UB. Transfer to airport." }
-    ],
-    "affiliateLinks": {
-      "gadventures": "https://www.gadventures.com/trips/journeys-naadam-festival/AMNNG/"
-    },
-    "tags": ["festival", "cultural", "nomadic", "desert", "adventure"],
+    "tags": ["adventure", "northern-lights", "glaciers", "volcanic", "photography"],
     "featured": false
   }
 ]
