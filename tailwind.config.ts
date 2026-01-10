@@ -52,14 +52,14 @@ export default {
           foreground: "hsl(var(--card-foreground))",
         },
         gold: {
-          DEFAULT: "hsl(38 85% 55%)",
-          light: "hsl(45 90% 65%)",
-          dark: "hsl(35 80% 45%)",
+          DEFAULT: "hsl(38 75% 52%)",
+          light: "hsl(45 85% 60%)",
+          dark: "hsl(35 70% 42%)",
         },
-        indigo: {
-          DEFAULT: "hsl(245 60% 55%)",
-          light: "hsl(245 60% 65%)",
-          dark: "hsl(245 60% 35%)",
+        ocean: {
+          DEFAULT: "hsl(195 60% 45%)",
+          light: "hsl(195 60% 55%)",
+          dark: "hsl(195 60% 35%)",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
