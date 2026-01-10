@@ -17,6 +17,9 @@ import UKStayDetail from "./pages/UKStayDetail";
 import About from "./pages/About";
 import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
+import Festivals from "./pages/Festivals";
+import SevenWonders from "./pages/SevenWonders";
+import WildlifeEncounters from "./pages/WildlifeEncounters";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -33,6 +36,9 @@ const App = () => (
               <Route path="/" element={<Index />} />
               <Route path="/holidays" element={<Holidays />} />
               <Route path="/holidays/:slug" element={<HolidayDetail />} />
+              <Route path="/festivals" element={<Festivals />} />
+              <Route path="/seven-wonders" element={<SevenWonders />} />
+              <Route path="/wildlife" element={<WildlifeEncounters />} />
               <Route path="/uk-stays" element={<UKStays />} />
               <Route path="/uk-stays/:slug" element={<UKStayDetail />} />
               <Route path="/wishlist" element={<Wishlist />} />
