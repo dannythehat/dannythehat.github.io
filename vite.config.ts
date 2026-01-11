@@ -15,5 +15,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: mode === "production" ? "/beyond-ordinary-adventures/" : "/",
+  base: "/beyond-ordinary-adventures/",
 }));
