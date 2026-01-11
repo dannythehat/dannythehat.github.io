@@ -24,9 +24,9 @@ const CategoryPreview = ({
   link,
   gradient = "from-secondary/10 to-primary/10"
 }: CategoryPreviewProps) => {
-  // Get holidays for this category
+  // Get holidays for this category - filter by tags since category doesn't exist
   const categoryHolidays = typedHolidays
-    .filter(h => h.category === category)
+    .filter(h => h.tags?.some(tag => tag.toLowerCase().includes(category.toLowerCase())))
     .slice(0, 3);
 
   return (
@@ -65,11 +65,11 @@ const CategoryPreview = ({
               transition={{ delay: index * 0.15 }}
             >
               <Link 
-                to={`/holidays/${holiday.id}`}
+                to={`/holidays/${holiday.slug}`}
                 className="group block relative overflow-hidden rounded-2xl aspect-[4/5] hover-scale shadow-2xl"
               >
                 <img 
-                  src={holiday.image}
+                  src={holiday.thumbnailUrl}
                   alt={holiday.title}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   loading="lazy"

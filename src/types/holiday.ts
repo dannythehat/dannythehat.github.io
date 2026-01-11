@@ -5,8 +5,9 @@ export interface ItineraryDay {
 }
 
 export interface AffiliateLinks {
-  booking: string;
-  viator: string;
+  gadventures?: string;
+  booking?: string;
+  viator?: string;
 }
 
 export interface Holiday {
@@ -28,4 +29,5 @@ export interface Holiday {
   affiliateLinks: AffiliateLinks;
   tags: string[];
   featured: boolean;
+  category?: string;
 }

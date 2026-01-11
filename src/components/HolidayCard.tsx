@@ -116,7 +116,7 @@ const HolidayCard = ({ holiday, index = 0, featured = false }: HolidayCardProps)
           </Button>
           <Button variant="gold" size="sm" asChild>
             <a 
-              href={holiday.affiliateLinks.booking} 
+              href={holiday.affiliateLinks.gadventures || holiday.affiliateLinks.booking || '#'} 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center gap-2"
