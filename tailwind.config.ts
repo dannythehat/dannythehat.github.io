@@ -52,14 +52,14 @@ export default {
           foreground: "hsl(var(--card-foreground))",
         },
         gold: {
-          DEFAULT: "hsl(38 75% 52%)",
-          light: "hsl(45 85% 60%)",
-          dark: "hsl(35 70% 42%)",
+          DEFAULT: "hsl(40 80% 50%)",
+          light: "hsl(45 85% 58%)",
+          dark: "hsl(35 70% 40%)",
         },
-        ocean: {
-          DEFAULT: "hsl(195 60% 45%)",
-          light: "hsl(195 60% 55%)",
-          dark: "hsl(195 60% 35%)",
+        amber: {
+          DEFAULT: "hsl(35 70% 45%)",
+          light: "hsl(38 75% 55%)",
+          dark: "hsl(32 65% 35%)",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
@@ -107,8 +107,8 @@ export default {
           "50%": { transform: "translateY(-20px)" },
         },
         "glow-pulse": {
-          "0%, 100%": { boxShadow: "0 0 20px hsl(245 60% 55% / 0.3)" },
-          "50%": { boxShadow: "0 0 40px hsl(245 60% 55% / 0.5)" },
+          "0%, 100%": { boxShadow: "0 0 20px hsl(40 80% 50% / 0.3)" },
+          "50%": { boxShadow: "0 0 40px hsl(40 80% 50% / 0.5)" },
         },
       },
       animation: {
