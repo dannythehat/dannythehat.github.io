@@ -20,14 +20,14 @@ import SevenWonders from '@/components/SevenWonders';
 import { Button } from '@/components/ui/button';
 import logoImage from '@/assets/logo.png';
 import { calendarImages } from '@/lib/calendarImages';
+import heroImage from '@/assets/hero-bioluminescent-paradise.jpg';
 
 const typedHolidays = holidays as Holiday[];
 const featuredHolidays = typedHolidays.filter(h => h.featured);
 const featuredStories = (storiesData.stories as Story[]).filter(s => s.featured).slice(0, 3);
 
-// 8K Quality Hero Images from Unsplash
+// Secondary hero images for other sections
 const heroImages = {
-  main: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=3840&q=95', // Maldives overwater bungalows at sunset
   island: 'https://images.unsplash.com/photo-1540202404-d0c7fe46a087?w=3840&q=95', // Aerial tropical island
   villa: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=3840&q=95', // Luxury overwater villa
   mountains: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=3840&q=95', // Epic mountain landscape
@@ -76,8 +76,8 @@ const Index = () => {
           {/* Background Image - 8K Quality */}
           <div className="absolute inset-0">
             <img 
-              src={heroImages.main}
-              alt="Luxury tropical paradise at sunset" 
+              src={heroImage}
+              alt="Bioluminescent paradise resort under the Milky Way" 
               className="w-full h-full object-cover"
               loading="eager"
             />
@@ -811,7 +811,7 @@ const Index = () => {
         <section className="relative py-32 overflow-hidden">
           <div className="absolute inset-0">
             <img 
-              src={heroImages.main}
+              src={heroImage}
               alt="Call to action background" 
               className="w-full h-full object-cover"
               loading="lazy"
